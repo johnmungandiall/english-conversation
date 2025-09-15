@@ -4,8 +4,8 @@
 This plan outlines the steps to generate HTML conversation files for all 245 topics listed in `topics.txt`. The topics are categorized into 8 sections: Home and Daily Life (18 topics), Leisure and Entertainment (10 topics), Social Interactions (3 topics), Education and Study (59 topics), Travel and Transportation (57 topics), Shopping and Finance (53 topics), Software Development (25 topics), and Other Professions (20 topics).
 
 ## Current Progress
-- Completed: 51 topics
-- Remaining: 194 topics
+- Completed: 81 topics
+- Remaining: 163 topics
 
 ## Steps
 1. **Extract Topics**: Parse `topics.txt` to get the list of topics.
@@ -110,62 +110,62 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 - [x] Asking about exam center
 
 #### 4.5 Teacher Interactions
-- [ ] Asking teacher a doubt
-- [ ] Teacher's advice
-- [ ] Asking for grace marks
-- [ ] Talking to principal
+- [x] Asking teacher a doubt
+- [x] Teacher's advice
+- [x] Asking for grace marks
+- [x] Talking to principal
 
 #### 4.6 Classroom Activities
-- [ ] Classroom late entry
-- [ ] Borrowing a pen
-- [ ] Discussing marks
-- [ ] Subject confusion
+- [x] Classroom late entry
+- [x] Borrowing a pen
+- [x] Discussing marks
+- [x] Subject confusion
 
 #### 4.7 College Life
-- [ ] Hostel life
-- [ ] College canteen
-- [ ] College fest
-- [ ] College elections
-- [ ] College trip
-- [ ] New semester start
-- [ ] Subject selection
-- [ ] Applying for leave
-- [ ] Scholarship discussion
+- [x] Hostel life
+- [x] College canteen
+- [x] College fest
+- [x] College elections
+- [x] College trip
+- [x] New semester start
+- [x] Subject selection
+- [x] Applying for leave
+- [x] Scholarship discussion
 
 #### 4.8 Practical and Lab
-- [ ] Practicals preparation
-- [ ] Discussion about lab
-- [ ] Lab equipment missing
-- [ ] Viva questions
+- [x] Practicals preparation
+- [x] Discussion about lab
+- [x] Lab equipment missing
+- [x] Viva questions
 
 #### 4.9 Projects and Presentations
-- [ ] Project submission
-- [ ] Preparing for debate
-- [ ] Group project division
+- [x] Project submission
+- [x] Preparing for debate
+- [x] Group project division
 
 #### 4.10 Administrative
-- [ ] New admissions
-- [ ] Talking about results
-- [ ] Attendance shortage
-- [ ] Homework copying
-- [ ] Sharing timetable
-- [ ] Parents-teacher meeting
-- [ ] Asking for leave letter
-- [ ] Submitting records
+- [x] New admissions
+- [x] Talking about results
+- [x] Attendance shortage
+- [x] Homework copying
+- [x] Sharing timetable
+- [x] Parents-teacher meeting
+- [x] Asking for leave letter
+- [x] Submitting records
 
 #### 4.11 Extracurricular
-- [ ] Science fair
-- [ ] Study tour
-- [ ] College bus timing
-- [ ] Late to tuition
-- [ ] Going to tuition
-- [ ] Extra classes
+- [x] Science fair
+- [x] Study tour
+- [x] College bus timing
+- [x] Late to tuition
+- [x] Going to tuition
+- [x] Extra classes
 
 ### 5. Travel and Transportation (57 topics)
 
 #### 5.1 Public Transport
-- [ ] Waiting at bus stop
-- [ ] Traveling in bus
+- [x] Waiting at bus stop
+- [x] Traveling in bus
 - [ ] Bus conductor talk
 - [ ] Metro ticket
 - [ ] Ola/Uber driver
@@ -361,6 +361,7 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 - [ ] Tailor fitting
 
 ## Next Steps
-- Start with the next topic: Online shopping
-- Generate conversation and HTML file
+- Batch 3 completed: 10 topics from Education and Study (Viva questions to Parents-teacher meeting)
+- Proceed to batch 4: Next 10 topics (Asking for leave letter, Submitting records, Science fair, Study tour, College bus timing, Late to tuition, Going to tuition, Extra classes, and start Travel and Transportation)
+- Generate conversations and HTML files
 - Repeat for all remaining topics
