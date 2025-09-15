@@ -1,11 +1,11 @@
 # Plan for Completing All Topics from topics.txt
 
 ## Overview
-This plan outlines the steps to generate HTML conversation files for all 200 topics listed in `topics.txt`. The topics are categorized into 6 sections: Home and Daily Life (18 topics), Leisure and Entertainment (10 topics), Social Interactions (3 topics), Education and Study (59 topics), Travel and Transportation (57 topics), and Shopping and Finance (53 topics).
+This plan outlines the steps to generate HTML conversation files for all 245 topics listed in `topics.txt`. The topics are categorized into 8 sections: Home and Daily Life (18 topics), Leisure and Entertainment (10 topics), Social Interactions (3 topics), Education and Study (59 topics), Travel and Transportation (57 topics), Shopping and Finance (53 topics), Software Development (25 topics), and Other Professions (20 topics).
 
 ## Current Progress
 - Completed: 0 topics
-- Remaining: 200 topics
+- Remaining: 245 topics
 
 ## Steps
 1. **Extract Topics**: Parse `topics.txt` to get the list of topics.
@@ -310,6 +310,55 @@ This plan outlines the steps to generate HTML conversation files for all 200 top
 #### 6.9 Food Delivery
 - [ ] Zomato order
 - [ ] Swiggy delivery
+
+### 7. Software Development (25 topics)
+- [ ] Discussing programming languages
+- [ ] Debugging code
+- [ ] Code reviews
+- [ ] Attending stand-up meetings
+- [ ] Learning new frameworks
+- [ ] Version control with Git
+- [ ] Deploying to production
+- [ ] Cybersecurity best practices
+- [ ] Open source contributions
+- [ ] Freelance projects
+- [ ] Job interviews for developers
+- [ ] Remote work challenges
+- [ ] Pair programming
+- [ ] Agile scrum meetings
+- [ ] Writing documentation
+- [ ] Handling bugs
+- [ ] Optimizing code performance
+- [ ] Cloud computing
+- [ ] API development
+- [ ] Database management
+- [ ] Mobile app development
+- [ ] Web development
+- [ ] Testing software
+- [ ] DevOps practices
+- [ ] Attending tech conferences
+
+### 8. Other Professions (20 topics)
+- [ ] Doctor-patient conversation
+- [ ] Lawyer consultation
+- [ ] Teacher-parent meeting
+- [ ] Engineer project discussion
+- [ ] Chef cooking tips
+- [ ] Photographer session
+- [ ] Journalist interview
+- [ ] Police officer talk
+- [ ] Firefighter rescue
+- [ ] Pilot announcement
+- [ ] Actor audition
+- [ ] Musician performance
+- [ ] Artist exhibition
+- [ ] Scientist research
+- [ ] Farmer harvest
+- [ ] Mechanic repair
+- [ ] Electrician installation
+- [ ] Plumber fixing
+- [ ] Carpenter building
+- [ ] Tailor fitting
 
 ## Next Steps
 - Start with the next topic: Morning routine
