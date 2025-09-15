@@ -4,8 +4,8 @@
 This plan outlines the steps to generate HTML conversation files for all 200 topics listed in `topics.txt`. The topics are categorized into 4 sections: Daily Life & Routine (50 topics), Education & Study (50 topics), Travel & Directions (50 topics), and Shopping & Money (50 topics).
 
 ## Current Progress
-- Completed: 3 topics (Morning Routine, Going to School, At the Library)
-- Remaining: 197 topics
+- Completed: 0 topics
+- Remaining: 200 topics
 
 ## Steps
 1. **Extract Topics**: Parse `topics.txt` to get the list of topics.
@@ -18,21 +18,21 @@ This plan outlines the steps to generate HTML conversation files for all 200 top
 ## Topic List
 
 ### 1. Daily Life & Routine (50 topics)
-- [x] Morning routine
-- [x] Going to school
-- [x] At the library
-- [x] At the park
-- [x] Evening walk
-- [x] Breakfast conversation
-- [x] Cooking at home
-- [x] Cleaning the room
-- [x] Talking about weather
-- [x] Grocery shopping
-- [x] Washing clothes
-- [x] Phone call with friend
-- [x] Ordering food delivery
-- [x] Weekend plans
-- [x] Visiting relatives
+- [ ] Morning routine
+- [ ] Going to school
+- [ ] At the library
+- [ ] At the park
+- [ ] Evening walk
+- [ ] Breakfast conversation
+- [ ] Cooking at home
+- [ ] Cleaning the room
+- [ ] Talking about weather
+- [ ] Grocery shopping
+- [ ] Washing clothes
+- [ ] Phone call with friend
+- [ ] Ordering food delivery
+- [ ] Weekend plans
+- [ ] Visiting relatives
 - [ ] Playing cricket
 - [ ] Riding a bicycle
 - [ ] Waiting at bus stop
@@ -70,16 +70,16 @@ This plan outlines the steps to generate HTML conversation files for all 200 top
 - [ ] Playing carrom
 
 ### 2. Education & Study (50 topics)
-- [x] Asking for assignment help
-- [x] Group study
-- [x] Asking teacher a doubt
-- [x] Exam timetable discussion
-- [x] Project submission
-- [x] Writing notes
-- [x] Lost homework
-- [x] Classroom late entry
-- [x] Borrowing a pen
-- [x] Discussing marks
+- [ ] Asking for assignment help
+- [ ] Group study
+- [ ] Asking teacher a doubt
+- [ ] Exam timetable discussion
+- [ ] Project submission
+- [ ] Writing notes
+- [ ] Lost homework
+- [ ] Classroom late entry
+- [ ] Borrowing a pen
+- [ ] Discussing marks
 - [ ] College fest
 - [ ] Science fair
 - [ ] Preparing for debate
@@ -122,17 +122,17 @@ This plan outlines the steps to generate HTML conversation files for all 200 top
 - [ ] Submitting records
 
 ### 3. Travel & Directions (50 topics)
-- [x] Asking for bus stop
-- [x] Auto fare discussion
-- [x] Train late discussion
-- [x] Flight booking
-- [x] Airport checking
-- [x] Lost luggage
-- [x] Asking hotel location
-- [x] Booking hotel room
-- [x] Bus conductor talk
-- [x] Train ticket checking
-- [x] Taxi driver negotiation
+- [ ] Asking for bus stop
+- [ ] Auto fare discussion
+- [ ] Train late discussion
+- [ ] Flight booking
+- [ ] Airport checking
+- [ ] Lost luggage
+- [ ] Asking hotel location
+- [ ] Booking hotel room
+- [ ] Bus conductor talk
+- [ ] Train ticket checking
+- [ ] Taxi driver negotiation
 - [ ] Asking petrol pump
 - [ ] Toll gate discussion
 - [ ] Highway dhaba stop
@@ -174,8 +174,8 @@ This plan outlines the steps to generate HTML conversation files for all 200 top
 - [ ] Railway clock room
 
 ### 4. Shopping & Money (50 topics)
-- [x] Buying vegetables
-- [x] Buying fruits
+- [ ] Buying vegetables
+- [ ] Buying fruits
 - [ ] Supermarket talk
 - [ ] Bargaining in shop
 - [ ] Cloth shopping
@@ -226,6 +226,6 @@ This plan outlines the steps to generate HTML conversation files for all 200 top
 - [ ] Festival shopping
 
 ## Next Steps
-- Start with the next topic: At the park
+- Start with the next topic: Morning routine
 - Generate conversation and HTML file
 - Repeat for all remaining topics
