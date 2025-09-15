@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asking Tourist Spots Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Asking Tourist Spots</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I'm planning a trip to a new city. Can you suggest some tourist spots?</div>
+              <div class="tel">హే జాన్, నేను కొత్త సిటీకి ట్రిప్ ప్లాన్ చేస్తున్నా. కొన్ని టూరిస్ట్ స్పాట్స్ సజెస్ట్ చేయగలవా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Sure, Giri! What kind of places are you interested in? Historical sites, beaches, or adventure spots?</div>
+              <div class="tel">సూర్ గిరి! నువ్వు ఏ టైప్ ప్లేసెస్ ఇంటరెస్టెడ్? హిస్టారికల్ సైట్స్, బీచెస్, లేదా అడ్వెంచర్ స్పాట్స్?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I like a mix of everything, but especially places with good views and culture.</div>
+              <div class="tel">నేను ఎవరీథింగ్ మిక్స్ ఇష్టం, కానీ ఎస్పెషలీ గుడ్ వ్యూస్ మరియు కల్చర్ ఉన్న ప్లేసెస్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Great! For historical sites, you should visit the old fort and the ancient temple.</div>
+              <div class="tel">గ్రేట్! హిస్టారికల్ సైట్స్ కోసం, ఓల్డ్ ఫోర్ట్ మరియు ఎన్షియంట్ టెంపుల్ విజిట్ చేయాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sounds interesting. Are there any beaches nearby?</div>
+              <div class="tel">ఇంటరెస్టింగ్ అనిపిస్తుంది. నేర్బై ఏవైనా బీచెస్ ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, there's a beautiful beach with clear water and palm trees. Perfect for relaxation.</div>
+              <div class="tel">అవును, క్లియర్ వాటర్ మరియు పామ్ ట్రీస్ ఉన్న బ్యూటిఫుల్ బీచ్ ఉంది. రిలాక్సేషన్ కోసం పర్ఫెక్ట్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Awesome! What about adventure spots? Any hiking trails or waterfalls?</div>
+              <div class="tel">ఆవ్సమ్! అడ్వెంచర్ స్పాట్స్ ఏంటి? హైకింగ్ ట్రైల్స్ లేదా వాటర్ ఫాల్స్ ఏవైనా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Definitely! There's a mountain trail with stunning views and a nearby waterfall for a refreshing dip.</div>
+              <div class="tel">డెఫినిట్లీ! స్టన్నింగ్ వ్యూస్ ఉన్న మౌంటైన్ ట్రైల్ ఉంది మరియు నేర్బై వాటర్ ఫాల్ రిఫ్రెషింగ్ డిప్ కోసం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That sounds perfect. How do I get to these places? Is there public transport?</div>
+              <div class="tel">అది పర్ఫెక్ట్ అనిపిస్తుంది. ఈ ప్లేసెస్ కి ఎలా వెళ్లాలి? పబ్లిక్ ట్రాన్స్పోర్ట్ ఉందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, buses and taxis are available. You can also rent a bike for the trails.</div>
+              <div class="tel">అవును, బసెస్ మరియు టాక్సీస్ అవైలబుల్. ట్రైల్స్ కోసం బైక్ రెంట్ చేయవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Thanks for the tips, John. I'll plan my itinerary around these spots.</div>
+              <div class="tel">థ్యాంక్స్ ఫర్ ద టిప్స్ జాన్. నేను ఈ స్పాట్స్ అరౌండ్ ఇటినరరీ ప్లాన్ చేస్తా.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">You're welcome! If you need more details, just ask. Have a great trip!</div>
+              <div class="tel">వెల్కమ్! మరిన్ని డిటైల్స్ కావాలంటే అడుగు. గ్రేట్ ట్రిప్ హ్యావ్!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

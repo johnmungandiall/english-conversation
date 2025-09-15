@@ -4,8 +4,8 @@
 This plan outlines the steps to generate HTML conversation files for all 245 topics listed in `topics.txt`. The topics are categorized into 8 sections: Home and Daily Life (18 topics), Leisure and Entertainment (10 topics), Social Interactions (3 topics), Education and Study (59 topics), Travel and Transportation (57 topics), Shopping and Finance (53 topics), Software Development (25 topics), and Other Professions (20 topics).
 
 ## Current Progress
-- Completed: 81 topics
-- Remaining: 163 topics
+- Completed: 121 topics
+- Remaining: 123 topics
 
 ## Steps
 1. **Extract Topics**: Parse `topics.txt` to get the list of topics.
@@ -166,59 +166,59 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 #### 5.1 Public Transport
 - [x] Waiting at bus stop
 - [x] Traveling in bus
-- [ ] Bus conductor talk
-- [ ] Metro ticket
-- [ ] Ola/Uber driver
-- [ ] Taxi driver negotiation
-- [ ] Auto fare discussion
-- [ ] Taking auto / cab
-- [ ] Asking for bus stop
+- [x] Bus conductor talk
+- [x] Metro ticket
+- [x] Ola/Uber driver
+- [x] Taxi driver negotiation
+- [x] Auto fare discussion
+- [x] Taking auto / cab
+- [x] Asking for bus stop
 
 #### 5.2 Train Travel
-- [ ] Railway station talk
-- [ ] Train late discussion
-- [ ] Train ticket checking
-- [ ] Railway enquiry
-- [ ] Platform change
-- [ ] Food at station
-- [ ] Railway clock room
+- [x] Railway station talk
+- [x] Train late discussion
+- [x] Train ticket checking
+- [x] Railway enquiry
+- [x] Platform change
+- [x] Food at station
+- [x] Railway clock room
 
 #### 5.3 Air Travel
-- [ ] Flight booking
-- [ ] Airport checking
-- [ ] Lost luggage
+- [x] Flight booking
+- [x] Airport checking
+- [x] Lost luggage
 
 #### 5.4 Hotel and Accommodation
-- [ ] Asking hotel location
-- [ ] Booking hotel room
-- [ ] Asking Wi-Fi in hotel
-- [ ] Booking OYO
-- [ ] Hotel checkout
-- [ ] Hotel receptionist talk
+- [x] Asking hotel location
+- [x] Booking hotel room
+- [x] Asking Wi-Fi in hotel
+- [x] Booking OYO
+- [x] Hotel checkout
+- [x] Hotel receptionist talk
 
 #### 5.5 Directions and Navigation
-- [ ] Asking directions
-- [ ] Lost way in city
-- [ ] Asking GPS location
+- [x] Asking directions
+- [x] Lost way in city
+- [x] Asking GPS location
 
 #### 5.6 Tourist Activities
-- [ ] Visiting Tirupati
-- [ ] Visiting Hyderabad
-- [ ] Visiting Vizag
-- [ ] Planning Goa trip
-- [ ] Asking tourist spots
-- [ ] Visiting waterfall
-- [ ] Planning road trip
-- [ ] Tourist guide talk
-- [ ] Asking local people
-- [ ] Boat ride
-- [ ] Visiting museum
-- [ ] Hill station trip
-- [ ] Pilgrimage trip
+- [x] Visiting Tirupati
+- [x] Visiting Hyderabad
+- [x] Visiting Vizag
+- [x] Planning Goa trip
+- [x] Asking tourist spots
+- [x] Visiting waterfall
+- [x] Planning road trip
+- [x] Tourist guide talk
+- [x] Asking local people
+- [x] Boat ride
+- [x] Visiting museum
+- [x] Hill station trip
+- [x] Pilgrimage trip
 
 #### 5.7 Travel Services
-- [ ] Booking tickets
-- [ ] Asking ticket counter
+- [x] Booking tickets
+- [x] Asking ticket counter
 - [ ] Foreign travel visa
 - [ ] Immigration checking
 - [ ] Lost passport
@@ -362,6 +362,10 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 
 ## Next Steps
 - Batch 3 completed: 10 topics from Education and Study (Viva questions to Parents-teacher meeting)
-- Proceed to batch 4: Next 10 topics (Asking for leave letter, Submitting records, Science fair, Study tour, College bus timing, Late to tuition, Going to tuition, Extra classes, and start Travel and Transportation)
+- Batch 4 completed: 10 topics from Travel and Transportation (Bus conductor talk to Train ticket checking)
+- Batch 5 completed: 10 topics from Travel and Transportation (Railway enquiry to Asking Wi-Fi in hotel)
+- Batch 6 completed: 10 topics from Travel and Transportation (Booking OYO to Planning Goa trip)
+- Batch 7 completed: 10 topics from Travel and Transportation (Asking tourist spots to Booking tickets)
+- Proceed to batch 8: Next 10 topics
 - Generate conversations and HTML files
 - Repeat for all remaining topics

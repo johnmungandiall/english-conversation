@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tourist Guide Talk Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Tourist Guide Talk</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hi Giri, I hired a tourist guide for our trip. He knows a lot about the area.</div>
+              <div class="tel">హై గిరి, నేను మా ట్రిప్ కోసం టూరిస్ట్ గైడ్ హైర్ చేసా. అతను ఏరియా గురించి చాలా తెలుసు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's great! What did he tell you about the best spots?</div>
+              <div class="tel">అది గ్రేట్! బెస్ట్ స్పాట్స్ గురించి అతను నీకు ఏం చెప్పాడు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">He recommended the ancient temple and the hilltop viewpoint. Both are must-visits.</div>
+              <div class="tel">అతను ఎన్షియంట్ టెంపుల్ మరియు హిల్టాప్ వ్యూపాయింట్ రికమెండ్ చేసాడు. రెండూ మస్ట్-విజిట్స్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Awesome! Did he mention any hidden gems or local stories?</div>
+              <div class="tel">ఆవ్సమ్! హిడెన్ గెమ్స్ లేదా లోకల్ స్టోరీస్ ఏవైనా మెన్షన్ చేసాడా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, there's a secret waterfall that's not on maps. He shared a legend about it.</div>
+              <div class="tel">అవును, మ్యాప్స్ లో లేని సీక్రెట్ వాటర్ ఫాల్ ఉంది. అతను దాని గురించి లెజెండ్ షేర్ చేసాడు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sounds intriguing! How much does the guide charge per day?</div>
+              <div class="tel">ఇంట్రిగ్వింగ్ అనిపిస్తుంది! గైడ్ పర్ డే ఎంత ఛార్జ్ చేస్తాడు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">About 2000 rupees, including transport. He's very knowledgeable.</div>
+              <div class="tel">2000 రూపాయలు అంతరం, ట్రాన్స్పోర్ట్ ఇన్క్లూడింగ్. అతను చాలా నాలెడ్జబుల్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's reasonable. Will he help with photography too?</div>
+              <div class="tel">అది రీజనబుల్. ఫోటోగ్రఫీ కూడా హెల్ప్ చేస్తాడా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, he knows the best angles and lighting. He'll make our trip memorable.</div>
+              <div class="tel">అవును, బెస్ట్ యాంగుల్స్ మరియు లైటింగ్ తెలుసు. మా ట్రిప్ మెమరబుల్ చేస్తాడు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Perfect! Let's meet him tomorrow and discuss the itinerary.</div>
+              <div class="tel">పర్ఫెక్ట్! టమారో మీట్ చేసి ఇటినరరీ డిస్కస్ చేద్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Agreed! This guide will add so much value to our experience.</div>
+              <div class="tel">అగ్రీడ్! ఈ గైడ్ మా ఎక్స్పీరియన్స్ కి చాలా వ్యాల్యూ అడ్ చేస్తాడు.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

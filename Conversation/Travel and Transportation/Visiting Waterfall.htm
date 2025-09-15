@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visiting Waterfall Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Visiting Waterfall</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, have you ever visited a waterfall? I heard there's a beautiful one nearby.</div>
+              <div class="tel">హే గిరి, నువ్వు ఎప్పుడైనా వాటర్ ఫాల్ విజిట్ చేసావా? నేర్బై బ్యూటిఫుల్ వన్ ఉంది అని విన్నా.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">No, I haven't. It sounds amazing! Where is it located?</div>
+              <div class="tel">లేదు, చేయలేదు. అది అమేజింగ్ అనిపిస్తుంది! అది ఎక్కడ లొకేటెడ్?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">It's about 50 km from here, in the hills. The water cascades down from a height of 100 feet.</div>
+              <div class="tel">ఇక్కడ నుండి 50 కిమీ దూరంలో, హిల్స్ లో. వాటర్ 100 ఫీట్ హైట్ నుండి క్యాస్కేడ్స్ డౌన్ అవుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Wow, that must be spectacular. How do we get there?</div>
+              <div class="tel">వావ్, అది స్పెక్టాక్యులర్ గా ఉంటుంది. మేము అక్కడ ఎలా వెళ్లాలి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">We can drive there by car or take a bus. It's a scenic route with lots of greenery.</div>
+              <div class="tel">మేము కార్ లో డ్రైవ్ చేయవచ్చు లేదా బస్ తీసుకోవచ్చు. గ్రీనరీ ఉన్న సీనిక్ రూట్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Great! What should we bring along? Snacks, water, or anything special?</div>
+              <div class="tel">గ్రేట్! మేము ఏం తీసుకోవాలి? స్నాక్స్, వాటర్, లేదా ఏవైనా స్పెషల్?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Definitely water and snacks. Also, wear comfortable shoes for walking on the trails.</div>
+              <div class="tel">డెఫినిట్లీ వాటర్ మరియు స్నాక్స్. కంఫర్టబుల్ షూస్ ట్రైల్స్ లో వాకింగ్ కోసం వేర్ చేయు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, and what about swimming? Is the water safe?</div>
+              <div class="tel">ఓకే, స్విమ్మింగ్ ఏంటి? వాటర్ సేఫ్ ఆ?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, it's safe for swimming, but be careful with the currents. There are shallow areas too.</div>
+              <div class="tel">అవును, స్విమ్మింగ్ కోసం సేఫ్, కానీ కరెంట్స్ తో కేర్ ఫుల్ గా ఉండు. షాలో ఏరియాస్ కూడా ఉన్నాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sounds fun! When should we plan this trip?</div>
+              <div class="tel">ఫన్ అనిపిస్తుంది! మేము ఈ ట్రిప్ ఎప్పుడు ప్లాన్ చేయాలి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">How about this weekend? The weather should be good.</div>
+              <div class="tel">ఈ వీకెండ్ ఎలా? వెదర్ గుడ్ గా ఉంటుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Perfect! Let's confirm the details and book if needed.</div>
+              <div class="tel">పర్ఫెక్ట్! డిటైల్స్ కన్ఫర్మ్ చేసి, కావాలంటే బుక్ చేద్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Agreed! Can't wait to see the waterfall.</div>
+              <div class="tel">అగ్రీడ్! వాటర్ ఫాల్ చూడటానికి వెయిట్ చేయలేకపోతున్నా.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
