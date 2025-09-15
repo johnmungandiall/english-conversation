@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Online Shopping Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Online Shopping</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I need to buy a new phone. Should I go to the store or order online?</div>
+              <div class="tel">హే జాన్, నాకు కొత్త ఫోన్ కావాలి. స్టోర్‌కి వెళ్లాలా లేదా ఆన్‌లైన్ ఆర్డర్ చేయాలా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Online is way better, Giri. You can compare prices and read reviews easily.</div>
+              <div class="tel">ఆన్‌లైన్ చాలా మంచిది గిరి. ధరలు పోల్చి, సమీక్షలు చదవవచ్చు సులువుగా.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">True, but I'm worried about delivery and quality. What if it's damaged?</div>
+              <div class="tel">నిజం, కానీ డెలివరీ మరియు నాణ్యత గురించి ఆందోళన ఉంది. పాడైతే ఏమి చేయాలి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Most sites have return policies. You can return it if you're not satisfied.</div>
+              <div class="tel">చాలా సైట్లలో రిటర్న్ పాలసీ ఉంది. సంతృప్తి లేకపోతే తిరిగి పంపవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, which website do you recommend? Amazon or Flipkart?</div>
+              <div class="tel">సరే, ఏ వెబ్‌సైట్ సూచిస్తావ్? అమెజాన్ లేదా ఫ్లిప్‌కార్ట్?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Both are good, but Amazon has better customer service. Check for deals too.</div>
+              <div class="tel">రెండూ మంచివి, కానీ అమెజాన్ కస్టమర్ సర్విస్ మంచిది. డీల్స్ కూడా చూడు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I saw a phone on sale. Should I buy it now or wait for more discounts?</div>
+              <div class="tel">నేను ఫోన్ సేల్‌లో చూశాను. ఇప్పుడే కొనాలా లేదా మరిన్ని డిస్కౌంట్స్ కోసం వేచిపోవాలా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">If you need it, buy now. Prices might not drop much more.</div>
+              <div class="tel">కావాలంటే ఇప్పుడే కొను. ధరలు మరింత తగ్గవు బహుశా.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Alright, I'll add it to cart. What about payment? Is UPI safe?</div>
+              <div class="tel">సరే, కార్ట్‌లో పెడతాను. చెల్లింపు ఏమిటి? యూపీఐ సురక్షితమా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, UPI is secure. Use your bank app for payment.</div>
+              <div class="tel">అవును, యూపీఐ సురక్షితం. బ్యాంక్ యాప్ ఉపయోగించి చెల్లింపు చేయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Thanks for the advice. Online shopping is convenient after all.</div>
+              <div class="tel">సలహా కోసం ధన్యవాదాలు. ఆన్‌లైన్ షాపింగ్ అనుకూలంగా ఉంది చివరికి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">No problem. Let me know if you need help with anything else.</div>
+              <div class="tel">సమస్య లేదు. మరేదైనా సహాయం కావాలంటే చెప్పు.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

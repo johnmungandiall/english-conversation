@@ -4,8 +4,8 @@
 This plan outlines the steps to generate HTML conversation files for all 245 topics listed in `topics.txt`. The topics are categorized into 8 sections: Home and Daily Life (18 topics), Leisure and Entertainment (10 topics), Social Interactions (3 topics), Education and Study (59 topics), Travel and Transportation (57 topics), Shopping and Finance (53 topics), Software Development (25 topics), and Other Professions (20 topics).
 
 ## Current Progress
-- Completed: 0 topics
-- Remaining: 245 topics
+- Completed: 51 topics
+- Remaining: 194 topics
 
 ## Steps
 1. **Extract Topics**: Parse `topics.txt` to get the list of topics.
@@ -20,94 +20,94 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 ### 1. Home and Daily Life (18 topics)
 
 #### 1.1 Morning and Personal Care
-- [ ] Morning routine
-- [ ] Morning alarm
+- [x] Morning routine
+- [x] Morning alarm
 
 #### 1.2 Meals and Cooking
-- [ ] Breakfast conversation
-- [ ] Cooking at home
-- [ ] Ordering food delivery
+- [x] Breakfast conversation
+- [x] Cooking at home
+- [x] Ordering food delivery
 
 #### 1.3 Household Chores
-- [ ] Cleaning the room
-- [ ] Washing clothes
+- [x] Cleaning the room
+- [x] Washing clothes
 
 #### 1.4 Family and Social at Home
-- [ ] Family dinner
-- [ ] Visiting relatives
-- [ ] Meeting a neighbor
-- [ ] Birthday planning
-- [ ] Weekend plans
+- [x] Family dinner
+- [x] Visiting relatives
+- [x] Meeting a neighbor
+- [x] Birthday planning
+- [x] Weekend plans
 
 #### 1.5 Health and Services
-- [ ] Going to hospital
-- [ ] Visiting barber shop
-- [ ] Going to tailoring shop
+- [x] Going to hospital
+- [x] Visiting barber shop
+- [x] Going to tailoring shop
 
 #### 1.6 Shopping at Home
-- [ ] Online shopping
-- [ ] Buying vegetables
-- [ ] Grocery shopping
-- [ ] Daily expenses
+- [x] Online shopping
+- [x] Buying vegetables
+- [x] Grocery shopping
+- [x] Daily expenses
 
 ### 2. Leisure and Entertainment (10 topics)
 
 #### 2.1 Outdoor Activities
-- [ ] At the park
-- [ ] Playing cricket
-- [ ] Riding a bicycle
-- [ ] Going for jogging
-- [ ] Weekend cricket
+- [x] At the park
+- [x] Playing cricket
+- [x] Riding a bicycle
+- [x] Going for jogging
+- [x] Weekend cricket
 
 #### 2.2 Indoor Entertainment
-- [ ] Reading a book
-- [ ] Watching TV
-- [ ] Playing carrom
+- [x] Reading a book
+- [x] Watching TV
+- [x] Playing carrom
 
 #### 2.3 Fitness and Sports
-- [ ] Going to gym
+- [x] Going to gym
 
 #### 2.4 Religious/Spiritual
-- [ ] Temple visit
+- [x] Temple visit
 
 ### 3. Social Interactions (3 topics)
 
 #### 3.1 Communication
-- [ ] Phone call with friend
+- [x] Phone call with friend
 
 #### 3.2 Casual Talk
-- [ ] Talking about weather
-- [ ] Talking about exams
+- [x] Talking about weather
+- [x] Talking about exams
 
 ### 4. Education and Study (59 topics)
 
 #### 4.1 School Routine
-- [ ] Going to school
-- [ ] School homework
-- [ ] Computer class
-- [ ] Lunch break
+- [x] Going to school
+- [x] School homework
+- [x] Computer class
+- [x] Lunch break
 
 #### 4.2 Library and Study
-- [ ] At the library
-- [ ] Group study
-- [ ] Writing notes
-- [ ] Asking for library card
+- [x] At the library
+- [x] Group study
+- [x] Writing notes
+- [x] Asking for library card
 
 #### 4.3 Assignments and Homework
-- [ ] Asking for assignment help
-- [ ] Lost homework
-- [ ] Forgetting homework
-- [ ] Missing assignment
-- [ ] Asking for notes
+- [x] Asking for assignment help
+- [x] Lost homework
+- [x] Forgetting homework
+- [x] Missing assignment
+- [x] Asking for notes
 
 #### 4.4 Exams and Tests
-- [ ] Exam preparation
-- [ ] Exam timetable discussion
-- [ ] Preparing for exams
-- [ ] Exam fear
-- [ ] Writing exam in hall
-- [ ] Doubts before viva
-- [ ] Asking about exam center
+- [x] Exam preparation
+- [x] Exam timetable discussion
+- [x] Preparing for exams
+- [x] Exam fear
+- [x] Writing exam in hall
+- [x] Doubts before viva
+- [x] Asking about exam center
 
 #### 4.5 Teacher Interactions
 - [ ] Asking teacher a doubt
@@ -361,6 +361,6 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 - [ ] Tailor fitting
 
 ## Next Steps
-- Start with the next topic: Morning routine
+- Start with the next topic: Online shopping
 - Generate conversation and HTML file
 - Repeat for all remaining topics
