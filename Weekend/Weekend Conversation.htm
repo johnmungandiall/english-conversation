@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weekend Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Weekend Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, what’s your plan for the weekend?</div>
+              <div class="tel">Hey Giri, వీకెండ్ కి ప్లాన్ ఏంటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Nothing much, John. I was thinking of just staying home and relaxing. What about you?</div>
+              <div class="tel">ఏం ప్లాన్ లేదు John, ఇంట్లోనే రిలాక్స్ అవుద్దాం అనుకున్నా. నువ్వు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I was planning to go for a movie or maybe a short trip. Do you want to join?</div>
+              <div class="tel">నేను మూవీ కి వెళ్లాలి అనుకుంటున్నా లేదా షార్ట్ ట్రిప్. నువ్వు వస్తావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sounds good, but I have some pending work from my part-time job.</div>
+              <div class="tel">బాగుంది కానీ నా పార్ట్-టైమ్ జాబ్ వర్క్ కొంచెం పెండింగ్ ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Oh no, even on weekends?</div>
+              <div class="tel">అయ్యో, వీకెండ్ లో కూడా వర్క్ ఆ?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, I need to update a few reports. If I finish on Friday night, I’ll be free on Saturday.</div>
+              <div class="tel">అవును, కొన్ని రిపోర్ట్స్ అప్డేట్ చేయాలి. ఫ్రైడే నైట్ కి కంప్లీట్ చేస్తే Saturday ఫ్రీ అవుతాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Perfect! Then let’s plan dinner on Saturday evening.</div>
+              <div class="tel">సూపర్! అప్పుడే Saturday ఈవెనింగ్ డిన్నర్ కి వెళ్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, but where?</div>
+              <div class="tel">ఓకే, కానీ ఎక్కడ?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">There’s a new restaurant near the mall. We can go there, then maybe a late-night drive.</div>
+              <div class="tel">మాల్ దగ్గర కొత్త రెస్టారెంట్ ఉంది. అక్కడ డిన్నర్ చేసి, తర్వాత లేట్-నైట్ డ్రైవ్ వెళ్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Nice idea. What about Sunday?</div>
+              <div class="tel">నైస్ ఐడియా. Sunday కి ఏం ప్లాన్?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Sunday morning we can play cricket or just hang out at the park.</div>
+              <div class="tel">Sunday మార్నింగ్ క్రికెట్ ఆడదాం లేదా పార్క్ లో హ్యాంగౌట్ చేద్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Wow, it’s been so long since we played. It will be good for stress relief.</div>
+              <div class="tel">వావ్, చాలా రోజులు అయ్యింది ఆడక. స్ట్రెస్ రిలీఫ్ అవుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Exactly! We study all week, and you also work part-time. You need a break.</div>
+              <div class="tel">ఎక్జాక్ట్ గా! వీక్ అంతా స్టడీస్, నీకు పార్ట్-టైమ్ వర్క్ కూడా. నీకు బ్రేక్ కావాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">True. Okay, let’s fix it – Saturday dinner and Sunday morning cricket.</div>
+              <div class="tel">ట్రూ. ఓకే ఫిక్స్ – Saturday డిన్నర్, Sunday మార్నింగ్ క్రికెట్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Done! I’ll make the booking for Saturday.</div>
+              <div class="tel">డన్! Saturday బుకింగ్ నేనే చేస్తా.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Great. I’ll adjust my work so I can join freely.</div>
+              <div class="tel">గ్రేట్. నా వర్క్ అడ్జస్ట్ చేసుకుంటా, ఫ్రీ గా వస్తా.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Awesome! Weekend is going to be fun.</div>
+              <div class="tel">ఆవ్సమ్! వీకెండ్ ఫన్ గా ఉంటుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Finally, some relaxation. Can’t wait!</div>
+              <div class="tel">ఫైనల్లీ, రిలాక్స్ అవ్వచ్చు. వెయిట్ చేయలేకపోతున్నా!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
