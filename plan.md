@@ -1,7 +1,7 @@
 # Plan for Completing All Topics from topics.txt
 
 ## Overview
-This plan outlines the steps to generate HTML conversation files for all 200 topics listed in `topics.txt`. The topics are categorized into 4 sections: Daily Life & Routine (50 topics), Education & Study (50 topics), Travel & Directions (50 topics), and Shopping & Money (50 topics).
+This plan outlines the steps to generate HTML conversation files for all 200 topics listed in `topics.txt`. The topics are categorized into 6 sections: Home and Daily Life (18 topics), Leisure and Entertainment (10 topics), Social Interactions (3 topics), Education and Study (59 topics), Travel and Transportation (57 topics), and Shopping and Finance (53 topics).
 
 ## Current Progress
 - Completed: 0 topics
@@ -17,179 +17,260 @@ This plan outlines the steps to generate HTML conversation files for all 200 top
 
 ## Topic List
 
-### 1. Daily Life & Routine (50 topics)
+### 1. Home and Daily Life (18 topics)
+
+#### 1.1 Morning and Personal Care
 - [ ] Morning routine
-- [ ] Going to school
-- [ ] At the library
-- [ ] At the park
-- [ ] Evening walk
+- [ ] Morning alarm
+
+#### 1.2 Meals and Cooking
 - [ ] Breakfast conversation
 - [ ] Cooking at home
-- [ ] Cleaning the room
-- [ ] Talking about weather
-- [ ] Grocery shopping
-- [ ] Washing clothes
-- [ ] Phone call with friend
 - [ ] Ordering food delivery
-- [ ] Weekend plans
-- [ ] Visiting relatives
-- [ ] Playing cricket
-- [ ] Riding a bicycle
-- [ ] Waiting at bus stop
-- [ ] Talking about exams
-- [ ] Reading a book
-- [ ] Watching TV
-- [ ] Going for jogging
-- [ ] Going to gym
-- [ ] Temple visit
-- [ ] Birthday planning
+
+#### 1.3 Household Chores
+- [ ] Cleaning the room
+- [ ] Washing clothes
+
+#### 1.4 Family and Social at Home
 - [ ] Family dinner
-- [ ] Online shopping
-- [ ] Buying vegetables
+- [ ] Visiting relatives
+- [ ] Meeting a neighbor
+- [ ] Birthday planning
+- [ ] Weekend plans
+
+#### 1.5 Health and Services
+- [ ] Going to hospital
 - [ ] Visiting barber shop
 - [ ] Going to tailoring shop
-- [ ] Going to hospital
-- [ ] Meeting a neighbor
-- [ ] Railway station talk
-- [ ] At the ATM
-- [ ] Booking tickets
-- [ ] Taking auto / cab
-- [ ] Asking directions
-- [ ] Post office visit
-- [ ] School homework
-- [ ] Hostel life
-- [ ] College canteen
-- [ ] Lunch break
-- [ ] Computer class
-- [ ] Going to tuition
-- [ ] Exam preparation
-- [ ] Morning alarm
+
+#### 1.6 Shopping at Home
+- [ ] Online shopping
+- [ ] Buying vegetables
+- [ ] Grocery shopping
 - [ ] Daily expenses
-- [ ] Traveling in bus
+
+### 2. Leisure and Entertainment (10 topics)
+
+#### 2.1 Outdoor Activities
+- [ ] At the park
+- [ ] Playing cricket
+- [ ] Riding a bicycle
+- [ ] Going for jogging
 - [ ] Weekend cricket
+
+#### 2.2 Indoor Entertainment
+- [ ] Reading a book
+- [ ] Watching TV
 - [ ] Playing carrom
 
-### 2. Education & Study (50 topics)
-- [ ] Asking for assignment help
+#### 2.3 Fitness and Sports
+- [ ] Going to gym
+
+#### 2.4 Religious/Spiritual
+- [ ] Temple visit
+
+### 3. Social Interactions (3 topics)
+
+#### 3.1 Communication
+- [ ] Phone call with friend
+
+#### 3.2 Casual Talk
+- [ ] Talking about weather
+- [ ] Talking about exams
+
+### 4. Education and Study (59 topics)
+
+#### 4.1 School Routine
+- [ ] Going to school
+- [ ] School homework
+- [ ] Computer class
+- [ ] Lunch break
+
+#### 4.2 Library and Study
+- [ ] At the library
 - [ ] Group study
-- [ ] Asking teacher a doubt
-- [ ] Exam timetable discussion
-- [ ] Project submission
 - [ ] Writing notes
+- [ ] Asking for library card
+
+#### 4.3 Assignments and Homework
+- [ ] Asking for assignment help
 - [ ] Lost homework
+- [ ] Forgetting homework
+- [ ] Missing assignment
+- [ ] Asking for notes
+
+#### 4.4 Exams and Tests
+- [ ] Exam preparation
+- [ ] Exam timetable discussion
+- [ ] Preparing for exams
+- [ ] Exam fear
+- [ ] Writing exam in hall
+- [ ] Doubts before viva
+- [ ] Asking about exam center
+
+#### 4.5 Teacher Interactions
+- [ ] Asking teacher a doubt
+- [ ] Teacher's advice
+- [ ] Asking for grace marks
+- [ ] Talking to principal
+
+#### 4.6 Classroom Activities
 - [ ] Classroom late entry
 - [ ] Borrowing a pen
 - [ ] Discussing marks
+- [ ] Subject confusion
+
+#### 4.7 College Life
+- [ ] Hostel life
+- [ ] College canteen
 - [ ] College fest
-- [ ] Science fair
-- [ ] Preparing for debate
-- [ ] Asking about library card
-- [ ] Late to tuition
-- [ ] Teacher’s advice
-- [ ] Forgetting homework
-- [ ] Asking for leave letter
+- [ ] College elections
+- [ ] College trip
+- [ ] New semester start
+- [ ] Subject selection
+- [ ] Applying for leave
+- [ ] Scholarship discussion
+
+#### 4.8 Practical and Lab
 - [ ] Practicals preparation
+- [ ] Discussion about lab
+- [ ] Lab equipment missing
 - [ ] Viva questions
-- [ ] Discussing syllabus
+
+#### 4.9 Projects and Presentations
+- [ ] Project submission
+- [ ] Preparing for debate
+- [ ] Group project division
+
+#### 4.10 Administrative
 - [ ] New admissions
 - [ ] Talking about results
 - [ ] Attendance shortage
 - [ ] Homework copying
-- [ ] Subject confusion
 - [ ] Sharing timetable
-- [ ] Study tour
-- [ ] College bus timing
-- [ ] Asking for notes
-- [ ] Preparing for exams
-- [ ] Missing assignment
-- [ ] Exam fear
-- [ ] Group project division
-- [ ] College elections
 - [ ] Parents-teacher meeting
-- [ ] Asking for grace marks
-- [ ] Discussion about lab
-- [ ] College trip
-- [ ] New semester start
-- [ ] Subject selection
-- [ ] Talking to principal
-- [ ] Applying for leave
-- [ ] Scholarship discussion
-- [ ] Asking about exam center
-- [ ] Lab equipment missing
-- [ ] Writing exam in hall
-- [ ] Doubts before viva
-- [ ] Extra classes
+- [ ] Asking for leave letter
 - [ ] Submitting records
 
-### 3. Travel & Directions (50 topics)
-- [ ] Asking for bus stop
+#### 4.11 Extracurricular
+- [ ] Science fair
+- [ ] Study tour
+- [ ] College bus timing
+- [ ] Late to tuition
+- [ ] Going to tuition
+- [ ] Extra classes
+
+### 5. Travel and Transportation (57 topics)
+
+#### 5.1 Public Transport
+- [ ] Waiting at bus stop
+- [ ] Traveling in bus
+- [ ] Bus conductor talk
+- [ ] Metro ticket
+- [ ] Ola/Uber driver
+- [ ] Taxi driver negotiation
 - [ ] Auto fare discussion
+- [ ] Taking auto / cab
+- [ ] Asking for bus stop
+
+#### 5.2 Train Travel
+- [ ] Railway station talk
 - [ ] Train late discussion
+- [ ] Train ticket checking
+- [ ] Railway enquiry
+- [ ] Platform change
+- [ ] Food at station
+- [ ] Railway clock room
+
+#### 5.3 Air Travel
 - [ ] Flight booking
 - [ ] Airport checking
 - [ ] Lost luggage
+
+#### 5.4 Hotel and Accommodation
 - [ ] Asking hotel location
 - [ ] Booking hotel room
-- [ ] Bus conductor talk
-- [ ] Train ticket checking
-- [ ] Taxi driver negotiation
-- [ ] Asking petrol pump
-- [ ] Toll gate discussion
-- [ ] Highway dhaba stop
-- [ ] Finding restrooms
-- [ ] Lost way in city
-- [ ] Tourist guide talk
 - [ ] Asking Wi-Fi in hotel
-- [ ] Renting a bike
+- [ ] Booking OYO
+- [ ] Hotel checkout
+- [ ] Hotel receptionist talk
+
+#### 5.5 Directions and Navigation
+- [ ] Asking directions
+- [ ] Lost way in city
+- [ ] Asking GPS location
+
+#### 5.6 Tourist Activities
 - [ ] Visiting Tirupati
 - [ ] Visiting Hyderabad
 - [ ] Visiting Vizag
 - [ ] Planning Goa trip
-- [ ] Booking OYO
-- [ ] Hotel checkout
-- [ ] Railway enquiry
-- [ ] Platform change
 - [ ] Asking tourist spots
-- [ ] Shopping in travel
 - [ ] Visiting waterfall
 - [ ] Planning road trip
-- [ ] Asking GPS location
-- [ ] Metro ticket
-- [ ] Ola/Uber driver
-- [ ] Food at station
+- [ ] Tourist guide talk
 - [ ] Asking local people
 - [ ] Boat ride
 - [ ] Visiting museum
 - [ ] Hill station trip
-- [ ] Travel budget
+- [ ] Pilgrimage trip
+
+#### 5.7 Travel Services
+- [ ] Booking tickets
 - [ ] Asking ticket counter
 - [ ] Foreign travel visa
 - [ ] Immigration checking
 - [ ] Lost passport
-- [ ] Hotel receptionist talk
 - [ ] Asking travel agent
 - [ ] Booking through app
-- [ ] Pilgrimage trip
-- [ ] Bus depot enquiry
-- [ ] Railway clock room
+- [ ] Travel budget
 
-### 4. Shopping & Money (50 topics)
-- [ ] Buying vegetables
+#### 5.8 Road Travel
+- [ ] Asking petrol pump
+- [ ] Toll gate discussion
+- [ ] Highway dhaba stop
+- [ ] Renting a bike
+- [ ] Bus depot enquiry
+
+#### 5.9 Miscellaneous
+- [ ] Post office visit
+- [ ] Finding restrooms
+- [ ] Shopping in travel
+
+### 6. Shopping and Finance (53 topics)
+
+#### 6.1 Food Shopping
 - [ ] Buying fruits
+- [ ] Grocery shopping
+- [ ] Buying vegetables
 - [ ] Supermarket talk
-- [ ] Bargaining in shop
+- [ ] Grocery online order
+
+#### 6.2 Clothing and Accessories
 - [ ] Cloth shopping
 - [ ] Saree shop talk
 - [ ] Shoe shop talk
+- [ ] Buying bag
+- [ ] Buying watch
+- [ ] Buying perfume
+- [ ] Jewellery shop talk
+- [ ] Fancy store
+
+#### 6.3 Electronics and Gadgets
 - [ ] Buying phone
 - [ ] Laptop shop talk
 - [ ] Mobile accessories
 - [ ] Buying earphones
 - [ ] Asking for warranty
-- [ ] Buying bag
-- [ ] Buying watch
-- [ ] Buying perfume
-- [ ] Jewellery shop talk
+
+#### 6.4 Online Shopping
+- [ ] Amazon shopping
+- [ ] Flipkart order
+- [ ] Return product
+- [ ] Online shopping
+
+#### 6.5 Financial Services
 - [ ] ATM problem
 - [ ] Bank enquiry
 - [ ] Opening bank account
@@ -199,31 +280,36 @@ This plan outlines the steps to generate HTML conversation files for all 200 top
 - [ ] Fixed deposit talk
 - [ ] Credit card offer
 - [ ] Debit card block
+- [ ] At the ATM
+
+#### 6.6 Payments and Transactions
 - [ ] Online refund
 - [ ] UPI payment fail
 - [ ] Google Pay payment
-- [ ] Petrol bunk
+- [ ] Payment not received
+- [ ] Cashback offer
+- [ ] Paytm wallet
+
+#### 6.7 Utilities and Bills
 - [ ] Paying electricity bill
 - [ ] Gas bill enquiry
 - [ ] Buying recharge
 - [ ] Buying SIM card
 - [ ] Mobile store recharge
 - [ ] Data pack enquiry
-- [ ] Amazon shopping
-- [ ] Flipkart order
-- [ ] Return product
-- [ ] Grocery online order
-- [ ] Zomato order
-- [ ] Swiggy delivery
-- [ ] Payment not received
-- [ ] Cashback offer
-- [ ] Paytm wallet
+- [ ] Petrol bunk
+
+#### 6.8 Specialty Shopping
 - [ ] Gold shop
 - [ ] Wedding shopping
-- [ ] Fancy store
 - [ ] Toy shop
 - [ ] Gift shopping
 - [ ] Festival shopping
+- [ ] Bargaining in shop
+
+#### 6.9 Food Delivery
+- [ ] Zomato order
+- [ ] Swiggy delivery
 
 ## Next Steps
 - Start with the next topic: Morning routine
