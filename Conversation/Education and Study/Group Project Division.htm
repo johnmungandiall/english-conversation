@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Group Project Division Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Group Project Division</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yo Giri, how should we divide the group project tasks?</div>
+              <div class="tel">యో గిరి, గ్రూప్ ప్రాజెక్ట్ టాస్క్స్ ఎలా డివైడ్ చేయాలి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, good question. We have research, writing, and presentation.</div>
+              <div class="tel">హే జాన్, గుడ్ క్వెస్చన్. మనకు రీసర్చ్, రైటింగ్, మరియు ప్రెజెంటేషన్ ఉన్నాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I can handle the research part. I'm good with gathering info.</div>
+              <div class="tel">నేను రీసర్చ్ పార్ట్ హ్యాండిల్ చేస్తా. ఇన్ఫో గ్యాదర్ చేయడం నాకు గుడ్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, then I'll do the writing. My English is better for that.</div>
+              <div class="tel">ఓకే, అప్పుడు నేను రైటింగ్ చేస్తా. నా ఇంగ్లిష్ అందులో బెటర్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Perfect. What about the presentation? We need slides too.</div>
+              <div class="tel">పర్ఫెక్ట్. ప్రెజెంటేషన్ ఏం? స్లైడ్స్ కూడా కావాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I can make the slides. You present, since you're confident speaking.</div>
+              <div class="tel">నేను స్లైడ్స్ చేస్తా. నువ్వు ప్రెజెంట్ చేయి, స్పీకింగ్ లో నువ్వు కన్ఫిడెంట్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Alright, but let's share the workload equally. Any deadlines?</div>
+              <div class="tel">అల్రైట్, కానీ వర్క్‌లోడ్ ఈక్వల్ గా షేర్ చేద్దాం. డెడ్‌లైన్స్ ఏవైనా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Research by Friday, writing by Sunday, presentation next week.</div>
+              <div class="tel">రీసర్చ్ ఫ్రైడే కి, రైటింగ్ సండే కి, ప్రెజెంటేషన్ నెక్స్ట్ వీక్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Sounds good. Let's meet tomorrow to discuss progress.</div>
+              <div class="tel">సౌండ్స్ గుడ్. రేపు ప్రోగ్రెస్ డిస్కస్ చేయడానికి మీట్ చేద్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sure. This way, we'll finish on time.</div>
+              <div class="tel">ష్యూర్. ఇలా చేస్తే, టైమ్ కి ముగుస్తాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Agreed. Teamwork makes the dream work!</div>
+              <div class="tel">అగ్రీడ్. టీమ్‌వర్క్ డ్రీమ్ వర్క్ చేస్తుంది!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
