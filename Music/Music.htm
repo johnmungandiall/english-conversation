@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Music Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Music Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, what kind of music do you like?</div>
+              <div class="tel">Hey Giri, నువ్వు ఏ రకమైన మ్యూజిక్ ఇష్టపడతావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I love pop and rock music. Artists like Taylor Swift and Coldplay.</div>
+              <div class="tel">నాకు పాప్ మరియు రాక్ మ్యూజిక్ ఇష్టం. టేలర్ స్విఫ్ట్ మరియు కోల్డ్ ప్లే వంటి ఆర్టిస్ట్స్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Nice! I prefer classical and jazz. Beethoven and Miles Davis are my favorites.</div>
+              <div class="tel">నైస్! నేను క్లాసికల్ మరియు జాజ్ ఇష్టపడతాను. బీతోవెన్ మరియు మైల్స్ డేవిస్ నా ఫేవరెట్స్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Classical is soothing. Do you play any instrument?</div>
+              <div class="tel">క్లాసికల్ సూతింగ్. నువ్వు ఏ ఇన్స్ట్రుమెంట్ ప్లే చేస్తావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I play the piano a bit. What about you?</div>
+              <div class="tel">నేను పియానో కొంచెం ప్లే చేస్తాను. నువ్వు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I play guitar. Music helps me relax after a long day.</div>
+              <div class="tel">నేను గిటార్ ప్లే చేస్తాను. మ్యూజిక్ లాంగ్ డే తర్వాత రిలాక్స్ చేయడానికి సహాయపడుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's great. Have you been to any concerts?</div>
+              <div class="tel">అది గ్రేట్. నువ్వు ఏవైనా కాన్సెర్ట్స్ వెళ్ళావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, I saw Ed Sheeran live. It was amazing.</div>
+              <div class="tel">అవును, నేను ఎడ్ షీరాన్ లైవ్ చూసాను. అది అమేజింగ్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Wow, that must have been fun. Music brings joy to life.</div>
+              <div class="tel">వావ్, అది ఫన్ అయి ఉండాలి. మ్యూజిక్ లైఫ్ కి జాయ్ తెస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Absolutely. What's your favorite song right now?</div>
+              <div class="tel">అబ్సల్యూట్లీ. నీ ఫేవరెట్ సాంగ్ ఇప్పుడు ఏంటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Take Five by Dave Brubeck. It's a jazz classic.</div>
+              <div class="tel">టేక్ ఫైవ్ బై డేవ్ బ్రూబెక్. అది జాజ్ క్లాసిక్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Cool. Let's share playlists sometime.</div>
+              <div class="tel">కూల్. ఒకసారి ప్లేలిస్ట్స్ షేర్ చేద్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Sure! Music connects us all.</div>
+              <div class="tel">ష్యూర్! మ్యూజిక్ మనల్ని అందరినీ కనెక్ట్ చేస్తుంది.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

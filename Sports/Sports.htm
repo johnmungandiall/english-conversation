@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sports Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Sports Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, what's your favorite sport?</div>
+              <div class="tel">Hey Giri, నీ ఫేవరెట్ స్పోర్ట్ ఏంటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I love cricket. Watching matches and playing with friends is fun.</div>
+              <div class="tel">నాకు క్రికెట్ ఇష్టం. మ్యాచెస్ చూడటం మరియు ఫ్రెండ్స్ తో ప్లే చేయటం ఫన్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Cricket is popular here. I prefer football, or soccer as you call it.</div>
+              <div class="tel">క్రికెట్ ఇక్కడ పాపులర్. నేను ఫుట్ బాల్ ఇష్టపడతాను, లేదా సాకర్ అని నువ్వు అంటావు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Soccer is exciting too. Do you play any sport regularly?</div>
+              <div class="tel">సాకర్ కూడా ఎక్సైటింగ్. నువ్వు రెగ్యులర్ గా ఏ స్పోర్ట్ ప్లే చేస్తావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I play basketball on weekends. It's great exercise.</div>
+              <div class="tel">నేను వీకెండ్స్ లో బాస్కెట్ బాల్ ప్లే చేస్తాను. అది గ్రేట్ ఎక్సర్ సైజ్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Basketball is fast-paced. Have you watched the NBA?</div>
+              <div class="tel">బాస్కెట్ బాల్ ఫాస్ట్-పేస్డ్. నువ్వు NBA చూసావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, I follow the Lakers. What's your favorite cricket team?</div>
+              <div class="tel">అవును, నేను లేకర్స్ ను ఫాలో చేస్తాను. నీ ఫేవరెట్ క్రికెట్ టీమ్ ఏంటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I support India. Virat Kohli is my favorite player.</div>
+              <div class="tel">నేను ఇండియా ను సపోర్ట్ చేస్తాను. విరాట్ కోహ్లీ నా ఫేవరెట్ ప్లేయర్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Kohli is amazing. Sports bring people together.</div>
+              <div class="tel">కోహ్లీ అమేజింగ్. స్పోర్ట్స్ పీపుల్ ను కలిపి ఉంచుతాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Definitely. Do you watch the Olympics?</div>
+              <div class="tel">డిఫైనిట్లీ. నువ్వు ఆలింపిక్స్ చూస్తావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, every four years. It's inspiring to see athletes from around the world.</div>
+              <div class="tel">అవును, ప్రతి నాలుగు సంవత్సరాలకు. ప్రపంచం నుండి అథ్లీట్స్ ను చూడటం ఇన్స్పైరింగ్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Agreed. Sports teach us discipline and teamwork.</div>
+              <div class="tel">అగ్రీడ్. స్పోర్ట్స్ డిసిప్లిన్ మరియు టీమ్ వర్క్ నేర్పిస్తాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">True. Let's play cricket sometime.</div>
+              <div class="tel">ట్రూ. ఒకసారి క్రికెట్ ప్లే చేద్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sure! It will be fun.</div>
+              <div class="tel">ష్యూర్! అది ఫన్ అవుతుంది.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
