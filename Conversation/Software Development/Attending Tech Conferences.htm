@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Attending Tech Conferences Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Attending Tech Conferences Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, have you ever been to a tech conference? I'm thinking of attending one this year.</div>
+              <div class="tel">హే జాన్, నువ్వు ఎప్పుడైనా టెక్ కాన్ఫరెన్స్‌కు వెళ్ళావా? నేను ఈ సంవత్సరం ఒకదానికి హాజరు కావాలని ఆలోచిస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yeah, Giri! I've been to a few. They're a great way to learn about new technologies and network with other developers.</div>
+              <div class="tel">అవును, గిరి! నేను కొన్నింటికి వెళ్ళాను. కొత్త సాంకేతిక పరిజ్ఞానాల గురించి తెలుసుకోవడానికి మరియు ఇతర డెవలపర్‌లతో నెట్‌వర్క్ చేయడానికి అవి గొప్ప మార్గం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That sounds awesome. Which conferences would you recommend for a web developer?</div>
+              <div class="tel">అది అద్భుతంగా ఉంది. వెబ్ డెవలపర్ కోసం నువ్వు ఏ సమావేశాలను సిఫార్సు చేస్తావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">For web development, I'd recommend checking out ReactConf, VueConf, or JSConf. They're all great for learning about the latest trends and best practices.</div>
+              <div class="tel">వెబ్ డెవలప్‌మెంట్ కోసం, నేను ReactConf, VueConf లేదా JSConfని చూడమని సిఫార్సు చేస్తాను. తాజా ట్రెండ్‌లు మరియు ఉత్తమ పద్ధతుల గురించి తెలుసుకోవడానికి అవన్నీ గొప్పవి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I'll look into those. What's the best way to make the most of a tech conference?</div>
+              <div class="tel">నేను వాటిని పరిశీలిస్తాను. టెక్ కాన్ఫరెన్స్‌ను ఎక్కువగా ఉపయోగించుకోవడానికి ఉత్తమ మార్గం ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Plan your schedule in advance. Identify the talks and workshops that are most relevant to your interests. Also, don't be afraid to network with other attendees.</div>
+              <div class="tel">నీ షెడ్యూల్‌ను ముందుగానే ప్లాన్ చేసుకో. నీ ఆసక్తులకు సంబంధించిన చర్చలు మరియు వర్క్‌షాప్‌లను గుర్తించు. అలాగే, ఇతర హాజరైన వారితో నెట్‌వర్క్ చేయడానికి భయపడవద్దు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Networking is a bit intimidating for me. Any tips for that?</div>
+              <div class="tel">నెట్‌వర్కింగ్ నాకు కొంచెం భయపెట్టేదిగా ఉంది. దాని కోసం ఏమైనా చిట్కాలు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Just be yourself and be approachable. Start by asking people about their work or what they're excited to learn at the conference.</div>
+              <div class="tel">నువ్వు నువ్వుగా ఉండు మరియు చేరుకోగలిగేలా ఉండు. ప్రజలను వారి పని గురించి లేదా వారు సమావేశంలో ఏమి నేర్చుకోవడానికి ఉత్సాహంగా ఉన్నారో అడగడం ద్వారా ప్రారంభించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's good advice. I'll try to be more outgoing. What about after the conference?</div>
+              <div class="tel">అది మంచి సలహా. నేను మరింత బహిర్ముఖంగా ఉండటానికి ప్రయత్నిస్తాను. సమావేశం తర్వాత గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Share what you learned with your team and try to implement some of the new ideas in your projects. Also, stay in touch with the people you met.</div>
+              <div class="tel">నువ్వు నేర్చుకున్న వాటిని నీ బృందంతో పంచుకో మరియు నీ ప్రాజెక్ట్‌లలో కొన్ని కొత్త ఆలోచనలను అమలు చేయడానికి ప్రయత్నించు. అలాగే, నువ్వు కలిసిన వ్యక్తులతో సన్నిహితంగా ఉండు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Thanks, John! This is really helpful. I'm looking forward to attending a tech conference now.</div>
+              <div class="tel">ధన్యవాదాలు, జాన్! ఇది నిజంగా సహాయకరంగా ఉంది. నేను ఇప్పుడు టెక్ కాన్ఫరెన్స్‌కు హాజరు కావడానికి ఎదురు చూస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">You're welcome, Giri! Have a great time and learn a lot!</div>
+              <div class="tel">నీకు స్వాగతం, గిరి! గొప్ప సమయం గడుపు మరియు చాలా నేర్చుకో!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

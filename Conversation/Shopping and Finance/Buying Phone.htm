@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Buying Phone Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Buying Phone Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I'm planning to buy a new phone. Any suggestions for a good model under 20,000 rupees?</div>
+              <div class="tel">హేయ్ జాన్, నేను కొత్త ఫోన్ కొనాలని ప్లాన్ చేస్తున్నాను. 20,000 రూపాయల లోపు మంచి మోడల్ కోసం ఏమైనా సూచనలు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Under 20k, you have some great options. You can look at Samsung's M-series or Xiaomi's Redmi Note series. They offer good features for the price.</div>
+              <div class="tel">20k లోపు, మీకు కొన్ని గొప్ప ఎంపికలు ఉన్నాయి. మీరు Samsung M-సిరీస్ లేదా Xiaomi Redmi Note సిరీస్‌ను చూడవచ్చు. అవి ధర కోసం మంచి ఫీచర్‌లను అందిస్తాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I was thinking about a Samsung. What about camera quality? That's important to me.</div>
+              <div class="tel">నేను Samsung గురించి ఆలోచిస్తున్నాను. కెమెరా నాణ్యత గురించి ఏమిటి? అది నాకు ముఖ్యం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Both brands offer decent cameras in that range. Look for models with a 48MP or 64MP main camera. Also, check for OIS if possible.</div>
+              <div class="tel">రెండు బ్రాండ్లు ఆ పరిధిలో మంచి కెమెరాలను అందిస్తాయి. 48MP లేదా 64MP ప్రధాన కెమెరా ఉన్న మోడల్‌ల కోసం చూడండి. అలాగే, వీలైతే OIS కోసం తనిఖీ చేయండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">OIS, got it. What about battery life?</div>
+              <div class="tel">OIS, అర్థమైంది. బ్యాటరీ జీవితం గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Most phones in this segment come with 5000mAh or 6000mAh batteries, which should easily last a full day. Fast charging is also common.</div>
+              <div class="tel">ఈ విభాగంలోని చాలా ఫోన్‌లు 5000mAh లేదా 6000mAh బ్యాటరీలతో వస్తాయి, అవి సులభంగా ఒక పూర్తి రోజు ఉంటాయి. ఫాస్ట్ ఛార్జింగ్ కూడా సాధారణం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's good. I'll check out the latest models online and then visit a store to get a feel for them.</div>
+              <div class="tel">అది మంచిది. నేను ఆన్‌లైన్‌లో తాజా మోడల్‌లను తనిఖీ చేస్తాను, ఆపై వాటిని అనుభూతి చెందడానికి ఒక దుకాణాన్ని సందర్శిస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Good plan. Don't forget to compare prices across different platforms.</div>
+              <div class="tel">మంచి ప్రణాళిక. వివిధ ప్లాట్‌ఫారమ్‌లలో ధరలను పోల్చడం మర్చిపోవద్దు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Will do. Thanks for the advice, John!</div>
+              <div class="tel">చేస్తాను. సలహా కోసం ధన్యవాదాలు, జాన్!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Anytime, Giri. Hope you find a great phone!</div>
+              <div class="tel">ఎప్పుడైనా, గిరి. నీకు గొప్ప ఫోన్ దొరుకుతుందని ఆశిస్తున్నాను!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

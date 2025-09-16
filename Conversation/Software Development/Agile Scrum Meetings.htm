@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agile Scrum Meetings Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Agile Scrum Meetings Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Good morning, John! Ready for our daily scrum?</div>
+              <div class="tel">గుడ్ మార్నింగ్, జాన్! మన రోజువారీ స్క్రమ్ కోసం సిద్ధంగా ఉన్నావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Morning, Giri! Yep, all set. What did you work on yesterday?</div>
+              <div class="tel">మార్నింగ్, గిరి! అవును, అంతా సిద్ధంగా ఉంది. నిన్న నువ్వు దేనిపై పని చేశావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yesterday, I completed the user profile update feature and pushed the changes to the `develop` branch.</div>
+              <div class="tel">నిన్న, నేను యూజర్ ప్రొఫైల్ అప్‌డేట్ ఫీచర్‌ను పూర్తి చేసి, మార్పులను `develop` బ్రాంచ్‌కు పంపించాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Nice! Any blockers or challenges you faced?</div>
+              <div class="tel">బాగుంది! ఏమైనా అడ్డంకులు లేదా సవాళ్లు ఎదురయ్యాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Just a minor issue with the API response time, but I optimized the query, and it's much faster now.</div>
+              <div class="tel">API రెస్పాన్స్ టైమ్‌తో ఒక చిన్న సమస్య, కానీ నేను క్వెరీని ఆప్టిమైజ్ చేశాను, మరియు ఇప్పుడు అది చాలా వేగంగా ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Great job! What are your plans for today?</div>
+              <div class="tel">గొప్ప పని! ఈరోజు నీ ప్రణాళికలు ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Today, I'll start working on the password reset functionality. I've already reviewed the requirements.</div>
+              <div class="tel">ఈరోజు, నేను పాస్‌వర్డ్ రీసెట్ కార్యాచరణపై పని చేయడం ప్రారంభిస్తాను. నేను ఇప్పటికే అవసరాలను సమీక్షించాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Sounds good. For my part, I finished the front-end integration for the dashboard. Today, I'll be writing unit tests for it.</div>
+              <div class="tel">బాగుంది. నా వంతుగా, నేను డాష్‌బోర్డ్ కోసం ఫ్రంట్-ఎండ్ ఇంటిగ్రేషన్‌ను పూర్తి చేశాను. ఈరోజు, నేను దాని కోసం యూనిట్ టెస్ట్‌లను వ్రాస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Excellent! Let's keep each other updated throughout the day.</div>
+              <div class="tel">అద్భుతం! రోజంతా ఒకరికొకరు అప్‌డేట్ చేసుకుందాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Will do. Have a productive day, Giri!</div>
+              <div class="tel">చేస్తాను. ఉత్పాదక దినం, గిరి!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">You too, John!</div>
+              <div class="tel">నీకు కూడా, జాన్!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

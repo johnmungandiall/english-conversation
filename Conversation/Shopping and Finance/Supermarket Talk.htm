@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Supermarket Talk Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Supermarket Talk Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, this supermarket is huge! I can't find the dairy section.</div>
+              <div class="tel">హేయ్ గిరి, ఈ సూపర్ మార్కెట్ చాలా పెద్దది! నాకు డైరీ సెక్షన్ దొరకడం లేదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It's usually at the back, near the frozen foods. Let's check the signs above the aisles.</div>
+              <div class="tel">అది సాధారణంగా వెనుక భాగంలో, ఫ్రోజెన్ ఫుడ్స్ దగ్గర ఉంటుంది. ఐల్స్ పైన ఉన్న సంకేతాలను చూద్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Good idea. I'm looking for milk and cheese.</div>
+              <div class="tel">మంచి ఆలోచన. నేను పాలు మరియు చీజ్ కోసం చూస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Found it! It's aisle 7. Do we need anything else from here?</div>
+              <div class="tel">దొరికింది! అది ఐల్ 7. ఇక్కడ నుండి ఇంకేమైనా కావాలా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Let's see... we need some fresh fruits and vegetables. Where are they usually kept?</div>
+              <div class="tel">చూద్దాం... మనకు కొన్ని తాజా పండ్లు మరియు కూరగాయలు కావాలి. అవి సాధారణంగా ఎక్కడ ఉంచుతారు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">The produce section is usually at the front, near the entrance. It's always the first thing you see.</div>
+              <div class="tel">ఉత్పత్తుల విభాగం సాధారణంగా ముందు భాగంలో, ప్రవేశ ద్వారం దగ్గర ఉంటుంది. అది ఎప్పుడూ మీరు చూసే మొదటి విషయం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Right, I remember now. This place is so well organized, yet I always get lost.</div>
+              <div class="tel">అవును, ఇప్పుడు నాకు గుర్తు. ఈ ప్రదేశం చాలా చక్కగా నిర్వహించబడింది, అయినా నేను ఎప్పుడూ దారి తప్పుతాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It happens. Do you have the shopping list? We don't want to forget anything.</div>
+              <div class="tel">అది జరుగుతుంది. నీ దగ్గర షాపింగ్ జాబితా ఉందా? మనం ఏమీ మర్చిపోకూడదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, it's right here. Let's stick to it strictly, or we'll end up buying things we don't need.</div>
+              <div class="tel">అవును, అది ఇక్కడే ఉంది. మనం దానికి కట్టుబడి ఉందాం, లేకపోతే మనకు అవసరం లేని వస్తువులను కొనుగోలు చేస్తాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Agreed! The checkout lines look long already.</div>
+              <div class="tel">అంగీకరిస్తున్నాను! చెక్అవుట్ లైన్లు ఇప్పటికే పొడవుగా కనిపిస్తున్నాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Let's hurry then. I don't want to spend all day here.</div>
+              <div class="tel">అయితే తొందరపడదాం. నేను ఇక్కడ రోజంతా గడపాలని అనుకోవడం లేదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Me neither. Let's split up to get things faster.</div>
+              <div class="tel">నేను కూడా కాదు. వస్తువులను త్వరగా పొందడానికి విడిపోదాం.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

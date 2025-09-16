@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>API Development Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>API Development Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I'm starting on the API for the new e-commerce platform. Any tips for API development best practices?</div>
+              <div class="tel">హే జాన్, నేను కొత్త ఇ-కామర్స్ ప్లాట్‌ఫారమ్ కోసం APIని ప్రారంభిస్తున్నాను. API అభివృద్ధి ఉత్తమ పద్ధతుల కోసం ఏమైనా చిట్కాలు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Definitely, Giri. First, design your API with the client in mind. Think about the resources they need and how they'll access them.</div>
+              <div class="tel">ఖచ్చితంగా, గిరి. ముందుగా, క్లయింట్‌ను దృష్టిలో ఉంచుకుని నీ APIని డిజైన్ చేయి. వారికి అవసరమైన వనరుల గురించి మరియు వారు వాటిని ఎలా యాక్సెస్ చేస్తారో ఆలోచించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That makes sense. I was planning to use RESTful principles. Is that still the way to go?</div>
+              <div class="tel">అది అర్థమవుతుంది. నేను RESTful సూత్రాలను ఉపయోగించాలని అనుకుంటున్నాను. అది ఇంకా మార్గంగా ఉందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">REST is still widely used and a good choice for many applications. Consider GraphQL if you need more flexibility in data fetching.</div>
+              <div class="tel">REST ఇప్పటికీ విస్తృతంగా ఉపయోగించబడుతోంది మరియు అనేక అప్లికేషన్‌లకు మంచి ఎంపిక. డేటా ఫెచింగ్‌లో నీకు మరింత ఫ్లెక్సిబిలిటీ అవసరమైతే GraphQLని పరిగణించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I'll stick with REST for now. What about authentication and authorization?</div>
+              <div class="tel">నేను ప్రస్తుతానికి RESTతో ఉంటాను. ప్రమాణీకరణ మరియు అధికారాల గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Use industry-standard protocols like OAuth 2.0 or JWT for secure authentication. Always validate user permissions before granting access to resources.</div>
+              <div class="tel">సురక్షిత ప్రమాణీకరణ కోసం OAuth 2.0 లేదా JWT వంటి పరిశ్రమ-ప్రమాణ ప్రోటోకాల్‌లను ఉపయోగించు. వనరులకు యాక్సెస్ మంజూరు చేసే ముందు ఎల్లప్పుడూ యూజర్ అనుమతులను ధృవీకరించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Got it. I was planning to use JWT. What about versioning? How should I handle API changes?</div>
+              <div class="tel">అర్థమైంది. నేను JWTని ఉపయోగించాలని అనుకుంటున్నాను. వెర్షనింగ్ గురించి ఏమిటి? నేను API మార్పులను ఎలా నిర్వహించాలి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Versioning is crucial. Use URL-based versioning (e.g., `/api/v1/`) or header-based versioning to avoid breaking existing clients.</div>
+              <div class="tel">వెర్షనింగ్ చాలా ముఖ్యం. ఇప్పటికే ఉన్న క్లయింట్‌లను విచ్ఛిన్నం చేయకుండా ఉండటానికి URL-ఆధారిత వెర్షనింగ్ (ఉదా., `/api/v1/`) లేదా హెడర్-ఆధారిత వెర్షనింగ్‌ను ఉపయోగించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's helpful. I'll use URL-based versioning. Any tips for documentation?</div>
+              <div class="tel">అది సహాయకరంగా ఉంది. నేను URL-ఆధారిత వెర్షనింగ్‌ను ఉపయోగిస్తాను. డాక్యుమెంటేషన్ కోసం ఏమైనా చిట్కాలు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Use tools like Swagger or OpenAPI to define your API contract and generate interactive documentation. It makes it easier for developers to understand and use your API.</div>
+              <div class="tel">నీ API ఒప్పందాన్ని నిర్వచించడానికి మరియు ఇంటరాక్టివ్ డాక్యుమెంటేషన్‌ను రూపొందించడానికి Swagger లేదా OpenAPI వంటి టూల్స్‌ను ఉపయోగించు. ఇది డెవలపర్‌లకు నీ APIని అర్థం చేసుకోవడానికి మరియు ఉపయోగించడానికి సులభతరం చేస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Great advice, John! Thanks for the insights.</div>
+              <div class="tel">గొప్ప సలహా, జాన్! అంతర్దృష్టులకు ధన్యవాదాలు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">You're welcome, Giri! Good luck with your API development!</div>
+              <div class="tel">నీకు స్వాగతం, గిరి! నీ API అభివృద్ధికి శుభాకాంక్షలు!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

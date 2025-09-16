@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asking Travel Agent Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Asking Travel Agent Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hello, I'd like to inquire about a trip to Thailand.</div>
+              <div class="tel">హలో, నేను థాయిలాండ్ ట్రిప్ గురించి అడగాలనుకుంటున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Certainly! What dates are you looking at, and for how many people?</div>
+              <div class="tel">ఖచ్చితంగా! మీరు ఏ తేదీలలో వెళ్లాలని చూస్తున్నారు, మరియు ఎంత మందికి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Around mid-November, for two people. We're flexible with the exact dates.</div>
+              <div class="tel">నవంబర్ మధ్యలో, ఇద్దరి కోసం. ఖచ్చితమైన తేదీలతో మేము సర్దుబాటు చేయగలం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Okay. Are you interested in a package tour, or would you prefer a customized itinerary?</div>
+              <div class="tel">సరే. మీరు ప్యాకేజీ టూర్‌కు ఆసక్తిగా ఉన్నారా, లేదా కస్టమైజ్డ్ ప్రయాణ ప్రణాళికను ఇష్టపడతారా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">We're open to suggestions, but a customized one might be better as we want to explore some specific places.</div>
+              <div class="tel">మేము సూచనలకు సిద్ధంగా ఉన్నాము, కానీ మేము కొన్ని నిర్దిష్ట ప్రదేశాలను అన్వేషించాలనుకుంటున్నాము కాబట్టి కస్టమైజ్డ్ ఒకటి మంచిది కావచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Understood. Do you have any particular cities or islands in mind, like Bangkok, Phuket, or Krabi?</div>
+              <div class="tel">అర్థమైంది. బ్యాంకాక్, ఫుకెట్ లేదా క్రాబీ వంటి ఏదైనా నిర్దిష్ట నగరాలు లేదా దీవులు మీ మనసులో ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, Bangkok for sure, and maybe Phuket for the beaches. How many days would you recommend?</div>
+              <div class="tel">అవును, బ్యాంకాక్ ఖచ్చితంగా, మరియు బీచ్‌ల కోసం బహుశా ఫుకెట్. ఎన్ని రోజులు సిఫార్సు చేస్తారు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">For Bangkok and Phuket, I'd suggest at least 7-8 days to enjoy both fully. We can arrange flights, hotels, and local tours.</div>
+              <div class="tel">బ్యాంకాక్ మరియు ఫుకెట్ కోసం, రెండింటినీ పూర్తిగా ఆస్వాదించడానికి కనీసం 7-8 రోజులు సిఫార్సు చేస్తాను. మేము విమానాలు, హోటళ్లు మరియు స్థానిక పర్యటనలను ఏర్పాటు చేయవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That sounds perfect. Can you give me an estimate of the cost for such a trip?</div>
+              <div class="tel">అది చాలా బాగుంది. అలాంటి ట్రిప్‌కు అయ్యే ఖర్చు అంచనా చెప్పగలరా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Certainly. For a 7-day trip covering flights, 4-star hotels, and some guided tours, it would be approximately 80,000 to 1 lakh rupees per person, depending on the exact dates and flight availability.</div>
+              <div class="tel">ఖచ్చితంగా. విమానాలు, 4-స్టార్ హోటళ్లు మరియు కొన్ని గైడెడ్ టూర్‌లతో కూడిన 7-రోజుల ట్రిప్‌కు, ఖచ్చితమైన తేదీలు మరియు విమాన లభ్యతను బట్టి ఒక్కొక్కరికి సుమారు 80,000 నుండి 1 లక్ష రూపాయలు అవుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, that gives me a good idea. Can you send me a detailed itinerary and quote via email?</div>
+              <div class="tel">సరే, అది నాకు మంచి ఆలోచన ఇస్తుంది. మీరు నాకు వివరణాత్మక ప్రయాణ ప్రణాళిక మరియు కోట్‌ను ఇమెయిల్ ద్వారా పంపగలరా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Absolutely. Please provide your email address, and I'll send it over within the next few hours.</div>
+              <div class="tel">ఖచ్చితంగా. దయచేసి మీ ఇమెయిల్ చిరునామాను అందించండి, నేను దానిని తదుపరి కొన్ని గంటల్లో పంపుతాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Great, it's giri.travels@email.com. Thanks for your help!</div>
+              <div class="tel">చాలా బాగుంది, అది giri.travels@email.com. మీ సహాయానికి ధన్యవాదాలు!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

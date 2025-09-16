@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Booking Through App Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Booking Through App Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, have you booked your train tickets for the festival yet?</div>
+              <div class="tel">హేయ్ గిరి, పండుగకు నీ రైలు టికెట్లు బుక్ చేసుకున్నావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Not yet, John. I was just about to do it. Are you using the IRCTC app?</div>
+              <div class="tel">ఇంకా లేదు, జాన్. నేను ఇప్పుడే చేయబోతున్నాను. నువ్వు IRCTC యాప్ వాడుతున్నావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, it's the easiest way. I already booked mine. It took me less than five minutes.</div>
+              <div class="tel">అవును, అది సులభమైన మార్గం. నేను ఇప్పటికే నావి బుక్ చేసుకున్నాను. నాకు ఐదు నిమిషాల కంటే తక్కువ పట్టింది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Really? I always find it a bit confusing. What's the trick?</div>
+              <div class="tel">నిజమా? నాకు ఎప్పుడూ కొంచెం గందరగోళంగా ఉంటుంది. ట్రిక్ ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Just make sure you have your login details ready. Then, select your source and destination, date, and preferred class.</div>
+              <div class="tel">మీ లాగిన్ వివరాలు సిద్ధంగా ఉన్నాయని నిర్ధారించుకోండి. ఆపై, మీ మూలం మరియు గమ్యం, తేదీ మరియు ఇష్టపడే తరగతిని ఎంచుకోండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, I'm following. What about payment? Sometimes it fails.</div>
+              <div class="tel">సరే, నేను అర్థం చేసుకుంటున్నాను. చెల్లింపు గురించి ఏమిటి? కొన్నిసార్లు అది విఫలమవుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I usually use UPI. It's fast and rarely fails. Just ensure your internet connection is stable.</div>
+              <div class="tel">నేను సాధారణంగా UPI ఉపయోగిస్తాను. ఇది వేగంగా ఉంటుంది మరియు అరుదుగా విఫలమవుతుంది. మీ ఇంటర్నెట్ కనెక్షన్ స్థిరంగా ఉందని నిర్ధారించుకోండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's a good point. My network is a bit shaky sometimes.</div>
+              <div class="tel">అది మంచి పాయింట్. నా నెట్‌వర్క్ కొన్నిసార్లు కొంచెం అస్థిరంగా ఉంటుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Also, try to book early. During festivals, tickets sell out very quickly.</div>
+              <div class="tel">అలాగే, ముందుగానే బుక్ చేసుకోవడానికి ప్రయత్నించండి. పండుగల సమయంలో, టికెట్లు చాలా త్వరగా అమ్ముడవుతాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I know, I almost missed out last time. Thanks for the tips, John. I'll try booking now.</div>
+              <div class="tel">నాకు తెలుసు, గతసారి నేను దాదాపు మిస్ అయ్యాను. చిట్కాలకు ధన్యవాదాలు, జాన్. నేను ఇప్పుడు బుక్ చేయడానికి ప్రయత్నిస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">No worries. Let me know if you face any issues.</div>
+              <div class="tel">పర్వాలేదు. మీకు ఏమైనా సమస్యలు ఎదురైతే నాకు తెలియజేయండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Will do! Hopefully, I'll get confirmed tickets.</div>
+              <div class="tel">చేస్తాను! ఆశాజనకంగా, నాకు కన్ఫర్మ్ టికెట్లు వస్తాయి.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Optimizing Code Performance Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Optimizing Code Performance Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I'm working on a feature that's a bit slow. Any tips for optimizing code performance?</div>
+              <div class="tel">హే జాన్, నేను కొంచెం నెమ్మదిగా ఉన్న ఒక ఫీచర్‌పై పని చేస్తున్నాను. కోడ్ పనితీరును ఆప్టిమైజ్ చేయడానికి ఏమైనా చిట్కాలు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Definitely, Giri. First, identify the bottlenecks. Use profiling tools to see where your code spends most of its time.</div>
+              <div class="tel">ఖచ్చితంగా, గిరి. ముందుగా, అడ్డంకులను గుర్తించు. నీ కోడ్ ఎక్కువ సమయం ఎక్కడ గడుపుతుందో చూడటానికి ప్రొఫైలింగ్ టూల్స్‌ను ఉపయోగించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's a good starting point. I usually just eyeball it, which isn't very effective.</div>
+              <div class="tel">అది మంచి ప్రారంభ స్థానం. నేను సాధారణంగా దాన్ని కంటితో చూస్తాను, అది అంత ప్రభావవంతంగా ఉండదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Once you find the hotspots, focus on optimizing those specific areas. Avoid premature optimization everywhere else.</div>
+              <div class="tel">నువ్వు హాట్‌స్పాట్‌లను కనుగొన్న తర్వాత, ఆ నిర్దిష్ట ప్రాంతాలను ఆప్టిమైజ్ చేయడంపై దృష్టి సారించు. మిగతా చోట్ల అకాల ఆప్టిమైజేషన్‌ను నివారించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Right, "premature optimization is the root of all evil." I've heard that before.</div>
+              <div class="tel">సరిగ్గా, "అకాల ఆప్టిమైజేషన్ అన్ని చెడులకు మూలం." నేను అది ఇంతకు ముందు విన్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Exactly! Also, consider data structures and algorithms. Choosing the right one can make a huge difference.</div>
+              <div class="tel">ఖచ్చితంగా! అలాగే, డేటా స్ట్రక్చర్స్ మరియు అల్గోరిథమ్స్‌ను పరిగణించు. సరైనదాన్ని ఎంచుకోవడం చాలా పెద్ద తేడాను కలిగిస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">True. Sometimes a simple change in algorithm can drastically improve performance.</div>
+              <div class="tel">నిజం. కొన్నిసార్లు అల్గోరిథమ్‌లో ఒక సాధారణ మార్పు పనితీరును విపరీతంగా మెరుగుపరుస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">And don't forget about caching. Caching frequently accessed data can reduce redundant computations and database calls.</div>
+              <div class="tel">మరియు కాషింగ్ గురించి మర్చిపోవద్దు. తరచుగా యాక్సెస్ చేయబడే డేటాను కాషింగ్ చేయడం అనవసరమైన గణనలను మరియు డేటాబేస్ కాల్స్‌ను తగ్గిస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's a great point. I'll definitely implement some caching strategies.</div>
+              <div class="tel">అది గొప్ప పాయింట్. నేను ఖచ్చితంగా కొన్ని కాషింగ్ వ్యూహాలను అమలు చేస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Good luck, Giri! Optimizing code is a skill that improves with practice.</div>
+              <div class="tel">గుడ్ లక్, గిరి! కోడ్‌ను ఆప్టిమైజ్ చేయడం అనేది అభ్యాసంతో మెరుగుపడే నైపుణ్యం.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

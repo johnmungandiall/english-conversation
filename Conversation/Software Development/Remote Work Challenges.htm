@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Remote Work Challenges Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Remote Work Challenges Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, how are you finding remote work these days? Any challenges?</div>
+              <div class="tel">హే జాన్, ఈ రోజుల్లో రిమోట్ వర్క్ ఎలా ఉంది? ఏమైనా సవాళ్లు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">It has its pros and cons, Giri. The flexibility is great, but maintaining work-life balance can be tricky.</div>
+              <div class="tel">దానికి దాని లాభాలు మరియు నష్టాలు ఉన్నాయి, గిరి. సౌలభ్యం చాలా బాగుంది, కానీ పని-జీవిత సమతుల్యతను నిర్వహించడం కష్టంగా ఉంటుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I totally get that. Sometimes it feels like work never really ends when your office is at home.</div>
+              <div class="tel">నాకు పూర్తిగా అర్థమైంది. కొన్నిసార్లు నీ ఆఫీసు ఇంట్లో ఉన్నప్పుడు పని ఎప్పటికీ ముగియదు అనిపిస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Exactly! And the lack of face-to-face interaction can sometimes make communication a bit challenging.</div>
+              <div class="tel">ఖచ్చితంగా! మరియు ముఖాముఖి సంభాషణ లేకపోవడం కొన్నిసార్లు కమ్యూనికేషన్‌ను కొంచెం కష్టతరం చేస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">True. Misunderstandings can happen more easily over text or email.</div>
+              <div class="tel">నిజం. టెక్స్ట్ లేదా ఇమెయిల్ ద్వారా అపార్థాలు మరింత సులభంగా జరగవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yeah. What about staying motivated? Do you find it hard to stay focused without the office environment?</div>
+              <div class="tel">అవును. ప్రేరణతో ఉండటం గురించి ఏమిటి? ఆఫీసు వాతావరణం లేకుండా దృష్టి సారించడం కష్టంగా అనిపిస్తుందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sometimes, yes. I try to set a strict routine and take regular breaks to combat that.</div>
+              <div class="tel">కొన్నిసార్లు, అవును. నేను దానిని ఎదుర్కోవడానికి కఠినమైన దినచర్యను ఏర్పాటు చేసుకోవడానికి మరియు క్రమం తప్పకుండా విరామాలు తీసుకోవడానికి ప్రయత్నిస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's a good strategy. I've also started using a dedicated workspace to separate work from personal life.</div>
+              <div class="tel">అది మంచి వ్యూహం. నేను పనిని వ్యక్తిగత జీవితం నుండి వేరు చేయడానికి ఒక ప్రత్యేక వర్క్‌స్పేస్‌ను ఉపయోగించడం కూడా ప్రారంభించాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That helps a lot. And what about technical issues? Internet problems or software glitches?</div>
+              <div class="tel">అది చాలా సహాయపడుతుంది. మరియు సాంకేతిక సమస్యల గురించి ఏమిటి? ఇంటర్నెట్ సమస్యలు లేదా సాఫ్ట్‌వేర్ లోపాలు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Oh, those are inevitable! Having a reliable internet connection and a backup plan is crucial.</div>
+              <div class="tel">ఓహ్, అవి అనివార్యం! నమ్మకమైన ఇంటర్నెట్ కనెక్షన్ మరియు బ్యాకప్ ప్లాన్ కలిగి ఉండటం చాలా ముఖ్యం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Definitely. Despite the challenges, I still prefer remote work for the flexibility.</div>
+              <div class="tel">ఖచ్చితంగా. సవాళ్లు ఉన్నప్పటికీ, నేను ఇప్పటికీ సౌలభ్యం కోసం రిమోట్ పనిని ఇష్టపడతాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Me too. We just need to find ways to mitigate these challenges.</div>
+              <div class="tel">నేను కూడా. మనం ఈ సవాళ్లను తగ్గించడానికి మార్గాలను కనుగొనాలి.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

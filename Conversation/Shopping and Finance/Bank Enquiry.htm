@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bank Enquiry Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Bank Enquiry Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Good morning, I'd like to make an enquiry about my account.</div>
+              <div class="tel">శుభోదయం, నా ఖాతా గురించి ఒక విచారణ చేయాలనుకుంటున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Good morning. How can I help you? Do you have your account number or debit card with you?</div>
+              <div class="tel">శుభోదయం. నేను మీకు ఎలా సహాయం చేయగలను? మీ ఖాతా నంబర్ లేదా డెబిట్ కార్డ్ మీ వద్ద ఉందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, I have my debit card. My name is Giri.</div>
+              <div class="tel">అవును, నా డెబిట్ కార్డ్ ఉంది. నా పేరు గిరి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Okay, Mr. Giri. What is your enquiry about?</div>
+              <div class="tel">సరే, మిస్టర్ గిరి. మీ విచారణ దేని గురించి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I recently made an online payment, and the amount was debited, but the transaction failed. I haven't received a refund yet.</div>
+              <div class="tel">నేను ఇటీవల ఆన్‌లైన్ చెల్లింపు చేశాను, మరియు మొత్తం డెబిట్ చేయబడింది, కానీ లావాదేవీ విఫలమైంది. నాకు ఇంకా రీఫండ్ రాలేదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I see. Can you please tell me the date and amount of the transaction?</div>
+              <div class="tel">అర్థమైంది. దయచేసి లావాదేవీ తేదీ మరియు మొత్తాన్ని నాకు చెప్పగలరా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It was on September 10th, for 500 rupees.</div>
+              <div class="tel">ఇది సెప్టెంబర్ 10న, 500 రూపాయలకు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Alright. Let me check. Usually, failed transactions are automatically refunded within 3-5 business days.</div>
+              <div class="tel">సరే. నేను తనిఖీ చేస్తాను. సాధారణంగా, విఫలమైన లావాదేవీలు 3-5 పని దినాలలో స్వయంచాలకంగా రీఫండ్ చేయబడతాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It's been more than 5 days already. That's why I came to the bank.</div>
+              <div class="tel">ఇప్పటికే 5 రోజులకు పైగా అయ్యింది. అందుకే నేను బ్యాంకుకు వచ్చాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I understand. I'm checking your account details now. It seems there was a delay from the merchant's side. We will raise a dispute for you.</div>
+              <div class="tel">అర్థమైంది. నేను ఇప్పుడు మీ ఖాతా వివరాలను తనిఖీ చేస్తున్నాను. వ్యాపారి వైపు నుండి ఆలస్యం అయినట్లుంది. మేము మీ కోసం ఒక వివాదాన్ని లేవనెత్తుతాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">How long will that take?</div>
+              <div class="tel">అది ఎంత సమయం పడుతుంది?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">It might take up to 7-10 business days for the dispute resolution. You will receive an SMS update.</div>
+              <div class="tel">వివాద పరిష్కారానికి 7-10 పని దినాలు పట్టవచ్చు. మీకు SMS అప్‌డేట్ వస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, thank you for your help.</div>
+              <div class="tel">సరే, మీ సహాయానికి ధన్యవాదాలు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">You're welcome, Mr. Giri. Is there anything else I can assist you with today?</div>
+              <div class="tel">మీకు స్వాగతం, మిస్టర్ గిరి. ఈరోజు నేను మీకు ఇంకేమైనా సహాయం చేయగలనా?</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Open Source Contributions Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Open Source Contributions Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, have you ever thought about contributing to open source projects?</div>
+              <div class="tel">హే జాన్, ఓపెన్ సోర్స్ ప్రాజెక్ట్‌లకు సహకరించడం గురించి ఎప్పుడైనా ఆలోచించావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I have, Giri! It sounds like a great way to learn and give back to the community. But I'm not sure where to start.</div>
+              <div class="tel">నేను చేశాను, గిరి! నేర్చుకోవడానికి మరియు కమ్యూనిటీకి తిరిగి ఇవ్వడానికి ఇది గొప్ప మార్గం అనిపిస్తుంది. కానీ ఎక్కడ ప్రారంభించాలో నాకు తెలియదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It can be intimidating at first. A good starting point is to look for projects that use technologies you're already familiar with.</div>
+              <div class="tel">మొదట ఇది భయపెట్టేదిగా ఉంటుంది. నీకు ఇప్పటికే తెలిసిన సాంకేతికతలను ఉపయోగించే ప్రాజెక్ట్‌ల కోసం వెతకడం మంచి ప్రారంభ స్థానం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That makes sense. So, if I'm good with Python, I should look for Python projects?</div>
+              <div class="tel">అది అర్థమవుతుంది. కాబట్టి, నేను పైథాన్‌తో బాగా ఉంటే, నేను పైథాన్ ప్రాజెక్ట్‌ల కోసం వెతకాలా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Exactly! And start small. Look for issues labeled "good first issue" or "beginner-friendly."</div>
+              <div class="tel">ఖచ్చితంగా! మరియు చిన్నగా ప్రారంభించు. "good first issue" లేదా "beginner-friendly" అని లేబుల్ చేయబడిన సమస్యల కోసం వెతుకు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's a practical tip. I always thought I needed to be an expert to contribute.</div>
+              <div class="tel">అది ఒక ఆచరణాత్మక చిట్కా. సహకరించడానికి నేను నిపుణుడిని కావాలని ఎప్పుడూ అనుకునేవాడిని.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Not at all. Even fixing typos in documentation or improving error messages can be valuable contributions.</div>
+              <div class="tel">అస్సలు కాదు. డాక్యుమెంటేషన్‌లో టైపోలను సరిచేయడం లేదా ఎర్రర్ మెసేజ్‌లను మెరుగుపరచడం కూడా విలువైన సహకారాలు కావచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's encouraging! How do you find these projects? GitHub's explore page?</div>
+              <div class="tel">అది ప్రోత్సాహకరంగా ఉంది! ఈ ప్రాజెక్ట్‌లను నువ్వు ఎలా కనుగొంటావు? GitHub యొక్క ఎక్స్‌ప్లోర్ పేజీనా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, GitHub is a great resource. Also, many communities have dedicated channels or websites for new contributors.</div>
+              <div class="tel">అవును, GitHub ఒక గొప్ప వనరు. అలాగే, చాలా కమ్యూనిటీలు కొత్త సహకారుల కోసం ప్రత్యేక ఛానెల్‌లు లేదా వెబ్‌సైట్‌లను కలిగి ఉంటాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I'll check those out. Thanks for the guidance, Giri! I'm excited to start.</div>
+              <div class="tel">నేను వాటిని చూస్తాను. మార్గదర్శకత్వం ఇచ్చినందుకు ధన్యవాదాలు, గిరి! నేను ప్రారంభించడానికి ఉత్సాహంగా ఉన్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">You're welcome, John! It's a rewarding experience.</div>
+              <div class="tel">నీకు స్వాగతం, జాన్! ఇది ఒక బహుమతినిచ్చే అనుభవం.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

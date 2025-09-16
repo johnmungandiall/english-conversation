@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobile App Development Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Mobile App Development Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I'm thinking about getting into mobile app development. What platform should I start with?</div>
+              <div class="tel">హే జాన్, నేను మొబైల్ యాప్ డెవలప్‌మెంట్‌లోకి ప్రవేశించాలని ఆలోచిస్తున్నాను. నేను ఏ ప్లాట్‌ఫారమ్‌తో ప్రారంభించాలి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That depends, Giri. Do you want to target both iOS and Android, or just one?</div>
+              <div class="tel">అది ఆధారపడి ఉంటుంది, గిరి. నువ్వు iOS మరియు Android రెండింటినీ లక్ష్యంగా చేసుకోవాలనుకుంటున్నావా, లేదా ఒకదాన్ని మాత్రమేనా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Ideally, both. But I'm not sure if I should go native or use a cross-platform framework.</div>
+              <div class="tel">ఆదర్శంగా, రెండూ. కానీ నేను స్థానికంగా వెళ్లాలా లేదా క్రాస్-ప్లాట్‌ఫారమ్ ఫ్రేమ్‌వర్క్‌ను ఉపయోగించాలా అని నాకు తెలియదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Cross-platform frameworks like React Native or Flutter can save you time and effort, but native development offers better performance and access to device features.</div>
+              <div class="tel">React Native లేదా Flutter వంటి క్రాస్-ప్లాట్‌ఫారమ్ ఫ్రేమ్‌వర్క్‌లు నీ సమయాన్ని మరియు కృషిని ఆదా చేయగలవు, కానీ స్థానిక అభివృద్ధి మెరుగైన పనితీరును మరియు పరికర లక్షణాలకు యాక్సెస్‌ను అందిస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I've heard good things about React Native. Is it easy to learn if I already know JavaScript?</div>
+              <div class="tel">నేను React Native గురించి మంచి విషయాలు విన్నాను. నాకు ఇప్పటికే జావాస్క్రిప్ట్ తెలిస్తే అది నేర్చుకోవడం సులభమా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Yes, if you're comfortable with JavaScript and React, React Native will be relatively easy to pick up. You'll need to learn some mobile-specific components, though.</div>
+              <div class="tel">అవును, నీకు జావాస్క్రిప్ట్ మరియు Reactతో సౌకర్యవంతంగా ఉంటే, React Native నేర్చుకోవడం చాలా సులభం అవుతుంది. అయితే, నువ్వు కొన్ని మొబైల్-నిర్దిష్ట భాగాలను నేర్చుకోవాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">What about Flutter? I've heard it's good for creating visually appealing apps.</div>
+              <div class="tel">Flutter గురించి ఏమిటి? ఇది దృశ్యమానంగా ఆకర్షణీయమైన యాప్‌లను సృష్టించడానికి మంచిదని నేను విన్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Flutter is great for UI and has excellent performance, but it uses Dart, which you'll need to learn. It's a trade-off.</div>
+              <div class="tel">Flutter UIకి చాలా బాగుంది మరియు అద్భుతమైన పనితీరును కలిగి ఉంది, కానీ ఇది డార్ట్‌ను ఉపయోగిస్తుంది, దాన్ని నువ్వు నేర్చుకోవాలి. ఇది ఒక ట్రేడ్-ఆఫ్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hmm, that's something to consider. What about native development with Swift for iOS and Kotlin for Android?</div>
+              <div class="tel">ఉమ్, అది పరిగణించవలసిన విషయం. iOS కోసం స్విఫ్ట్ మరియు Android కోసం కోట్‌లిన్‌తో స్థానిక అభివృద్ధి గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Native development gives you the most control and performance, but it requires learning two different languages and maintaining two separate codebases.</div>
+              <div class="tel">స్థానిక అభివృద్ధి నీకు చాలా నియంత్రణ మరియు పనితీరును ఇస్తుంది, కానీ దీనికి రెండు వేర్వేరు భాషలను నేర్చుకోవడం మరియు రెండు వేర్వేరు కోడ్‌బేస్‌లను నిర్వహించడం అవసరం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That sounds like a lot of work. I think I'll start with React Native. Thanks for the advice, John!</div>
+              <div class="tel">అది చాలా పనిలా ఉంది. నేను React Nativeతో ప్రారంభిస్తాను అని అనుకుంటున్నాను. సలహా ఇచ్చినందుకు ధన్యవాదాలు, జాన్!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">No problem, Giri! Good luck with your mobile app development journey!</div>
+              <div class="tel">సమస్య లేదు, గిరి! నీ మొబైల్ యాప్ అభివృద్ధి ప్రయాణానికి శుభాకాంక్షలు!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

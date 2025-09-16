@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fancy Store Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Fancy Store Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, I need to buy some small gifts for my nieces. Do you know a good fancy store around here?</div>
+              <div class="tel">హేయ్ గిరి, నేను నా మేనకోడళ్ళ కోసం కొన్ని చిన్న బహుమతులు కొనాలి. ఇక్కడ దగ్గరలో మంచి ఫ్యాన్సీ స్టోర్ నీకు తెలుసా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, there's a popular one called "Surprise Corner" near the park. They have a lot of cute and affordable items.</div>
+              <div class="tel">అవును, పార్కు దగ్గర "సర్ప్రైజ్ కార్నర్" అనే ప్రసిద్ధ దుకాణం ఉంది. వారి దగ్గర చాలా అందమైన మరియు సరసమైన వస్తువులు ఉన్నాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Surprise Corner, sounds fun! What kind of items do they usually have?</div>
+              <div class="tel">సర్ప్రైజ్ కార్నర్, సరదాగా ఉంది! వారి దగ్గర సాధారణంగా ఎలాంటి వస్తువులు ఉంటాయి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">You'll find stationery, small toys, hair accessories, decorative items, and a lot of trendy stuff.</div>
+              <div class="tel">మీకు స్టేషనరీ, చిన్న బొమ్మలు, హెయిర్ యాక్సెసరీస్, అలంకరణ వస్తువులు మరియు చాలా ట్రెండీ వస్తువులు దొరుకుతాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Perfect! I'm looking for something for girls aged 8 and 12.</div>
+              <div class="tel">ఖచ్చితంగా! నేను 8 మరియు 12 సంవత్సరాల వయస్సు గల అమ్మాయిల కోసం ఏదైనా చూస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">They'll have plenty of options for those age groups. You might even find some cool diaries or colorful pens.</div>
+              <div class="tel">ఆ వయస్సుల వారికి చాలా ఎంపికలు ఉంటాయి. మీరు కొన్ని మంచి డైరీలు లేదా రంగుల పెన్నులు కూడా కనుగొనవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's great. I hope I don't end up buying too much for myself!</div>
+              <div class="tel">అది చాలా బాగుంది. నేను నా కోసం చాలా కొనుగోలు చేయకుండా ఉంటానని ఆశిస్తున్నాను!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Haha, it's easy to get carried away in fancy stores. Just stick to your list.</div>
+              <div class="tel">హహ, ఫ్యాన్సీ స్టోర్‌లలో కొట్టుకుపోవడం సులభం. నీ జాబితాకు కట్టుబడి ఉండు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Will do. Thanks for the recommendation, Giri!</div>
+              <div class="tel">చేస్తాను. సిఫార్సు కోసం ధన్యవాదాలు, గిరి!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">No problem, John. Happy shopping!</div>
+              <div class="tel">పర్వాలేదు, జాన్. షాపింగ్ ఆనందించండి!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

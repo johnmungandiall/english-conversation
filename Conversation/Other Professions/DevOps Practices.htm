@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DevOps Practices Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>DevOps Practices Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Engineer</span></td>
+            <td>
+              <div class="eng">Hey Chef, how can DevOps practices help us in our project?</div>
+              <div class="tel">హే చెఫ్, DevOps పద్ధతులు మన ప్రాజెక్ట్‌లో మనకు ఎలా సహాయపడతాయి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Chef</span></td>
+            <td>
+              <div class="eng">Well, Engineer, DevOps can streamline our workflow, automate tasks, and improve collaboration between development and operations.</div>
+              <div class="tel">సరే, ఇంజనీర్, DevOps మన వర్క్‌ఫ్లోను క్రమబద్ధీకరించగలదు, పనులను ఆటోమేట్ చేయగలదు మరియు అభివృద్ధి మరియు కార్యకలాపాల మధ్య సహకారాన్ని మెరుగుపరచగలదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Engineer</span></td>
+            <td>
+              <div class="eng">That sounds great. Can you give me some specific examples?</div>
+              <div class="tel">అది చాలా బాగుంది. కొన్ని నిర్దిష్ట ఉదాహరణలు ఇవ్వగలరా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Chef</span></td>
+            <td>
+              <div class="eng">Sure. With CI/CD pipelines, we can automate the build, test, and deployment processes. This reduces manual errors and speeds up the release cycle.</div>
+              <div class="tel">ఖచ్చితంగా. CI/CD పైప్‌లైన్‌లతో, మనం బిల్డ్, టెస్ట్ మరియు డిప్లాయ్‌మెంట్ ప్రక్రియలను ఆటోమేట్ చేయవచ్చు. ఇది మాన్యువల్ లోపాలను తగ్గిస్తుంది మరియు విడుదల చక్రాన్ని వేగవంతం చేస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Engineer</span></td>
+            <td>
+              <div class="eng">That makes sense. What about infrastructure management?</div>
+              <div class="tel">అది అర్థమవుతుంది. మౌలిక సదుపాయాల నిర్వహణ గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Chef</span></td>
+            <td>
+              <div class="eng">With infrastructure as code (IaC), we can define and manage our infrastructure using code. This makes it easier to provision and scale resources.</div>
+              <div class="tel">కోడ్‌గా మౌలిక సదుపాయాలతో (IaC), మనం కోడ్‌ను ఉపయోగించి మన మౌలిక సదుపాయాలను నిర్వచించవచ్చు మరియు నిర్వహించవచ్చు. ఇది వనరులను అందించడం మరియు స్కేల్ చేయడం సులభతరం చేస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Engineer</span></td>
+            <td>
+              <div class="eng">That sounds efficient. What about monitoring and logging?</div>
+              <div class="tel">అది సమర్థవంతంగా అనిపిస్తుంది. పర్యవేక్షణ మరియు లాగింగ్ గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Chef</span></td>
+            <td>
+              <div class="eng">Centralized logging and monitoring help us quickly identify and resolve issues. We can set up alerts to notify us of any problems.</div>
+              <div class="tel">కేంద్రీకృత లాగింగ్ మరియు పర్యవేక్షణ సమస్యలను త్వరగా గుర్తించడానికి మరియు పరిష్కరించడానికి మాకు సహాయపడతాయి. ఏవైనా సమస్యల గురించి మాకు తెలియజేయడానికి మేము హెచ్చరికలను ఏర్పాటు చేయవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Engineer</span></td>
+            <td>
+              <div class="eng">That's great. So, DevOps can help us improve our efficiency, reliability, and collaboration.</div>
+              <div class="tel">అది చాలా బాగుంది. కాబట్టి, DevOps మన సామర్థ్యం, విశ్వసనీయత మరియు సహకారాన్ని మెరుగుపరచడంలో సహాయపడుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Chef</span></td>
+            <td>
+              <div class="eng">Exactly! It's a culture of continuous improvement and collaboration.</div>
+              <div class="tel">ఖచ్చితంగా! ఇది నిరంతర అభివృద్ధి మరియు సహకారం యొక్క సంస్కృతి.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

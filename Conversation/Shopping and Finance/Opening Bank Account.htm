@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Opening Bank Account Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Opening Bank Account Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Good morning. I'd like to open a new bank account.</div>
+              <div class="tel">శుభోదయం. నేను కొత్త బ్యాంక్ ఖాతా తెరవాలనుకుంటున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Good morning. Sure, we can help you with that. What type of account are you looking for? Savings or Current?</div>
+              <div class="tel">శుభోదయం. ఖచ్చితంగా, మేము మీకు సహాయం చేయగలం. మీరు ఏ రకమైన ఖాతా కోసం చూస్తున్నారు? సేవింగ్స్ లేదా కరెంట్?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">A savings account, please. What documents do I need to bring?</div>
+              <div class="tel">సేవింగ్స్ ఖాతా, దయచేసి. నేను ఏ పత్రాలను తీసుకురావాలి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">You'll need your Aadhar card, PAN card, and proof of address like a utility bill or passport.</div>
+              <div class="tel">మీకు ఆధార్ కార్డ్, పాన్ కార్డ్ మరియు యుటిలిటీ బిల్లు లేదా పాస్‌పోర్ట్ వంటి చిరునామా రుజువు అవసరం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Okay, I have all of those. Is there any minimum balance requirement for the savings account?</div>
+              <div class="tel">సరే, నా దగ్గర అవన్నీ ఉన్నాయి. సేవింగ్స్ ఖాతాకు ఏదైనా కనీస బ్యాలెన్స్ అవసరం ఉందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, for a regular savings account, the minimum balance is 5,000 rupees.</div>
+              <div class="tel">అవును, సాధారణ సేవింగ్స్ ఖాతాకు, కనీస బ్యాలెన్స్ 5,000 రూపాయలు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">And what about interest rates?</div>
+              <div class="tel">మరి వడ్డీ రేట్లు ఎలా ఉంటాయి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Our current interest rate for savings accounts is 3% per annum.</div>
+              <div class="tel">సేవింగ్స్ ఖాతాలకు మా ప్రస్తుత వడ్డీ రేటు సంవత్సరానికి 3%.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That sounds reasonable. How long does it take to open the account?</div>
+              <div class="tel">అది సహేతుకంగా ఉంది. ఖాతా తెరవడానికి ఎంత సమయం పడుతుంది?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">If all documents are in order, it usually takes about 30 minutes to complete the formalities. You'll get your account number and debit card instantly.</div>
+              <div class="tel">అన్ని పత్రాలు సరిగ్గా ఉంటే, లాంఛనాలను పూర్తి చేయడానికి సాధారణంగా 30 నిమిషాలు పడుతుంది. మీకు మీ ఖాతా నంబర్ మరియు డెబిట్ కార్డ్ తక్షణమే లభిస్తాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Great! I'm ready to proceed then.</div>
+              <div class="tel">గొప్పది! నేను అప్పుడు కొనసాగడానికి సిద్ధంగా ఉన్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Excellent. Please fill out this form, and I'll guide you through the rest of the process.</div>
+              <div class="tel">అద్భుతం. దయచేసి ఈ ఫారమ్‌ను పూరించండి, మరియు నేను మిగిలిన ప్రక్రియ ద్వారా మీకు మార్గనిర్దేశం చేస్తాను.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

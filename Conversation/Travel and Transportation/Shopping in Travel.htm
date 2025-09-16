@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shopping in Travel Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Shopping in Travel Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I'm thinking of buying some local handicrafts as souvenirs. Any recommendations?</div>
+              <div class="tel">హేయ్ జాన్, నేను కొన్ని స్థానిక చేతిపనుల వస్తువులను సావనీర్‌లుగా కొనాలని అనుకుంటున్నాను. ఏమైనా సిఫార్సులు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Absolutely! The market near the temple has some amazing stuff. You'll find unique wooden carvings and traditional textiles there.</div>
+              <div class="tel">ఖచ్చితంగా! గుడి దగ్గర ఉన్న మార్కెట్‌లో కొన్ని అద్భుతమైన వస్తువులు ఉన్నాయి. అక్కడ మీకు ప్రత్యేకమైన చెక్క చెక్కడాలు మరియు సాంప్రదాయ వస్త్రాలు దొరుకుతాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sounds interesting. Are the prices negotiable, or are they fixed?</div>
+              <div class="tel">ఆసక్తికరంగా ఉంది. ధరలు బేరం చేయదగినవా, లేదా స్థిరంగా ఉంటాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Mostly negotiable, especially if you're buying multiple items. Don't hesitate to bargain a bit.</div>
+              <div class="tel">ఎక్కువగా బేరం చేయదగినవి, ముఖ్యంగా మీరు బహుళ వస్తువులను కొనుగోలు చేస్తుంటే. కొంచెం బేరం చేయడానికి వెనుకాడకండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Good to know! I'm also looking for some local spices.</div>
+              <div class="tel">తెలుసుకోవడం మంచిది! నేను కొన్ని స్థానిక మసాలా దినుసుల కోసం కూడా చూస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">For spices, head to the old town area. There are small shops that sell fresh, authentic spices at good prices.</div>
+              <div class="tel">మసాలా దినుసుల కోసం, పాత పట్టణ ప్రాంతానికి వెళ్ళండి. అక్కడ తాజా, ప్రామాణికమైన మసాలా దినుసులను మంచి ధరలకు విక్రయించే చిన్న దుకాణాలు ఉన్నాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Perfect! I want to bring back some unique flavors.</div>
+              <div class="tel">ఖచ్చితంగా! నేను కొన్ని ప్రత్యేకమైన రుచులను తిరిగి తీసుకురావాలనుకుంటున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Just be mindful of your luggage weight if you're flying. Spices can add up quickly.</div>
+              <div class="tel">మీరు విమానంలో ప్రయాణిస్తుంటే మీ సామాను బరువు గురించి జాగ్రత్తగా ఉండండి. మసాలా దినుసులు త్వరగా బరువును పెంచుతాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Oh, good point! I almost forgot about that. Thanks for the reminder.</div>
+              <div class="tel">ఓహ్, మంచి పాయింట్! నేను దాదాపు దాని గురించి మర్చిపోయాను. గుర్తుచేసినందుకు ధన్యవాదాలు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">No problem. Enjoy your shopping spree!</div>
+              <div class="tel">పర్వాలేదు. మీ షాపింగ్ ఆనందించండి!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I will! See you later.</div>
+              <div class="tel">చేస్తాను! మళ్ళీ కలుద్దాం.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

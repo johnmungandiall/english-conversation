@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Freelance Projects Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Freelance Projects Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, I've been thinking about taking on some freelance projects to earn extra income.</div>
+              <div class="tel">హే గిరి, నేను అదనపు ఆదాయం సంపాదించడానికి కొన్ని ఫ్రీలాన్స్ ప్రాజెక్ట్‌లను తీసుకోవాలని ఆలోచిస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's a great idea, John! Freelancing can be very rewarding. What kind of projects are you looking for?</div>
+              <div class="tel">అది గొప్ప ఆలోచన, జాన్! ఫ్రీలాన్సింగ్ చాలా బహుమతినిచ్చేదిగా ఉంటుంది. నువ్వు ఎలాంటి ప్రాజెక్ట్‌ల కోసం చూస్తున్నావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Mostly web development, maybe some small business websites or custom web applications.</div>
+              <div class="tel">ఎక్కువగా వెబ్ డెవలప్‌మెంట్, బహుశా కొన్ని చిన్న వ్యాపార వెబ్‌సైట్‌లు లేదా కస్టమ్ వెబ్ అప్లికేషన్‌లు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Perfect. There's a high demand for that. Have you considered platforms like Upwork or Fiverr?</div>
+              <div class="tel">ఖచ్చితంగా. దానికి చాలా డిమాండ్ ఉంది. నువ్వు అప్‌వర్క్ లేదా ఫైవర్ వంటి ప్లాట్‌ఫారమ్‌లను పరిగణించావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I've looked at them, but I'm a bit hesitant about the competition and pricing.</div>
+              <div class="tel">నేను వాటిని చూశాను, కానీ పోటీ మరియు ధరల గురించి నేను కొంచెం సంకోచిస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It can be tough initially, but building a strong portfolio and getting good reviews will help you stand out.</div>
+              <div class="tel">మొదట కష్టంగా ఉండవచ్చు, కానీ బలమైన పోర్ట్‌ఫోలియోను నిర్మించడం మరియు మంచి సమీక్షలను పొందడం నీకు ప్రత్యేకంగా నిలబడటానికి సహాయపడుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's true. How do you manage client communication and project scope?</div>
+              <div class="tel">అది నిజం. నువ్వు క్లయింట్ కమ్యూనికేషన్ మరియు ప్రాజెక్ట్ స్కోప్‌ను ఎలా నిర్వహిస్తావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Clear communication is key. Always set expectations upfront, define deliverables, and use a contract.</div>
+              <div class="tel">స్పష్టమైన కమ్యూనికేషన్ కీలకం. ఎల్లప్పుడూ అంచనాలను ముందుగానే సెట్ చేయండి, డెలివరబుల్స్‌ను నిర్వచించండి మరియు ఒప్పందాన్ని ఉపయోగించండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">A contract is a good point. I should definitely look into that.</div>
+              <div class="tel">ఒప్పందం ఒక మంచి పాయింట్. నేను ఖచ్చితంగా దాని గురించి చూడాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">And don't undervalue your work. Charge what you're worth, and be confident in your skills.</div>
+              <div class="tel">మరియు నీ పనిని తక్కువ అంచనా వేయవద్దు. నీ విలువకు తగినంత వసూలు చేయి, మరియు నీ నైపుణ్యాలపై నమ్మకంగా ఉండు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Thanks for the encouragement, Giri! I feel more confident now.</div>
+              <div class="tel">ప్రోత్సాహానికి ధన్యవాదాలు, గిరి! ఇప్పుడు నేను మరింత నమ్మకంగా ఉన్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Anytime, John! Good luck with your freelance journey.</div>
+              <div class="tel">ఎప్పుడైనా, జాన్! నీ ఫ్రీలాన్స్ ప్రయాణానికి శుభాకాంక్షలు.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

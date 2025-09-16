@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cloth Shopping Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Cloth Shopping Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I'm going to the mall for some cloth shopping. Do you want to join?</div>
+              <div class="tel">హేయ్ జాన్, నేను బట్టల షాపింగ్ కోసం మాల్‌కి వెళ్తున్నాను. నువ్వు వస్తావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Sure, I need a new shirt anyway. What kind of clothes are you looking for?</div>
+              <div class="tel">ఖచ్చితంగా, నాకు కొత్త షర్ట్ కావాలి. నువ్వు ఎలాంటి బట్టల కోసం చూస్తున్నావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I'm looking for some casual wear, maybe a few t-shirts and a pair of jeans.</div>
+              <div class="tel">నేను కొన్ని క్యాజువల్ వేర్ కోసం చూస్తున్నాను, బహుశా కొన్ని టీ-షర్టులు మరియు ఒక జీన్స్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Nice. I saw some good offers at Lifestyle last week. We can check there first.</div>
+              <div class="tel">బాగుంది. నేను గత వారం లైఫ్‌స్టైల్‌లో కొన్ని మంచి ఆఫర్‌లు చూశాను. మనం ముందు అక్కడ తనిఖీ చేయవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sounds good. I also need a new pair of shoes.</div>
+              <div class="tel">బాగుంది. నాకు కొత్త జత బూట్లు కూడా కావాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Okay, we can check the shoe stores after Lifestyle. Are you looking for formal or casual shoes?</div>
+              <div class="tel">సరే, లైఫ్‌స్టైల్ తర్వాత షూ స్టోర్‌లను తనిఖీ చేయవచ్చు. మీరు ఫార్మల్ లేదా క్యాజువల్ షూస్ కోసం చూస్తున్నారా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Casual sneakers would be great. Something comfortable for daily wear.</div>
+              <div class="tel">క్యాజువల్ స్నీకర్లు బాగుంటాయి. రోజువారీ ధరించడానికి సౌకర్యవంతమైనది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Perfect. Let's meet at the mall entrance in 30 minutes?</div>
+              <div class="tel">ఖచ్చితంగా. 30 నిమిషాల్లో మాల్ ప్రవేశ ద్వారం వద్ద కలుద్దామా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sounds like a plan. See you there!</div>
+              <div class="tel">ప్లాన్ లా ఉంది. అక్కడ కలుద్దాం!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">See ya!</div>
+              <div class="tel">కలుద్దాం!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

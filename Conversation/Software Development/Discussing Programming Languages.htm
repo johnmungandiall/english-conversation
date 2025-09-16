@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Discussing Programming Languages Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Discussing Programming Languages Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, what programming languages are you working with these days?</div>
+              <div class="tel">హే జాన్, ఈ రోజుల్లో మీరు ఏ ప్రోగ్రామింగ్ భాషలతో పనిచేస్తున్నారు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, mostly Python and JavaScript. Python for backend and scripting, JavaScript for frontend. What about you?</div>
+              <div class="tel">హే గిరి, ఎక్కువగా పైథాన్ మరియు జావాస్క్రిప్ట్. బ్యాకెండ్ మరియు స్క్రిప్టింగ్ కోసం పైథాన్, ఫ్రంటెండ్ కోసం జావాస్క్రిప్ట్. నీ సంగతి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I'm diving deep into Java and a bit of Kotlin for Android development.</div>
+              <div class="tel">నేను ఆండ్రాయిడ్ అభివృద్ధి కోసం జావా మరియు కొద్దిగా కోట్‌లిన్‌లోకి లోతుగా వెళుతున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Kotlin is pretty cool, I've heard. Is it much different from Java?</div>
+              <div class="tel">కోట్‌లిన్ చాలా బాగుంది, నేను విన్నాను. ఇది జావా కంటే చాలా భిన్నంగా ఉందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It's more concise and has some modern features that Java doesn't. Plus, null safety is a big win.</div>
+              <div class="tel">ఇది మరింత సంక్షిప్తంగా ఉంటుంది మరియు జావాలో లేని కొన్ని ఆధునిక లక్షణాలను కలిగి ఉంది. అదనంగా, నల్ భద్రత ఒక పెద్ద విజయం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Nice! I've been meaning to try it out. Python's simplicity is hard to beat though.</div>
+              <div class="tel">నైస్! నేను దాన్ని ప్రయత్నించాలని అనుకుంటున్నాను. పైథాన్ యొక్క సరళతను ఓడించడం కష్టం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">True, Python is great for quick prototyping. But Java has its place in enterprise applications.</div>
+              <div class="tel">నిజం, పైథాన్ శీఘ్ర నమూనా కోసం చాలా బాగుంది. కానీ ఎంటర్‌ప్రైజ్ అప్లికేషన్‌లలో జావాకు దాని స్థానం ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yeah, and JavaScript is everywhere these days. Frontend, backend with Node.js... it's unavoidable.</div>
+              <div class="tel">అవును, మరియు జావాస్క్రిప్ట్ ఈ రోజుల్లో ప్రతిచోటా ఉంది. ఫ్రంటెండ్, Node.jsతో బ్యాకెండ్... ఇది తప్పనిసరి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Tell me about it! I'm trying to avoid JavaScript as much as possible, but it's hard.</div>
+              <div class="tel">నాకు దాని గురించి చెప్పు! నేను జావాస్క్రిప్ట్‌ను వీలైనంత వరకు నివారించడానికి ప్రయత్నిస్తున్నాను, కానీ అది కష్టం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Haha, I feel you. What about databases? Any preferences there?</div>
+              <div class="tel">హహ, నేను నిన్ను అర్థం చేసుకోగలను. డేటాబేస్‌ల గురించి ఏమిటి? అక్కడ ఏవైనా ప్రాధాన్యతలు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I'm mostly using SQL databases like PostgreSQL. They're reliable and well-understood.</div>
+              <div class="tel">నేను ఎక్కువగా PostgreSQL వంటి SQL డేటాబేస్‌లను ఉపయోగిస్తున్నాను. అవి నమ్మదగినవి మరియు బాగా అర్థం చేసుకున్నవి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I'm a big fan of NoSQL databases like MongoDB for their flexibility. But SQL is still essential.</div>
+              <div class="tel">నేను వాటి వశ్యత కోసం MongoDB వంటి NoSQL డేటాబేస్‌లకు పెద్ద అభిమానిని. కానీ SQL ఇప్పటికీ అవసరం.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

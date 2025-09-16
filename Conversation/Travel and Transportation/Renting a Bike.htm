@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Renting a Bike Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Renting a Bike Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I was thinking of renting a bike to explore the city. Do you know any good places?</div>
+              <div class="tel">హేయ్ జాన్, నేను నగరాన్ని అన్వేషించడానికి ఒక బైక్ అద్దెకు తీసుకోవాలని అనుకుంటున్నాను. నీకు మంచి ప్రదేశాలు ఏమైనా తెలుసా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yeah, there's a shop near the railway station that rents out bikes at reasonable prices. I used them last time.</div>
+              <div class="tel">అవును, రైల్వే స్టేషన్ దగ్గర ఒక షాప్ ఉంది, అది బైక్‌లను సరసమైన ధరలకు అద్దెకు ఇస్తుంది. నేను గతసారి వారిని ఉపయోగించాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Oh, that's convenient. What kind of bikes do they have? I'm looking for something easy to ride.</div>
+              <div class="tel">ఓహ్, అది సౌకర్యవంతంగా ఉంది. వారి దగ్గర ఎలాంటి బైక్‌లు ఉన్నాయి? నేను సులభంగా నడపగలిగేది చూస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">They have scooters like Activa and also some geared bikes. For city exploration, an Activa would be perfect.</div>
+              <div class="tel">వారి దగ్గర యాక్టివా వంటి స్కూటర్లు మరియు కొన్ని గేర్ బైక్‌లు కూడా ఉన్నాయి. నగర అన్వేషణకు, యాక్టివా సరైనది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sounds good. What are the rental charges like?</div>
+              <div class="tel">బాగుంది. అద్దె ఛార్జీలు ఎలా ఉంటాయి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">For an Activa, it's usually around 300-400 rupees for 24 hours, depending on the season. You'll need to leave an ID proof.</div>
+              <div class="tel">యాక్టివా కోసం, సీజన్‌ను బట్టి 24 గంటలకు సాధారణంగా 300-400 రూపాయలు ఉంటుంది. మీరు ఒక ID ప్రూఫ్ వదిలివేయాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, that's pretty standard. Do they provide helmets?</div>
+              <div class="tel">సరే, అది చాలా ప్రామాణికం. వారు హెల్మెట్‌లు అందిస్తారా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, they do. Always wear one, Giri. Safety first!</div>
+              <div class="tel">అవును, వారు అందిస్తారు. ఎప్పుడూ ఒకటి ధరించండి, గిరి. భద్రత ముఖ్యం!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Of course. I'll make sure to check the bike's condition before taking it.</div>
+              <div class="tel">ఖచ్చితంగా. నేను బైక్ తీసుకునే ముందు దాని పరిస్థితిని తనిఖీ చేస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Good call. Take pictures of any existing damages. It helps avoid disputes later.</div>
+              <div class="tel">మంచి ఆలోచన. ఇప్పటికే ఉన్న నష్టాల ఫోటోలు తీసుకోండి. ఇది తరువాత వివాదాలను నివారించడానికి సహాయపడుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Smart tip! Thanks, John. I'll head there now.</div>
+              <div class="tel">స్మార్ట్ చిట్కా! ధన్యవాదాలు, జాన్. నేను ఇప్పుడు అక్కడికి వెళ్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Have fun exploring! Be careful on the roads.</div>
+              <div class="tel">అన్వేషించడం ఆనందించండి! రోడ్లపై జాగ్రత్తగా ఉండండి.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Handling Bugs Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Handling Bugs Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, I just found a critical bug in the production environment. It's affecting user logins.</div>
+              <div class="tel">హే గిరి, నేను ఇప్పుడే ప్రొడక్షన్ ఎన్విరాన్‌మెంట్‌లో ఒక కీలకమైన బగ్‌ను కనుగొన్నాను. ఇది యూజర్ లాగిన్‌లను ప్రభావితం చేస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Oh no, that's serious! Have you checked the logs to pinpoint the issue?</div>
+              <div class="tel">ఓహ్ నో, అది తీవ్రమైనది! సమస్యను గుర్తించడానికి లాగ్‌లను తనిఖీ చేశావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, it seems to be an issue with the authentication token validation. It's failing intermittently.</div>
+              <div class="tel">అవును, ఇది ప్రమాణీకరణ టోకెన్ ధృవీకరణతో సమస్యగా అనిపిస్తుంది. ఇది అడపాదడపా విఫలమవుతోంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Intermittent issues are the worst. Let's try to reproduce it in the staging environment first.</div>
+              <div class="tel">అడపాదడపా సమస్యలు చాలా చెడ్డవి. ముందుగా స్టేజింగ్ ఎన్విరాన్‌మెంట్‌లో దాన్ని పునరుత్పత్తి చేయడానికి ప్రయత్నిద్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Good idea. I'll set up a debugging session. Can you join me in about 15 minutes?</div>
+              <div class="tel">మంచి ఆలోచన. నేను డీబగ్గింగ్ సెషన్‌ను ఏర్పాటు చేస్తాను. నువ్వు సుమారు 15 నిమిషాల్లో నాతో చేరగలవా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Absolutely. I'll clear my schedule. We need to prioritize this.</div>
+              <div class="tel">ఖచ్చితంగా. నేను నా షెడ్యూల్‌ను క్లియర్ చేస్తాను. మనం దీనికి ప్రాధాన్యత ఇవ్వాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Thanks, Giri. Once we identify the root cause, we can work on a hotfix.</div>
+              <div class="tel">ధన్యవాదాలు, గిరి. మనం మూల కారణాన్ని గుర్తించిన తర్వాత, మనం హాట్‌ఫిక్స్‌పై పని చేయవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Sounds like a plan. We should also consider adding more robust error logging for this module.</div>
+              <div class="tel">ఒక ప్రణాళికలా అనిపిస్తుంది. మనం ఈ మాడ్యూల్ కోసం మరింత పటిష్టమైన ఎర్రర్ లాగింగ్‌ను కూడా పరిగణించాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Definitely. Prevention is better than cure.</div>
+              <div class="tel">ఖచ్చితంగా. నివారణ చికిత్స కంటే మెరుగు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Agreed. Let's get this fixed quickly.</div>
+              <div class="tel">అంగీకరిస్తున్నాను. దీన్ని త్వరగా పరిష్కరిద్దాం.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

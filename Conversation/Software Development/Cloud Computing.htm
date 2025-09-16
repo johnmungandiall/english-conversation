@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cloud Computing Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Cloud Computing Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, I've been diving deep into cloud computing lately. It's fascinating how much it's changed the industry.</div>
+              <div class="tel">హే గిరి, నేను ఈ మధ్య క్లౌడ్ కంప్యూటింగ్ లోకి లోతుగా వెళ్తున్నాను. ఇది పరిశ్రమను ఎంతగా మార్చిందో ఆశ్చర్యంగా ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Absolutely, John. The scalability and flexibility it offers are game-changers. Are you focusing on any specific cloud provider?</div>
+              <div class="tel">ఖచ్చితంగా, జాన్. ఇది అందించే స్కేలబిలిటీ మరియు ఫ్లెక్సిబిలిటీ గేమ్-ఛేంజర్‌లు. నువ్వు ఏదైనా నిర్దిష్ట క్లౌడ్ ప్రొవైడర్‌పై దృష్టి సారిస్తున్నావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Mainly AWS, as it's widely used. I'm trying to get a good grasp of EC2, S3, and Lambda functions.</div>
+              <div class="tel">ఎక్కువగా AWS, ఇది విస్తృతంగా ఉపయోగించబడుతుంది కాబట్టి. నేను EC2, S3 మరియు లాంబ్డా ఫంక్షన్‌లపై మంచి పట్టు సాధించడానికి ప్రయత్నిస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Those are essential services. Understanding serverless computing with Lambda is particularly valuable.</div>
+              <div class="tel">అవి అవసరమైన సేవలు. లాంబ్డాతో సర్వర్‌లెస్ కంప్యూటింగ్‌ను అర్థం చేసుకోవడం చాలా విలువైనది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yeah, the idea of not managing servers is very appealing. What about security in the cloud?</div>
+              <div class="tel">అవును, సర్వర్‌లను నిర్వహించకపోవడం అనే ఆలోచన చాలా ఆకర్షణీయంగా ఉంది. క్లౌడ్‌లో భద్రత గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It's a shared responsibility model. Cloud providers secure the infrastructure, but we're responsible for securing our data and applications.</div>
+              <div class="tel">ఇది భాగస్వామ్య బాధ్యత నమూనా. క్లౌడ్ ప్రొవైడర్‌లు మౌలిక సదుపాయాలను సురక్షితం చేస్తారు, కానీ మన డేటా మరియు అప్లికేషన్‌లను సురక్షితం చేయడానికి మనం బాధ్యత వహిస్తాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That makes sense. So, proper IAM policies and encryption are crucial.</div>
+              <div class="tel">అది అర్థమవుతుంది. కాబట్టి, సరైన IAM విధానాలు మరియు ఎన్‌క్రిప్షన్ చాలా ముఖ్యమైనవి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Exactly. And always follow the principle of least privilege. Only grant necessary permissions.</div>
+              <div class="tel">ఖచ్చితంగా. మరియు ఎల్లప్పుడూ కనీస అధికార సూత్రాన్ని అనుసరించండి. అవసరమైన అనుమతులను మాత్రమే మంజూరు చేయండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Good advice. I'm also looking into containerization with Docker and Kubernetes for cloud deployments.</div>
+              <div class="tel">మంచి సలహా. నేను క్లౌడ్ డిప్లాయ్‌మెంట్‌ల కోసం డాకర్ మరియు కుబెర్నెటెస్‌తో కంటైనరైజేషన్ గురించి కూడా చూస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Smart move. Containers make deployments consistent and scalable across different environments.</div>
+              <div class="tel">తెలివైన చర్య. కంటైనర్‌లు వివిధ ఎన్విరాన్‌మెంట్‌లలో డిప్లాయ్‌మెంట్‌లను స్థిరంగా మరియు స్కేలబుల్‌గా చేస్తాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Thanks, Giri! This conversation has been really helpful.</div>
+              <div class="tel">ధన్యవాదాలు, గిరి! ఈ సంభాషణ నిజంగా సహాయకరంగా ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Anytime, John! Cloud computing is a vast field, keep exploring!</div>
+              <div class="tel">ఎప్పుడైనా, జాన్! క్లౌడ్ కంప్యూటింగ్ ఒక విస్తారమైన రంగం, అన్వేషిస్తూ ఉండు!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

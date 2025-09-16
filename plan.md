@@ -4,8 +4,8 @@
 This plan outlines the steps to generate HTML conversation files for all 245 topics listed in `topics.txt`. The topics are categorized into 8 sections: Home and Daily Life (18 topics), Leisure and Entertainment (10 topics), Social Interactions (3 topics), Education and Study (59 topics), Travel and Transportation (57 topics), Shopping and Finance (53 topics), Software Development (25 topics), and Other Professions (20 topics).
 
 ## Current Progress
-- Completed: 121 topics
-- Remaining: 123 topics
+- Completed: 214 topics
+- Remaining: 31 topics
 
 ## Steps
 1. **Extract Topics**: Parse `topics.txt` to get the list of topics.
@@ -219,128 +219,128 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 #### 5.7 Travel Services
 - [x] Booking tickets
 - [x] Asking ticket counter
-- [ ] Foreign travel visa
-- [ ] Immigration checking
-- [ ] Lost passport
-- [ ] Asking travel agent
-- [ ] Booking through app
-- [ ] Travel budget
+- [x] Foreign travel visa
+- [x] Immigration checking
+- [x] Lost passport
+- [x] Asking travel agent
+- [x] Booking through app
+- [x] Travel budget
 
 #### 5.8 Road Travel
-- [ ] Asking petrol pump
-- [ ] Toll gate discussion
-- [ ] Highway dhaba stop
-- [ ] Renting a bike
-- [ ] Bus depot enquiry
+- [x] Asking petrol pump
+- [x] Toll gate discussion
+- [x] Highway dhaba stop
+- [x] Renting a bike
+- [x] Bus depot enquiry
 
 #### 5.9 Miscellaneous
-- [ ] Post office visit
-- [ ] Finding restrooms
-- [ ] Shopping in travel
+- [x] Post office visit
+- [x] Finding restrooms
+- [x] Shopping in travel
 
 ### 6. Shopping and Finance (53 topics)
 
 #### 6.1 Food Shopping
-- [ ] Buying fruits
-- [ ] Grocery shopping
-- [ ] Buying vegetables
-- [ ] Supermarket talk
-- [ ] Grocery online order
+- [x] Buying fruits
+- [x] Grocery shopping
+- [x] Buying vegetables
+- [x] Supermarket talk
+- [x] Grocery online order
 
 #### 6.2 Clothing and Accessories
-- [ ] Cloth shopping
-- [ ] Saree shop talk
-- [ ] Shoe shop talk
-- [ ] Buying bag
-- [ ] Buying watch
-- [ ] Buying perfume
-- [ ] Jewellery shop talk
-- [ ] Fancy store
+- [x] Cloth shopping
+- [x] Saree shop talk
+- [x] Shoe shop talk
+- [x] Buying bag
+- [x] Buying watch
+- [x] Buying perfume
+- [x] Jewellery shop talk
+- [x] Fancy store
 
 #### 6.3 Electronics and Gadgets
-- [ ] Buying phone
-- [ ] Laptop shop talk
-- [ ] Mobile accessories
-- [ ] Buying earphones
-- [ ] Asking for warranty
+- [x] Buying phone
+- [x] Laptop shop talk
+- [x] Mobile accessories
+- [x] Buying earphones
+- [x] Asking for warranty
 
 #### 6.4 Online Shopping
-- [ ] Amazon shopping
-- [ ] Flipkart order
-- [ ] Return product
-- [ ] Online shopping
+- [x] Amazon shopping
+- [x] Flipkart order
+- [x] Return product
+- [x] Online shopping
 
 #### 6.5 Financial Services
-- [ ] ATM problem
-- [ ] Bank enquiry
-- [ ] Opening bank account
-- [ ] Taking passbook
-- [ ] Updating KYC
-- [ ] Loan enquiry
-- [ ] Fixed deposit talk
-- [ ] Credit card offer
-- [ ] Debit card block
-- [ ] At the ATM
+- [x] ATM problem
+- [x] Bank enquiry
+- [x] Opening bank account
+- [x] Taking passbook
+- [x] Updating KYC
+- [x] Loan enquiry
+- [x] Fixed deposit talk
+- [x] Credit card offer
+- [x] Debit card block
+- [x] At the ATM
 
 #### 6.6 Payments and Transactions
-- [ ] Online refund
-- [ ] UPI payment fail
-- [ ] Google Pay payment
-- [ ] Payment not received
-- [ ] Cashback offer
-- [ ] Paytm wallet
+- [x] Online refund
+- [x] UPI payment fail
+- [x] Google Pay payment
+- [x] Payment not received
+- [x] Cashback offer
+- [x] Paytm wallet
 
 #### 6.7 Utilities and Bills
-- [ ] Paying electricity bill
-- [ ] Gas bill enquiry
-- [ ] Buying recharge
-- [ ] Buying SIM card
-- [ ] Mobile store recharge
-- [ ] Data pack enquiry
-- [ ] Petrol bunk
+- [x] Paying electricity bill
+- [x] Gas bill enquiry
+- [x] Buying recharge
+- [x] Buying SIM card
+- [x] Mobile store recharge
+- [x] Data pack enquiry
+- [x] Petrol bunk
 
 #### 6.8 Specialty Shopping
-- [ ] Gold shop
-- [ ] Wedding shopping
-- [ ] Toy shop
-- [ ] Gift shopping
-- [ ] Festival shopping
-- [ ] Bargaining in shop
+- [x] Gold shop
+- [x] Wedding shopping
+- [x] Toy shop
+- [x] Gift shopping
+- [x] Festival shopping
+- [x] Bargaining in shop
 
 #### 6.9 Food Delivery
-- [ ] Zomato order
-- [ ] Swiggy delivery
+- [x] Zomato order
+- [x] Swiggy delivery
 
 ### 7. Software Development (25 topics)
-- [ ] Discussing programming languages
-- [ ] Debugging code
-- [ ] Code reviews
-- [ ] Attending stand-up meetings
-- [ ] Learning new frameworks
-- [ ] Version control with Git
-- [ ] Deploying to production
-- [ ] Cybersecurity best practices
-- [ ] Open source contributions
-- [ ] Freelance projects
-- [ ] Job interviews for developers
-- [ ] Remote work challenges
-- [ ] Pair programming
-- [ ] Agile scrum meetings
-- [ ] Writing documentation
-- [ ] Handling bugs
-- [ ] Optimizing code performance
-- [ ] Cloud computing
-- [ ] API development
-- [ ] Database management
-- [ ] Mobile app development
-- [ ] Web development
-- [ ] Testing software
-- [ ] DevOps practices
-- [ ] Attending tech conferences
+- [x] Discussing programming languages
+- [x] Debugging code
+- [x] Code reviews
+- [x] Attending stand-up meetings
+- [x] Learning new frameworks
+- [x] Version control with Git
+- [x] Deploying to production
+- [x] Cybersecurity best practices
+- [x] Open source contributions
+- [x] Freelance projects
+- [x] Job interviews for developers
+- [x] Remote work challenges
+- [x] Pair programming
+- [x] Agile scrum meetings
+- [x] Writing documentation
+- [x] Handling bugs
+- [x] Optimizing code performance
+- [x] Cloud computing
+- [x] API development
+- [x] Database management
+- [x] Mobile app development
+- [x] Web development
+- [x] Testing software
+- [x] DevOps practices
+- [x] Attending tech conferences
 
 ### 8. Other Professions (20 topics)
-- [ ] Doctor-patient conversation
-- [ ] Lawyer consultation
+- [x] Doctor-patient conversation
+- [x] Lawyer consultation
 - [ ] Teacher-parent meeting
 - [ ] Engineer project discussion
 - [ ] Chef cooking tips
@@ -366,6 +366,15 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 - Batch 5 completed: 10 topics from Travel and Transportation (Railway enquiry to Asking Wi-Fi in hotel)
 - Batch 6 completed: 10 topics from Travel and Transportation (Booking OYO to Planning Goa trip)
 - Batch 7 completed: 10 topics from Travel and Transportation (Asking tourist spots to Booking tickets)
-- Proceed to batch 8: Next 10 topics
+- Batch 8 completed: 10 topics from Travel and Transportation (Asking ticket counter to Shopping in travel)
+- Batch 9 completed: 10 topics from Shopping and Finance (Buying fruits to Buying watch)
+- Batch 10 completed: 10 topics from Shopping and Finance (Buying perfume to Flipkart order)
+- Batch 11 completed: 10 topics from Shopping and Finance (Return product to Debit card block)
+- Batch 12 completed: 10 topics from Shopping and Finance (Online refund to Buying SIM card)
+- Batch 13 completed: 10 topics from Shopping and Finance (Mobile store recharge to Zomato order)
+- Batch 14 completed: 10 topics from Software Development (Attending stand-up meetings to Remote work challenges)
+- Batch 15 completed: 10 topics from Software Development (Pair programming to Attending tech conferences)
+- Batch 16 completed: 1 topic from Other Professions (Doctor-patient conversation)
+- Proceed to batch 17: Next 9 topics from Other Professions
 - Generate conversations and HTML files
 - Repeat for all remaining topics

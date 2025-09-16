@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Writing Documentation Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Writing Documentation Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I'm struggling with writing documentation for the new module. It's so tedious.</div>
+              <div class="tel">హే జాన్, నేను కొత్త మాడ్యూల్ కోసం డాక్యుమెంటేషన్ రాయడానికి కష్టపడుతున్నాను. ఇది చాలా విసుగు తెప్పిస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I know, Giri. It can be a pain, but good documentation is crucial for any project.</div>
+              <div class="tel">నాకు తెలుసు, గిరి. ఇది బాధాకరంగా ఉండవచ్చు, కానీ మంచి డాక్యుమెంటేషన్ ఏదైనా ప్రాజెక్ట్‌కు చాలా ముఖ్యమైనది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I agree, but finding the motivation to write clear and concise explanations is hard after coding all day.</div>
+              <div class="tel">నేను అంగీకరిస్తున్నాను, కానీ రోజంతా కోడింగ్ చేసిన తర్వాత స్పష్టమైన మరియు సంక్షిప్త వివరణలు రాయడానికి ప్రేరణను కనుగొనడం కష్టం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Try to think of it from the perspective of someone who's new to the project. What would they need to know?</div>
+              <div class="tel">ప్రాజెక్ట్‌కు కొత్తగా వచ్చిన వారి దృక్పథం నుండి ఆలోచించడానికి ప్రయత్నించు. వారికి ఏమి తెలుసుకోవాలి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's a good way to approach it. I usually just list out the functions and their parameters.</div>
+              <div class="tel">అది దాన్ని చేరుకోవడానికి మంచి మార్గం. నేను సాధారణంగా ఫంక్షన్‌లు మరియు వాటి పారామితులను జాబితా చేస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's a start, but also include examples, usage scenarios, and any prerequisites. Make it easy for others to get started.</div>
+              <div class="tel">అది ఒక ప్రారంభం, కానీ ఉదాహరణలు, వినియోగ దృశ్యాలు మరియు ఏవైనా ముందస్తు అవసరాలను కూడా చేర్చు. ఇతరులు ప్రారంభించడానికి సులభతరం చేయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Right, practical examples are always helpful. What about tools for documentation?</div>
+              <div class="tel">సరిగ్గా, ఆచరణాత్మక ఉదాహరణలు ఎల్లప్పుడూ సహాయకరంగా ఉంటాయి. డాక్యుమెంటేషన్ కోసం టూల్స్ గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Markdown is great for simple documentation. For more complex projects, tools like Sphinx or Doxygen can generate documentation directly from your code.</div>
+              <div class="tel">సాధారణ డాక్యుమెంటేషన్ కోసం మార్క్‌డౌన్ చాలా బాగుంది. మరింత సంక్లిష్టమైన ప్రాజెక్ట్‌ల కోసం, స్ఫింక్స్ లేదా డాక్సిజెన్ వంటి టూల్స్ నీ కోడ్ నుండి నేరుగా డాక్యుమెంటేషన్‌ను రూపొందించగలవు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That sounds efficient. I'll look into Sphinx. Thanks for the tips, John!</div>
+              <div class="tel">అది సమర్థవంతంగా అనిపిస్తుంది. నేను స్ఫింక్స్ గురించి చూస్తాను. చిట్కాలకు ధన్యవాదాలు, జాన్!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">No problem, Giri! Good documentation saves a lot of headaches in the long run.</div>
+              <div class="tel">సమస్య లేదు, గిరి! మంచి డాక్యుమెంటేషన్ దీర్ఘకాలంలో చాలా తలనొప్పులను తగ్గిస్తుంది.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asking for Warranty Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Asking for Warranty Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Excuse me, I bought this smartphone here last week. I wanted to ask about the warranty.</div>
+              <div class="tel">క్షమించండి, నేను గత వారం ఈ స్మార్ట్‌ఫోన్‌ను ఇక్కడ కొనుగోలు చేశాను. నేను వారంటీ గురించి అడగాలనుకుంటున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Certainly, sir. All our smartphones come with a one-year manufacturer's warranty. Do you have your bill or receipt?</div>
+              <div class="tel">ఖచ్చితంగా, సార్. మా అన్ని స్మార్ట్‌ఫోన్‌లు ఒక సంవత్సరం తయారీదారు వారంటీతో వస్తాయి. మీ బిల్లు లేదా రసీదు మీ దగ్గర ఉందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, here's the bill. What does the warranty cover?</div>
+              <div class="tel">అవును, ఇది బిల్లు. వారంటీ ఏమి కవర్ చేస్తుంది?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It covers any manufacturing defects or malfunctions that are not caused by physical damage or liquid damage.</div>
+              <div class="tel">ఇది భౌతిక నష్టం లేదా ద్రవ నష్టం వల్ల సంభవించని ఏదైనా తయారీ లోపాలు లేదా పనిచేయకపోవడాన్ని కవర్ చేస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Okay, so if the screen stops working on its own, it's covered?</div>
+              <div class="tel">సరే, స్క్రీన్ దానికదే పనిచేయడం ఆగిపోతే, అది కవర్ అవుతుందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, that would typically be covered. However, if there are any signs of accidental damage, it might void the warranty.</div>
+              <div class="tel">అవును, అది సాధారణంగా కవర్ అవుతుంది. అయితే, ప్రమాదవశాత్తు నష్టం సంకేతాలు ఏమైనా ఉంటే, అది వారంటీని రద్దు చేయవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Understood. What if I need to claim the warranty? What's the process?</div>
+              <div class="tel">అర్థమైంది. నేను వారంటీని క్లెయిమ్ చేయాలంటే ఏమిటి? ప్రక్రియ ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">You can bring the phone to our service center, along with the original bill. Our technicians will inspect it and process the claim.</div>
+              <div class="tel">మీరు ఫోన్‌ను మా సర్వీస్ సెంటర్‌కు, అసలు బిల్లుతో పాటు తీసుకురావచ్చు. మా సాంకేతిక నిపుణులు దాన్ని తనిఖీ చేసి, క్లెయిమ్‌ను ప్రాసెస్ చేస్తారు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Is there an extended warranty option available?</div>
+              <div class="tel">అదనపు వారంటీ ఎంపిక అందుబాటులో ఉందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, we offer an extended warranty for an additional cost. It adds another year to the manufacturer's warranty.</div>
+              <div class="tel">అవును, మేము అదనపు ఖర్చుతో అదనపు వారంటీని అందిస్తాము. ఇది తయారీదారు వారంటీకి మరో సంవత్సరం జోడిస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Okay, I'll consider that. Thanks for clarifying everything.</div>
+              <div class="tel">సరే, నేను దానిని పరిశీలిస్తాను. అంతా స్పష్టం చేసినందుకు ధన్యవాదాలు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">You're welcome, sir. Have a good day!</div>
+              <div class="tel">మీరు స్వాగతం, సార్. మీకు శుభదినం!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

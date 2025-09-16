@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cybersecurity Best Practices Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Cybersecurity Best Practices Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, I was just reading about the latest cybersecurity threats. It's a bit concerning.</div>
+              <div class="tel">హే గిరి, నేను ఇప్పుడే తాజా సైబర్‌సెక్యూరిటీ బెదిరింపుల గురించి చదువుతున్నాను. ఇది కొంచెం ఆందోళన కలిగిస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yeah, it's a constant battle. We need to be vigilant and follow best practices.</div>
+              <div class="tel">అవును, ఇది నిరంతర యుద్ధం. మనం అప్రమత్తంగా ఉండాలి మరియు ఉత్తమ పద్ధతులను పాటించాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Absolutely. What do you think are the most crucial cybersecurity best practices for developers?</div>
+              <div class="tel">ఖచ్చితంగా. డెవలపర్‌ల కోసం అత్యంత కీలకమైన సైబర్‌సెక్యూరిటీ ఉత్తమ పద్ధతులు ఏమిటి అని నువ్వు అనుకుంటున్నావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">First, always validate and sanitize all user inputs to prevent injection attacks. That's fundamental.</div>
+              <div class="tel">ముందుగా, ఇంజెక్షన్ దాడులను నిరోధించడానికి అన్ని యూజర్ ఇన్‌పుట్‌లను ఎల్లప్పుడూ ధృవీకరించండి మరియు శుభ్రపరచండి. అది ప్రాథమికమైనది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Right, SQL injection and XSS are still major threats. What else?</div>
+              <div class="tel">సరిగ్గా, SQL ఇంజెక్షన్ మరియు XSS ఇప్పటికీ ప్రధాన బెదిరింపులు. ఇంకేముంది?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Implement strong authentication and authorization mechanisms. Multi-factor authentication is a must these days.</div>
+              <div class="tel">బలమైన ప్రమాణీకరణ మరియు అధికార యంత్రాంగాలను అమలు చేయండి. ఈ రోజుల్లో బహుళ-కారకాల ప్రమాణీకరణ తప్పనిసరి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Agreed. And keeping dependencies updated is also critical, right?</div>
+              <div class="tel">అంగీకరిస్తున్నాను. మరియు డిపెండెన్సీలను అప్‌డేట్ గా ఉంచడం కూడా చాలా ముఖ్యమైనది, సరియైనదా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Absolutely. Outdated libraries often have known vulnerabilities that attackers can exploit. Regular patching is key.</div>
+              <div class="tel">ఖచ్చితంగా. పాత లైబ్రరీలలో తరచుగా తెలిసిన దుర్బలత్వాలు ఉంటాయి, వాటిని దాడి చేసేవారు ఉపయోగించుకోవచ్చు. క్రమం తప్పకుండా ప్యాచ్ చేయడం కీలకం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's a good reminder. And what about secure coding practices?</div>
+              <div class="tel">అది మంచి గుర్తు. మరియు సురక్షిత కోడింగ్ పద్ధతుల గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Always follow the principle of least privilege, encrypt sensitive data both in transit and at rest, and conduct regular security audits and penetration testing.</div>
+              <div class="tel">ఎల్లప్పుడూ కనీస అధికార సూత్రాన్ని అనుసరించండి, ప్రయాణంలో మరియు విశ్రాంతిలో సున్నితమైన డేటాను గుప్తీకరించండి మరియు క్రమం తప్పకుండా భద్రతా ఆడిట్‌లు మరియు పెనెట్రేషన్ టెస్టింగ్ నిర్వహించండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's a comprehensive list. Thanks, Giri! We should definitely implement all of these.</div>
+              <div class="tel">అది సమగ్ర జాబితా. ధన్యవాదాలు, గిరి! మనం ఖచ్చితంగా వీటినన్నింటినీ అమలు చేయాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">My pleasure, John. Cybersecurity is everyone's responsibility.</div>
+              <div class="tel">నా ఆనందం, జాన్. సైబర్‌సెక్యూరిటీ అందరి బాధ్యత.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

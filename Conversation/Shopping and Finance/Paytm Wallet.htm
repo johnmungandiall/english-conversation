@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paytm Wallet Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Paytm Wallet Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, I need to add money to my Paytm wallet. Do you know how to do it quickly?</div>
+              <div class="tel">హే గిరి, నేను నా Paytm వాలెట్‌కు డబ్బులు జోడించాలి. త్వరగా ఎలా చేయాలో నీకు తెలుసా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yeah, it's pretty simple. You can link your bank account or use a debit/credit card.</div>
+              <div class="tel">అవును, అది చాలా సులభం. మీరు మీ బ్యాంక్ ఖాతాను లింక్ చేయవచ్చు లేదా డెబిట్/క్రెడిట్ కార్డ్‌ను ఉపయోగించవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I have my debit card. So, I just enter the details and the amount?</div>
+              <div class="tel">నా దగ్గర డెబిట్ కార్డ్ ఉంది. కాబట్టి, నేను వివరాలు మరియు మొత్తాన్ని నమోదు చేయాలా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Exactly. Enter the amount, then your card details, and it will ask for an OTP.</div>
+              <div class="tel">ఖచ్చితంగా. మొత్తాన్ని నమోదు చేయండి, ఆపై మీ కార్డ్ వివరాలు, మరియు అది OTP కోసం అడుగుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Okay, got it. Is there any limit to how much I can add?</div>
+              <div class="tel">సరే, అర్థమైంది. నేను ఎంత జోడించవచ్చనే దానికి ఏదైనా పరిమితి ఉందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">For a full KYC wallet, you can add up to 1 lakh rupees per month. For a mini KYC, it's 10,000.</div>
+              <div class="tel">పూర్తి KYC వాలెట్ కోసం, మీరు నెలకు 1 లక్ష రూపాయల వరకు జోడించవచ్చు. మినీ KYC కోసం, అది 10,000.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Mine is full KYC, so that's fine. I just need to add 2000.</div>
+              <div class="tel">నాది పూర్తి KYC, కాబట్టి అది పర్వాలేదు. నేను కేవలం 2000 జోడించాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Perfect. It should be instant.</div>
+              <div class="tel">పర్ఫెక్ట్. అది తక్షణమే జరగాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Done! Money added successfully. Thanks for the help, Giri.</div>
+              <div class="tel">పూర్తయింది! డబ్బు విజయవంతంగా జోడించబడింది. సహాయం చేసినందుకు ధన్యవాదాలు, గిరి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">No problem, John. Glad I could assist.</div>
+              <div class="tel">సమస్య లేదు, జాన్. నేను సహాయం చేయగలిగినందుకు సంతోషంగా ఉంది.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

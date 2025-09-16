@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deploying to Production Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Deploying to Production Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, are you ready for the production deployment tonight?</div>
+              <div class="tel">హే జాన్, ఈ రాత్రి ప్రొడక్షన్ డిప్లాయ్‌మెంట్ కోసం నువ్వు సిద్ధంగా ఉన్నావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Almost, Giri. Just running the final pre-deployment checks. All tests passed in staging.</div>
+              <div class="tel">దాదాపు, గిరి. చివరి ప్రీ-డిప్లాయ్‌మెంట్ తనిఖీలను మాత్రమే నడుపుతున్నాను. స్టేజింగ్‌లో అన్ని పరీక్షలు పాస్ అయ్యాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's good to hear. Did you remember to update the environment variables for production?</div>
+              <div class="tel">అది వినడానికి చాలా బాగుంది. ప్రొడక్షన్ కోసం ఎన్విరాన్‌మెంట్ వేరియబుల్స్‌ను అప్‌డేట్ చేయడం గుర్తుందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, double-checked that. The database connection strings and API keys are all set for the production environment.</div>
+              <div class="tel">అవును, దాన్ని రెండుసార్లు తనిఖీ చేశాను. డేటాబేస్ కనెక్షన్ స్ట్రింగ్‌లు మరియు API కీలు అన్నీ ప్రొడక్షన్ ఎన్విరాన్‌మెంట్ కోసం సెట్ చేయబడ్డాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Perfect. And the rollback plan? Just in case something goes wrong.</div>
+              <div class="tel">ఖచ్చితంగా. మరియు రోల్‌బ్యాక్ ప్లాన్? ఏదైనా తప్పు జరిగితే.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Already documented and tested. We can revert to the previous stable version within minutes if needed.</div>
+              <div class="tel">ఇప్పటికే డాక్యుమెంట్ చేయబడింది మరియు పరీక్షించబడింది. అవసరమైతే నిమిషాల్లో మునుపటి స్థిరమైన వెర్షన్‌కు తిరిగి వెళ్ళవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Excellent. It's always good to be prepared. What's the estimated downtime?</div>
+              <div class="tel">అద్భుతం. సిద్ధంగా ఉండటం ఎల్లప్పుడూ మంచిది. అంచనా వేసిన డౌన్‌టైమ్ ఎంత?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">We're aiming for zero downtime with blue-green deployment, but there might be a brief period of elevated latency.</div>
+              <div class="tel">మేము బ్లూ-గ్రీన్ డిప్లాయ్‌మెంట్‌తో జీరో డౌన్‌టైమ్ కోసం లక్ష్యంగా పెట్టుకున్నాము, కానీ కొద్దిసేపు అధిక లేటెన్సీ ఉండవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Understood. I'll be monitoring the logs closely after the deployment.</div>
+              <div class="tel">అర్థమైంది. డిప్లాయ్‌మెంట్ తర్వాత నేను లాగ్‌లను నిశితంగా పర్యవేక్షిస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Sounds good. Let's initiate the deployment in 10 minutes.</div>
+              <div class="tel">బాగుంది. 10 నిమిషాల్లో డిప్లాయ్‌మెంట్‌ను ప్రారంభిద్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Copy that. Good luck, John!</div>
+              <div class="tel">కాపీ దట్. గుడ్ లక్, జాన్!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

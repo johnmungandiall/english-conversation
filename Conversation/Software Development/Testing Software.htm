@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Testing Software Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Testing Software Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I'm about to start testing the new user authentication module. What types of testing should I focus on?</div>
+              <div class="tel">హే జాన్, నేను కొత్త యూజర్ ప్రమాణీకరణ మాడ్యూల్‌ను పరీక్షించడం ప్రారంభించబోతున్నాను. నేను ఏ రకమైన పరీక్షలపై దృష్టి పెట్టాలి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's great, Giri! Start with unit tests to verify individual components. Then, move on to integration tests to ensure they work together correctly.</div>
+              <div class="tel">అది చాలా బాగుంది, గిరి! వ్యక్తిగత భాగాలను ధృవీకరించడానికి యూనిట్ పరీక్షలతో ప్రారంభించు. ఆపై, అవి కలిసి సరిగ్గా పనిచేస్తాయని నిర్ధారించుకోవడానికి ఇంటిగ్రేషన్ పరీక్షలకు వెళ్ళు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I've written some unit tests, but I'm not sure how to approach integration testing.</div>
+              <div class="tel">నేను కొన్ని యూనిట్ పరీక్షలు రాశాను, కానీ ఇంటిగ్రేషన్ పరీక్షను ఎలా చేరుకోవాలో నాకు తెలియదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Integration tests should focus on testing the interactions between different modules or services. Use mock objects or test databases to isolate the components being tested.</div>
+              <div class="tel">ఇంటిగ్రేషన్ పరీక్షలు వేర్వేరు మాడ్యూల్‌లు లేదా సేవల మధ్య పరస్పర చర్యలను పరీక్షించడంపై దృష్టి పెట్టాలి. పరీక్షించబడుతున్న భాగాలను వేరు చేయడానికి మాక్ ఆబ్జెక్ట్‌లు లేదా పరీక్ష డేటాబేస్‌లను ఉపయోగించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That makes sense. What about end-to-end testing? Is that necessary?</div>
+              <div class="tel">అది అర్థమవుతుంది. ఎండ్-టు-ఎండ్ పరీక్ష గురించి ఏమిటి? అది అవసరమా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">End-to-end tests are important for verifying the entire system flow, but they can be time-consuming to set up and maintain. Focus on critical user journeys.</div>
+              <div class="tel">మొత్తం సిస్టమ్ ఫ్లోను ధృవీకరించడానికి ఎండ్-టు-ఎండ్ పరీక్షలు ముఖ్యమైనవి, కానీ వాటిని ఏర్పాటు చేయడం మరియు నిర్వహించడం సమయం తీసుకుంటుంది. కీలకమైన యూజర్ ప్రయాణాలపై దృష్టి సారించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, I'll prioritize end-to-end tests for the login and registration flows. What about performance testing?</div>
+              <div class="tel">సరే, నేను లాగిన్ మరియు రిజిస్ట్రేషన్ ఫ్లోల కోసం ఎండ్-టు-ఎండ్ పరీక్షలకు ప్రాధాన్యత ఇస్తాను. పనితీరు పరీక్ష గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Performance testing is crucial for ensuring your application can handle the expected load. Use tools like JMeter or LoadView to simulate user traffic and measure response times.</div>
+              <div class="tel">నీ అప్లికేషన్ ఊహించిన లోడ్‌ను నిర్వహించగలదని నిర్ధారించడానికి పనితీరు పరీక్ష చాలా ముఖ్యం. యూజర్ ట్రాఫిక్‌ను అనుకరించడానికి మరియు ప్రతిస్పందన సమయాలను కొలవడానికి JMeter లేదా LoadView వంటి టూల్స్‌ను ఉపయోగించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I'll definitely run some performance tests. What about security testing?</div>
+              <div class="tel">నేను ఖచ్చితంగా కొన్ని పనితీరు పరీక్షలను అమలు చేస్తాను. భద్రతా పరీక్ష గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Security testing is essential. Use tools like OWASP ZAP or Burp Suite to identify vulnerabilities like XSS and SQL injection.</div>
+              <div class="tel">భద్రతా పరీక్ష చాలా అవసరం. XSS మరియు SQL ఇంజెక్షన్ వంటి దుర్బలత్వాలను గుర్తించడానికి OWASP ZAP లేదా Burp Suite వంటి టూల్స్‌ను ఉపయోగించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Thanks, John! This gives me a good starting point.</div>
+              <div class="tel">ధన్యవాదాలు, జాన్! ఇది నాకు మంచి ప్రారంభ స్థానాన్ని ఇస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">You're welcome, Giri! Thorough testing is key to delivering high-quality software.</div>
+              <div class="tel">నీకు స్వాగతం, గిరి! అధిక-నాణ్యత సాఫ్ట్‌వేర్‌ను అందించడానికి సమగ్ర పరీక్ష కీలకం.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

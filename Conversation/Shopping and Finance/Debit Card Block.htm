@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Debit Card Block Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Debit Card Block Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hello, I need to block my debit card immediately. I think I lost it.</div>
+              <div class="tel">హలో, నేను నా డెబిట్ కార్డ్‌ను వెంటనే బ్లాక్ చేయాలి. నేను దాన్ని పోగొట్టుకున్నానని అనుకుంటున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Oh no, I'm sorry to hear that. Please provide your account number and registered mobile number.</div>
+              <div class="tel">అయ్యో, అది విన్నందుకు క్షమించండి. దయచేసి మీ ఖాతా నంబర్ మరియు రిజిస్టర్డ్ మొబైల్ నంబర్‌ను అందించండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">My account number is 987654321, and my mobile number is 9876543210.</div>
+              <div class="tel">నా ఖాతా నంబర్ 987654321, మరియు నా మొబైల్ నంబర్ 9876543210.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Thank you. Just to confirm, you want to block your debit card ending with 4321?</div>
+              <div class="tel">ధన్యవాదాలు. నిర్ధారించడానికి, మీరు 4321తో ముగిసే మీ డెబిట్ కార్డ్‌ను బ్లాక్ చేయాలనుకుంటున్నారా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, that's correct. Please block it as soon as possible.</div>
+              <div class="tel">అవును, అది సరైనది. దయచేసి వీలైనంత త్వరగా దాన్ని బ్లాక్ చేయండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Your debit card has been successfully blocked. You will receive an SMS confirmation shortly.</div>
+              <div class="tel">మీ డెబిట్ కార్డ్ విజయవంతంగా బ్లాక్ చేయబడింది. మీకు త్వరలో SMS నిర్ధారణ వస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Thank you so much for your quick action. What should I do next to get a new card?</div>
+              <div class="tel">మీ తక్షణ చర్యకు చాలా ధన్యవాదాలు. కొత్త కార్డ్ పొందడానికి నేను తదుపరి ఏమి చేయాలి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">You can apply for a new debit card through net banking, mobile banking, or by visiting any of our branches.</div>
+              <div class="tel">మీరు నెట్ బ్యాంకింగ్, మొబైల్ బ్యాంకింగ్ ద్వారా లేదా మా శాఖలలో దేనినైనా సందర్శించడం ద్వారా కొత్త డెబిట్ కార్డ్ కోసం దరఖాస్తు చేసుకోవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, I'll apply online. Is there any fee for a new card?</div>
+              <div class="tel">సరే, నేను ఆన్‌లైన్‌లో దరఖాస్తు చేస్తాను. కొత్త కార్డ్‌కు ఏదైనా రుసుము ఉందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">A nominal fee of 150 rupees plus GST will be applicable for the reissuance of the debit card.</div>
+              <div class="tel">డెబిట్ కార్డ్ తిరిగి జారీ చేయడానికి 150 రూపాయలు ప్లస్ GST నామమాత్రపు రుసుము వర్తిస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Understood. Thanks for all the help.</div>
+              <div class="tel">అర్థమైంది. అన్ని సహాయానికి ధన్యవాదాలు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">You're welcome. Have a good day.</div>
+              <div class="tel">మీకు స్వాగతం. శుభదినం.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

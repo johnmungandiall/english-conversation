@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web Development Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Web Development Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, I'm starting a new web development project. What are some modern best practices I should keep in mind?</div>
+              <div class="tel">హే జాన్, నేను కొత్త వెబ్ డెవలప్‌మెంట్ ప్రాజెక్ట్‌ను ప్రారంభిస్తున్నాను. నేను గుర్తుంచుకోవలసిన కొన్ని ఆధునిక ఉత్తమ పద్ధతులు ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's great, Giri! First, ensure your website is responsive and mobile-friendly. Mobile traffic is huge these days.</div>
+              <div class="tel">అది చాలా బాగుంది, గిరి! ముందుగా, నీ వెబ్‌సైట్ ప్రతిస్పందించేలా మరియు మొబైల్-ఫ్రెండ్లీగా ఉందని నిర్ధారించుకో. ఈ రోజుల్లో మొబైల్ ట్రాఫిక్ చాలా ఎక్కువగా ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yeah, I'm planning to use a responsive CSS framework like Bootstrap or Tailwind CSS.</div>
+              <div class="tel">అవును, నేను బూట్‌స్ట్రాప్ లేదా టెయిల్‌విండ్ CSS వంటి ప్రతిస్పందించే CSS ఫ్రేమ్‌వర్క్‌ను ఉపయోగించాలని అనుకుంటున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Good choice. Also, focus on performance. Optimize images, minimize HTTP requests, and use browser caching.</div>
+              <div class="tel">మంచి ఎంపిక. అలాగే, పనితీరుపై దృష్టి సారించు. చిత్రాలను ఆప్టిమైజ్ చేయి, HTTP అభ్యర్థనలను తగ్గించు మరియు బ్రౌజర్ కాషింగ్‌ను ఉపయోగించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I'll definitely optimize the images. What about front-end frameworks? Should I use React, Vue, or Angular?</div>
+              <div class="tel">నేను ఖచ్చితంగా చిత్రాలను ఆప్టిమైజ్ చేస్తాను. ఫ్రంట్-ఎండ్ ఫ్రేమ్‌వర్క్‌ల గురించి ఏమిటి? నేను React, Vue లేదా Angular ఉపయోగించాలా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">That depends on your project requirements and your familiarity with the frameworks. React and Vue are generally easier to learn than Angular.</div>
+              <div class="tel">అది నీ ప్రాజెక్ట్ అవసరాలు మరియు ఫ్రేమ్‌వర్క్‌లతో నీ పరిచయంపై ఆధారపడి ఉంటుంది. React మరియు Vue సాధారణంగా Angular కంటే నేర్చుకోవడం సులభం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I'm comfortable with React, so I'll probably use that. What about SEO best practices?</div>
+              <div class="tel">నేను Reactతో సౌకర్యవంతంగా ఉన్నాను, కాబట్టి నేను బహుశా దాన్ని ఉపయోగిస్తాను. SEO ఉత్తమ పద్ధతుల గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Use semantic HTML, optimize your title tags and meta descriptions, and create high-quality content. Also, ensure your website is crawlable by search engines.</div>
+              <div class="tel">సెమాంటిక్ HTMLని ఉపయోగించు, నీ టైటిల్ ట్యాగ్‌లు మరియు మెటా వివరణలను ఆప్టిమైజ్ చేయి మరియు అధిక-నాణ్యత కంటెంట్‌ను సృష్టించు. అలాగే, నీ వెబ్‌సైట్ సెర్చ్ ఇంజిన్‌ల ద్వారా క్రాల్ చేయగలదని నిర్ధారించుకో.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Good points. I'll pay attention to those. What about security?</div>
+              <div class="tel">మంచి విషయాలు. నేను వాటిపై శ్రద్ధ చూపుతాను. భద్రత గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">Always sanitize user inputs to prevent XSS attacks, use HTTPS to encrypt data in transit, and protect against CSRF attacks.</div>
+              <div class="tel">XSS దాడులను నిరోధించడానికి ఎల్లప్పుడూ యూజర్ ఇన్‌పుట్‌లను శుభ్రపరచు, ప్రయాణంలో డేటాను గుప్తీకరించడానికి HTTPSని ఉపయోగించు మరియు CSRF దాడుల నుండి రక్షించు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Thanks, John! These are all great tips.</div>
+              <div class="tel">ధన్యవాదాలు, జాన్! ఇవన్నీ గొప్ప చిట్కాలు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+              <div class="eng">You're welcome, Giri! Good luck with your web development project!</div>
+              <div class="tel">నీకు స్వాగతం, గిరి! నీ వెబ్ డెవలప్‌మెంట్ ప్రాజెక్ట్‌కు శుభాకాంక్షలు!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
