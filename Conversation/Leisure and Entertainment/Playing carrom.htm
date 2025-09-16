@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Playing carrom Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Playing carrom Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, fancy a game of carrom? I'm feeling competitive today.</div>
+              <div class="tel">హే జాన్, క్యారమ్ ఆడదామా? ఈరోజు నాకు పోటీతత్వం ఎక్కువగా ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Giri! You're on! I haven't played in ages, but I'm always up for a challenge.</div>
+              <div class="tel">గిరి! నువ్వు రెడీ! నేను చాలా కాలం నుండి ఆడలేదు, కానీ నేను ఎప్పుడూ సవాలుకు సిద్ధంగా ఉంటాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Great! Let's set up the board. Do you remember the rules?</div>
+              <div class="tel">గొప్ప! బోర్డును సెట్ చేద్దాం. నీకు నియమాలు గుర్తు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Mostly, yeah. Pockets, queen, cover... standard stuff.</div>
+              <div class="tel">ఎక్కువగా, అవును. పాకెట్స్, క్వీన్, కవర్... సాధారణ విషయాలు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Good. I'll take the first strike. Prepare to be defeated!</div>
+              <div class="tel">మంచిది. నేను మొదటి స్ట్రైక్ తీసుకుంటాను. ఓడిపోవడానికి సిద్ధంగా ఉండు!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">We'll see about that! My aim might be rusty, but my strategy is still sharp.</div>
+              <div class="tel">అది చూద్దాం! నా గురి కొంచెం తుప్పు పట్టి ఉండవచ్చు, కానీ నా వ్యూహం ఇంకా పదునుగా ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Haha, we'll find out soon enough. This is going to be fun.</div>
+              <div class="tel">హాహా, త్వరలోనే తెలుస్తుంది. ఇది సరదాగా ఉంటుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Definitely. A good carrom game is always a great way to relax.</div>
+              <div class="tel">ఖచ్చితంగా. మంచి క్యారమ్ గేమ్ ఎప్పుడూ విశ్రాంతి తీసుకోవడానికి గొప్ప మార్గం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Agreed. And a little friendly competition never hurt anyone.</div>
+              <div class="tel">అంగీకరిస్తున్నాను. మరియు కొంచెం స్నేహపూర్వక పోటీ ఎవరికీ హాని చేయదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Let the best man win!</div>
+              <div class="tel">ఉత్తమ వ్యక్తి గెలవాలి!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">May the odds be ever in your favor, John!</div>
+              <div class="tel">జాన్, నీకు అదృష్టం ఎప్పుడూ తోడుగా ఉండాలి!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

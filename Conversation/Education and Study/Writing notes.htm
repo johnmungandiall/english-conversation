@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Writing notes Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Writing notes Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, are you done writing notes for today's lecture?</div>
+              <div class="tel">హే జాన్, ఈరోజు లెక్చర్‌కు నోట్స్ రాయడం పూర్తి చేశావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hi Giri! Almost. Just summarizing the last few points. My hand is tired!</div>
+              <div class="tel">హాయ్ గిరి! దాదాపు. చివరి కొన్ని పాయింట్‌లను సంగ్రహిస్తున్నాను. నా చేయి అలసిపోయింది!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I know, right? Professor Sharma talks so fast.</div>
+              <div class="tel">నాకు తెలుసు, అవునా? ప్రొఫెసర్ శర్మ చాలా వేగంగా మాట్లాడుతారు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Seriously! I wish he'd slow down a bit. Did you get everything down?</div>
+              <div class="tel">నిజంగా! అతను కొంచెం నెమ్మదిగా మాట్లాడితే బాగుండు. నువ్వు అన్నీ రాసుకున్నావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I think so. I usually write down keywords and expand on them later.</div>
+              <div class="tel">అలా అనుకుంటున్నాను. నేను సాధారణంగా కీలక పదాలను రాసుకుని, తర్వాత వాటిని విస్తరిస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That's a smart strategy. I try to write everything, which is why I'm always behind.</div>
+              <div class="tel">అది తెలివైన వ్యూహం. నేను ప్రతిదీ రాయడానికి ప్రయత్నిస్తాను, అందుకే నేను ఎప్పుడూ వెనుకబడి ఉంటాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Maybe try using a voice recorder next time? Or just focus on the main ideas.</div>
+              <div class="tel">బహుశా తదుపరిసారి వాయిస్ రికార్డర్‌ను ఉపయోగించడానికి ప్రయత్నిస్తావా? లేదా ప్రధాన ఆలోచనలపై దృష్టి పెట్టు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Good idea. I'll try that. Do you mind if I quickly check your notes for a couple of points?</div>
+              <div class="tel">మంచి ఆలోచన. నేను అది ప్రయత్నిస్తాను. కొన్ని పాయింట్‌ల కోసం నీ నోట్స్ త్వరగా తనిఖీ చేస్తే నీకు అభ్యంతరం లేదా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Not at all. Here you go. Just make sure to return them.</div>
+              <div class="tel">అస్సలు లేదు. ఇదిగో. వాటిని తిరిగి ఇవ్వడం మర్చిపోకు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Thanks, Giri! You're a lifesaver.</div>
+              <div class="tel">ధన్యవాదాలు, గిరి! నువ్వు ప్రాణదాతవి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Anytime, John. Let's head out once you're done.</div>
+              <div class="tel">ఎప్పుడైనా, జాన్. నువ్వు పూర్తి చేసిన తర్వాత బయలుదేరుదాం.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

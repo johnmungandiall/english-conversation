@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Watching TV Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Watching TV Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, what are you watching on TV?</div>
+              <div class="tel">హే గిరి, టీవీలో ఏం చూస్తున్నావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hi John! Just flipping through channels. There's a new documentary about space exploration.</div>
+              <div class="tel">హాయ్ జాన్! ఛానెల్స్ మారుస్తున్నాను. అంతరిక్ష పరిశోధన గురించి ఒక కొత్త డాక్యుమెంటరీ ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Oh, that sounds interesting! Is it good?</div>
+              <div class="tel">ఓహ్, అది ఆసక్తికరంగా ఉంది! బాగుందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yeah, it's pretty fascinating. They're talking about the latest discoveries on Mars.</div>
+              <div class="tel">అవును, ఇది చాలా ఆకర్షణీయంగా ఉంది. వారు అంగారక గ్రహంపై తాజా ఆవిష్కరణల గురించి మాట్లాడుతున్నారు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Cool! I love watching science documentaries. What else is on?</div>
+              <div class="tel">కూల్! నాకు సైన్స్ డాక్యుమెంటరీలు చూడటం చాలా ఇష్టం. ఇంకేమున్నాయి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Later, there's a cricket match, and then a movie. What do you usually watch?</div>
+              <div class="tel">తర్వాత, క్రికెట్ మ్యాచ్ ఉంది, ఆపై ఒక సినిమా. నువ్వు సాధారణంగా ఏం చూస్తావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I mostly watch sports and action movies. Sometimes I catch up on web series.</div>
+              <div class="tel">నేను ఎక్కువగా క్రీడలు మరియు యాక్షన్ సినిమాలు చూస్తాను. కొన్నిసార్లు వెబ్ సిరీస్‌లు చూస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Nice. Have you seen the new superhero movie that just came out?</div>
+              <div class="tel">బాగుంది. ఇప్పుడే విడుదలైన కొత్త సూపర్ హీరో సినిమా చూశావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Not yet, but it's on my list. I heard it's pretty epic.</div>
+              <div class="tel">ఇంకా చూడలేదు, కానీ అది నా లిస్ట్‌లో ఉంది. అది చాలా అద్భుతంగా ఉందని విన్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It is! You should definitely watch it this weekend.</div>
+              <div class="tel">అవును! నువ్వు ఈ వారాంతంలో ఖచ్చితంగా చూడాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I will. Thanks for the recommendation!</div>
+              <div class="tel">చూస్తాను. సిఫార్సు చేసినందుకు ధన్యవాదాలు!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">No problem! Enjoy the rest of your day.</div>
+              <div class="tel">సమస్య లేదు! నీ మిగిలిన రోజును ఆనందించు.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

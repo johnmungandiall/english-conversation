@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Doubts Before Viva Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Doubts Before Viva</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">John, I have some doubts about the project before the viva.</div>
+              <div class="tel">జాన్, నాకు వైవా ముందు ప్రాజెక్ట్ గురించి కొన్ని డౌట్స్ ఉన్నాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">What are they, Giri? Let's discuss.</div>
+              <div class="tel">అవి ఏంటి గిరి? మనం డిస్కస్ చేద్దాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I'm not sure about the algorithm we used for data encryption.</div>
+              <div class="tel">డేటా ఎన్క్రిప్షన్ కోసం మనం ఉపయోగించిన అల్గోరిథం గురించి నాకు షూర్ లేదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">We used AES-256. It's a strong and widely accepted standard.</div>
+              <div class="tel">మనం AES-256 ఉపయోగించాం. అది స్ట్రాంగ్ మరియు వైడ్లీ యాక్సెప్టెడ్ స్టాండర్డ్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">And what about the database schema? Will they ask complex questions?</div>
+              <div class="tel">మరి డేటాబేస్ స్కీమా గురించి? వారు కాంప్లెక్స్ క్వశ్చన్స్ అడుగుతారా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">They might. Be prepared to explain the normalization forms and relationships.</div>
+              <div class="tel">అడగవచ్చు. నార్మలైజేషన్ ఫార్మ్స్ మరియు రిలేషన్ షిప్స్ ఎక్స్ప్లెయిన్ చేయడానికి ప్రిపేర్ గా ఉండు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, I'll revise that. What if they ask about future enhancements?</div>
+              <div class="tel">ఓకే, నేను అది రివైజ్ చేస్తా. ఫ్యూచర్ ఎన్హాన్స్ మెంట్స్ గురించి అడిగితే?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Mention scalability and adding new features like user authentication.</div>
+              <div class="tel">స్కేలబిలిటీ మరియు యూజర్ అథెంటికేషన్ వంటి న్యూ ఫీచర్స్ యాడ్ చేయడం గురించి చెప్పు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Got it. Thanks for clearing my doubts. I feel more confident now.</div>
+              <div class="tel">గాట్ ఇట్. నా డౌట్స్ క్లియర్ చేసినందుకు థ్యాంక్స్. ఇప్పుడు నేను మరిన్ని కాన్ఫిడెంట్ గా ఉన్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">No problem. We've worked hard on this project. You'll do great.</div>
+              <div class="tel">ప్రాబ్లమ్ లేదు. మనం ఈ ప్రాజెక్ట్ పై హార్డ్ గా వర్క్ చేశాం. నువ్వు గ్రేట్ చేస్తావు.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

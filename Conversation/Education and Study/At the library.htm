@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>At the library Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>At the library Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, finally made it to the library. It's so quiet here.</div>
+              <div class="tel">హే జాన్, చివరికి లైబ్రరీకి వచ్చాను. ఇక్కడ చాలా నిశ్శబ్దంగా ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hi Giri! Yeah, it's the perfect place to study. What are you working on?</div>
+              <div class="tel">హాయ్ గిరి! అవును, ఇది చదువుకోవడానికి సరైన ప్రదేశం. నువ్వు ఏం చేస్తున్నావు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I have a history research paper due next week. Need to find some good sources.</div>
+              <div class="tel">వచ్చే వారం నాకు హిస్టరీ రీసెర్చ్ పేపర్ ఉంది. కొన్ని మంచి వనరులను కనుగొనాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I'm studying for my physics exam. This section on quantum mechanics is tough.</div>
+              <div class="tel">నేను నా ఫిజిక్స్ పరీక్ష కోసం చదువుతున్నాను. క్వాంటం మెకానిక్స్ పై ఈ విభాగం కష్టంగా ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Good luck with that! Have you checked the online database for your research?</div>
+              <div class="tel">దానికి ఆల్ ది బెస్ట్! నీ పరిశోధన కోసం ఆన్‌లైన్ డేటాబేస్ చూశావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Not yet, I was planning to. Do you know if they have any new books on modern physics?</div>
+              <div class="tel">ఇంకా లేదు, నేను ప్లాన్ చేస్తున్నాను. ఆధునిక భౌతికశాస్త్రంపై ఏమైనా కొత్త పుస్తకాలు ఉన్నాయో నీకు తెలుసా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I think so. You can check the new arrivals section near the entrance.</div>
+              <div class="tel">అలా అనుకుంటున్నాను. నువ్వు ప్రవేశ ద్వారం దగ్గర ఉన్న కొత్త రాకల విభాగాన్ని తనిఖీ చేయవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Thanks for the tip! I'll go check it out after I finish this chapter.</div>
+              <div class="tel">చిట్కాకు ధన్యవాదాలు! నేను ఈ అధ్యాయం పూర్తి చేసిన తర్వాత దాన్ని చూస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">No problem. Let's try to keep our voices down, people are concentrating.</div>
+              <div class="tel">సమస్య లేదు. మనం నిశ్శబ్దంగా ఉందాం, ప్రజలు ఏకాగ్రతతో ఉన్నారు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Right, sorry! See you later, Giri.</div>
+              <div class="tel">సరే, క్షమించండి! తర్వాత కలుద్దాం, గిరి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">See you, John.</div>
+              <div class="tel">కలుద్దాం, జాన్.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
