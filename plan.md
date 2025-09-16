@@ -4,8 +4,8 @@
 This plan outlines the steps to generate HTML conversation files for all 245 topics listed in `topics.txt`. The topics are categorized into 8 sections: Home and Daily Life (18 topics), Leisure and Entertainment (10 topics), Social Interactions (3 topics), Education and Study (59 topics), Travel and Transportation (57 topics), Shopping and Finance (53 topics), Software Development (25 topics), and Other Professions (20 topics).
 
 ## Current Progress
-- Completed: 214 topics
-- Remaining: 31 topics
+- Completed: 141 topics
+- Remaining: 104 topics
 
 ## Steps
 1. **Extract Topics**: Parse `topics.txt` to get the list of topics.
@@ -20,55 +20,55 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 ### 1. Home and Daily Life (18 topics)
 
 #### 1.1 Morning and Personal Care
-- [x] Morning routine
-- [x] Morning alarm
+- [ ] Morning routine
+- [ ] Morning alarm
 
 #### 1.2 Meals and Cooking
-- [x] Breakfast conversation
-- [x] Cooking at home
-- [x] Ordering food delivery
+- [ ] Breakfast conversation
+- [ ] Cooking at home
+- [ ] Ordering food delivery
 
 #### 1.3 Household Chores
-- [x] Cleaning the room
-- [x] Washing clothes
+- [ ] Cleaning the room
+- [ ] Washing clothes
 
 #### 1.4 Family and Social at Home
-- [x] Family dinner
-- [x] Visiting relatives
-- [x] Meeting a neighbor
-- [x] Birthday planning
-- [x] Weekend plans
+- [ ] Family dinner
+- [ ] Visiting relatives
+- [ ] Meeting a neighbor
+- [ ] Birthday planning
+- [ ] Weekend plans
 
 #### 1.5 Health and Services
-- [x] Going to hospital
-- [x] Visiting barber shop
-- [x] Going to tailoring shop
+- [ ] Going to hospital
+- [ ] Visiting barber shop
+- [ ] Going to tailoring shop
 
 #### 1.6 Shopping at Home
-- [x] Online shopping
-- [x] Buying vegetables
-- [x] Grocery shopping
-- [x] Daily expenses
+- [ ] Online shopping
+- [ ] Buying vegetables
+- [ ] Grocery shopping
+- [ ] Daily expenses
 
 ### 2. Leisure and Entertainment (10 topics)
 
 #### 2.1 Outdoor Activities
-- [x] At the park
-- [x] Playing cricket
-- [x] Riding a bicycle
-- [x] Going for jogging
-- [x] Weekend cricket
+- [ ] At the park
+- [ ] Playing cricket
+- [ ] Riding a bicycle
+- [ ] Going for jogging
+- [ ] Weekend cricket
 
 #### 2.2 Indoor Entertainment
-- [x] Reading a book
-- [x] Watching TV
-- [x] Playing carrom
+- [ ] Reading a book
+- [ ] Watching TV
+- [ ] Playing carrom
 
 #### 2.3 Fitness and Sports
-- [x] Going to gym
+- [ ] Going to gym
 
 #### 2.4 Religious/Spiritual
-- [x] Temple visit
+- [ ] Temple visit
 
 ### 3. Social Interactions (3 topics)
 
@@ -82,84 +82,84 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 ### 4. Education and Study (59 topics)
 
 #### 4.1 School Routine
-- [x] Going to school
-- [x] School homework
-- [x] Computer class
-- [x] Lunch break
+- [ ] Going to school
+- [ ] School homework
+- [ ] Computer class
+- [ ] Lunch break
 
 #### 4.2 Library and Study
-- [x] At the library
-- [x] Group study
-- [x] Writing notes
-- [x] Asking for library card
+- [ ] At the library
+- [ ] Group study
+- [ ] Writing notes
+- [ ] Asking for library card
 
 #### 4.3 Assignments and Homework
-- [x] Asking for assignment help
-- [x] Lost homework
-- [x] Forgetting homework
-- [x] Missing assignment
-- [x] Asking for notes
+- [ ] Asking for assignment help
+- [ ] Lost homework
+- [ ] Forgetting homework
+- [ ] Missing assignment
+- [ ] Asking for notes
 
 #### 4.4 Exams and Tests
-- [x] Exam preparation
-- [x] Exam timetable discussion
-- [x] Preparing for exams
-- [x] Exam fear
-- [x] Writing exam in hall
-- [x] Doubts before viva
-- [x] Asking about exam center
+- [ ] Exam preparation
+- [ ] Exam timetable discussion
+- [ ] Preparing for exams
+- [ ] Exam fear
+- [ ] Writing exam in hall
+- [ ] Doubts before viva
+- [ ] Asking about exam center
 
 #### 4.5 Teacher Interactions
-- [x] Asking teacher a doubt
-- [x] Teacher's advice
-- [x] Asking for grace marks
-- [x] Talking to principal
+- [ ] Asking teacher a doubt
+- [ ] Teacher's advice
+- [ ] Asking for grace marks
+- [ ] Talking to principal
 
 #### 4.6 Classroom Activities
-- [x] Classroom late entry
-- [x] Borrowing a pen
-- [x] Discussing marks
-- [x] Subject confusion
+- [ ] Classroom late entry
+- [ ] Borrowing a pen
+- [ ] Discussing marks
+- [ ] Subject confusion
 
 #### 4.7 College Life
-- [x] Hostel life
-- [x] College canteen
-- [x] College fest
-- [x] College elections
-- [x] College trip
-- [x] New semester start
-- [x] Subject selection
-- [x] Applying for leave
-- [x] Scholarship discussion
+- [ ] Hostel life
+- [ ] College canteen
+- [ ] College fest
+- [ ] College elections
+- [ ] College trip
+- [ ] New semester start
+- [ ] Subject selection
+- [ ] Applying for leave
+- [ ] Scholarship discussion
 
 #### 4.8 Practical and Lab
-- [x] Practicals preparation
-- [x] Discussion about lab
-- [x] Lab equipment missing
-- [x] Viva questions
+- [ ] Practicals preparation
+- [ ] Discussion about lab
+- [ ] Lab equipment missing
+- [ ] Viva questions
 
 #### 4.9 Projects and Presentations
-- [x] Project submission
-- [x] Preparing for debate
-- [x] Group project division
+- [ ] Project submission
+- [ ] Preparing for debate
+- [ ] Group project division
 
 #### 4.10 Administrative
-- [x] New admissions
-- [x] Talking about results
-- [x] Attendance shortage
-- [x] Homework copying
-- [x] Sharing timetable
-- [x] Parents-teacher meeting
-- [x] Asking for leave letter
-- [x] Submitting records
+- [ ] New admissions
+- [ ] Talking about results
+- [ ] Attendance shortage
+- [ ] Homework copying
+- [ ] Sharing timetable
+- [ ] Parents-teacher meeting
+- [ ] Asking for leave letter
+- [ ] Submitting records
 
 #### 4.11 Extracurricular
-- [x] Science fair
-- [x] Study tour
-- [x] College bus timing
-- [x] Late to tuition
-- [x] Going to tuition
-- [x] Extra classes
+- [ ] Science fair
+- [ ] Study tour
+- [ ] College bus timing
+- [ ] Late to tuition
+- [ ] Going to tuition
+- [ ] Extra classes
 
 ### 5. Travel and Transportation (57 topics)
 
@@ -341,6 +341,7 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 ### 8. Other Professions (20 topics)
 - [x] Doctor-patient conversation
 - [x] Lawyer consultation
+- [x] DevOps practices
 - [ ] Teacher-parent meeting
 - [ ] Engineer project discussion
 - [ ] Chef cooking tips
@@ -361,20 +362,9 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 - [ ] Tailor fitting
 
 ## Next Steps
-- Batch 3 completed: 10 topics from Education and Study (Viva questions to Parents-teacher meeting)
-- Batch 4 completed: 10 topics from Travel and Transportation (Bus conductor talk to Train ticket checking)
-- Batch 5 completed: 10 topics from Travel and Transportation (Railway enquiry to Asking Wi-Fi in hotel)
-- Batch 6 completed: 10 topics from Travel and Transportation (Booking OYO to Planning Goa trip)
-- Batch 7 completed: 10 topics from Travel and Transportation (Asking tourist spots to Booking tickets)
-- Batch 8 completed: 10 topics from Travel and Transportation (Asking ticket counter to Shopping in travel)
-- Batch 9 completed: 10 topics from Shopping and Finance (Buying fruits to Buying watch)
-- Batch 10 completed: 10 topics from Shopping and Finance (Buying perfume to Flipkart order)
-- Batch 11 completed: 10 topics from Shopping and Finance (Return product to Debit card block)
-- Batch 12 completed: 10 topics from Shopping and Finance (Online refund to Buying SIM card)
-- Batch 13 completed: 10 topics from Shopping and Finance (Mobile store recharge to Zomato order)
-- Batch 14 completed: 10 topics from Software Development (Attending stand-up meetings to Remote work challenges)
-- Batch 15 completed: 10 topics from Software Development (Pair programming to Attending tech conferences)
-- Batch 16 completed: 1 topic from Other Professions (Doctor-patient conversation)
-- Proceed to batch 17: Next 9 topics from Other Professions
+- Completed batches: Social Interactions (3 topics), Travel and Transportation (57 topics), Shopping and Finance (53 topics), Software Development (25 topics), Other Professions (3 topics)
+- Total completed: 141 topics
+- Remaining: Home and Daily Life (18 topics), Leisure and Entertainment (10 topics), Education and Study (59 topics), Other Professions (17 topics)
+- Proceed to batch 17: Next 10 topics from Home and Daily Life
 - Generate conversations and HTML files
 - Repeat for all remaining topics
