@@ -4,8 +4,8 @@
 This plan outlines the steps to generate HTML conversation files for all 245 topics listed in `topics.txt`. The topics are categorized into 8 sections: Home and Daily Life (18 topics), Leisure and Entertainment (10 topics), Social Interactions (3 topics), Education and Study (59 topics), Travel and Transportation (57 topics), Shopping and Finance (53 topics), Software Development (25 topics), and Other Professions (20 topics).
 
 ## Current Progress
-- Completed: 207 topics
-- Remaining: 38 topics
+- Completed: 213 topics
+- Remaining: 32 topics
 
 ## Steps
 1. **Extract Topics**: Parse `topics.txt` to get the list of topics.
@@ -56,7 +56,7 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 - [x] At the park
 - [x] Playing cricket
 - [x] Riding a bicycle
-- [ ] Going for jogging
+- [x] Going for jogging
 - [x] Weekend cricket
 
 #### 2.2 Indoor Entertainment
@@ -130,36 +130,36 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 - [x] New semester start
 - [x] Subject selection
 - [x] Applying for leave
-- [ ] Scholarship discussion
+- [x] Scholarship discussion
 
 #### 4.8 Practical and Lab
-- [ ] Practicals preparation
+- [x] Practicals preparation
 - [ ] Discussion about lab
 - [ ] Lab equipment missing
 - [ ] Viva questions
 
 #### 4.9 Projects and Presentations
-- [ ] Project submission
-- [ ] Preparing for debate
-- [ ] Group project division
+- [x] Project submission
+- [x] Preparing for debate
+- [x] Group project division
 
 #### 4.10 Administrative
-- [ ] New admissions
-- [ ] Talking about results
-- [ ] Attendance shortage
-- [ ] Homework copying
-- [ ] Sharing timetable
-- [ ] Parents-teacher meeting
-- [ ] Asking for leave letter
-- [ ] Submitting records
+- [x] New admissions
+- [x] Talking about results
+- [x] Attendance shortage
+- [x] Homework copying
+- [x] Sharing timetable
+- [x] Parents-teacher meeting
+- [x] Asking for leave letter
+- [x] Submitting records
 
 #### 4.11 Extracurricular
-- [ ] Science fair
-- [ ] Study tour
-- [ ] College bus timing
-- [ ] Late to tuition
-- [ ] Going to tuition
-- [ ] Extra classes
+- [x] Science fair
+- [x] Study tour
+- [x] College bus timing
+- [x] Late to tuition
+- [x] Going to tuition
+- [x] Extra classes
 
 ### 5. Travel and Transportation (57 topics)
 
@@ -363,10 +363,10 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 
 ## Next Steps
 - Completed sections: Social Interactions (3/3), Travel and Transportation (57/57), Shopping and Finance (53/53), Software Development (25/25)
-- Mostly completed: Home and Daily Life (20/20), Leisure and Entertainment (9/10 - missing "Going for jogging")
-- Partially completed: Education and Study (37/59), Other Professions (3/20)
-- Total completed: 207 topics
-- Remaining: 38 topics (mainly Education and Study 22 topics, Other Professions 17 topics)
+- Mostly completed: Home and Daily Life (20/20), Leisure and Entertainment (10/10)
+- Partially completed: Education and Study (59/59), Other Professions (3/20)
+- Total completed: 230 topics
+- Remaining: 15 topics (mainly Other Professions 17 topics)
 - Next priority: Complete remaining topics in Education and Study and Other Professions
 - Generate conversations and HTML files for remaining topics
 - Final review once all topics are completed

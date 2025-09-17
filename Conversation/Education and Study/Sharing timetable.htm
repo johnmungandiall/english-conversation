@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sharing timetable Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Sharing timetable Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, do you have the updated timetable for this semester? I can't find it anywhere.</div>
+              <div class="tel">హేయ్ గిరి, ఈ సెమిస్టర్ కోసం అప్‌డేట్ చేసిన టైమ్‌టేబుల్ నీ దగ్గర ఉందా? నాకు ఎక్కడా దొరకడం లేదు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yeah, I just downloaded it from the college portal. I can share it with you.</div>
+              <div class="tel">అవును, నేను ఇప్పుడే కాలేజీ పోర్టల్ నుండి డౌన్‌లోడ్ చేసుకున్నాను. నేను నీకు షేర్ చేయగలను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">That would be great, thanks! I was worried I'd miss a class.</div>
+              <div class="tel">అది చాలా బాగుంటుంది, ధన్యవాదాలు! నేను ఒక క్లాస్ మిస్ అవుతానేమో అని ఆందోళన చెందాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">No problem. I'll send it to you on WhatsApp. It looks like there are a few changes this time.</div>
+              <div class="tel">సమస్య లేదు. నేను నీకు వాట్సాప్‌లో పంపుతాను. ఈసారి కొన్ని మార్పులు ఉన్నట్లుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Oh, really? What kind of changes?</div>
+              <div class="tel">ఓహ్, నిజమా? ఎలాంటి మార్పులు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Some lab timings have been shifted, and our English class is now an hour earlier on Tuesdays.</div>
+              <div class="tel">కొన్ని ల్యాబ్ సమయాలు మారాయి, మరియు మన ఇంగ్లీష్ క్లాస్ ఇప్పుడు మంగళవారాల్లో ఒక గంట ముందుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Good to know! I would have definitely missed that. Thanks for the heads-up.</div>
+              <div class="tel">తెలియజేసినందుకు సంతోషం! నేను ఖచ్చితంగా దాన్ని మిస్ అయ్యేవాడిని. తెలియజేసినందుకు ధన్యవాదాలు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">No worries. It's always good to cross-check.</div>
+              <div class="tel">చింతించకు. ఎప్పుడూ క్రాస్-చెక్ చేయడం మంచిది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">True. I'll save it to my phone and set reminders for the new timings.</div>
+              <div class="tel">నిజం. నేను దానిని నా ఫోన్‌కు సేవ్ చేసుకుంటాను మరియు కొత్త సమయాల కోసం రిమైండర్‌లను సెట్ చేస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Smart move. Let me know if you have any doubts after checking it.</div>
+              <div class="tel">తెలివైన చర్య. దాన్ని తనిఖీ చేసిన తర్వాత నీకు ఏమైనా సందేహాలు ఉంటే నాకు తెలియజేయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Will do. Thanks again, Giri!</div>
+              <div class="tel">అలాగే. మళ్ళీ ధన్యవాదాలు, గిరి!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

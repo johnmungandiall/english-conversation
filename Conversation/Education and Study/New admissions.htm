@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New admissions Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>New admissions Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Hey John, did you see the crowd at the administrative office? It's all about new admissions.</div>
+              <div class="tel">హేయ్ జాన్, అడ్మినిస్ట్రేటివ్ ఆఫీస్ దగ్గర జనాన్ని చూశావా? అంతా కొత్త అడ్మిషన్ల గురించే.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yeah, Giri. It's that time of the year again. So many new faces around campus.</div>
+              <div class="tel">అవును, గిరి. మళ్ళీ ఆ సమయం వచ్చింది. క్యాంపస్ చుట్టూ చాలా కొత్త ముఖాలు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I remember our first day. It was so confusing trying to figure out everything.</div>
+              <div class="tel">మన మొదటి రోజు నాకు గుర్తుంది. అంతా తెలుసుకోవడానికి చాలా గందరగోళంగా ఉండేది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Definitely. We should probably help some of the new students if they look lost.</div>
+              <div class="tel">ఖచ్చితంగా. కొత్త విద్యార్థులు దారి తప్పినట్లు కనిపిస్తే మనం వారికి సహాయం చేయాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Good idea. I saw a few struggling with the campus map earlier.</div>
+              <div class="tel">మంచి ఆలోచన. నేను ఇంతకు ముందు కొందరు క్యాంపస్ మ్యాప్‌తో ఇబ్బంది పడటం చూశాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">It's a big campus. They'll get used to it eventually, but a little help goes a long way.</div>
+              <div class="tel">ఇది పెద్ద క్యాంపస్. వారు చివరికి అలవాటు పడతారు, కానీ కొద్దిపాటి సహాయం చాలా ఉపయోగపడుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">True. I wonder what courses they're opting for.</div>
+              <div class="tel">నిజం. వారు ఏ కోర్సులను ఎంచుకుంటున్నారో అని ఆశ్చర్యపోతున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Probably the popular ones, like engineering and commerce. Our college has a good reputation for those.</div>
+              <div class="tel">బహుశా ఇంజనీరింగ్ మరియు కామర్స్ వంటి ప్రసిద్ధ కోర్సులు. మన కాలేజీకి వాటికి మంచి పేరు ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yeah, that's right. I hope they have a great time here.</div>
+              <div class="tel">అవును, అది నిజం. వారు ఇక్కడ మంచి సమయాన్ని గడుపుతారని ఆశిస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Me too. It's an exciting new chapter for them.</div>
+              <div class="tel">నేను కూడా. వారికి ఇది ఒక ఉత్తేజకరమైన కొత్త అధ్యాయం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Let's grab some coffee and then maybe walk around to see if anyone needs assistance.</div>
+              <div class="tel">కాఫీ తాగి, ఆపై ఎవరికైనా సహాయం అవసరమైతే చూడటానికి చుట్టూ తిరుగుదాం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Sounds like a plan.</div>
+              <div class="tel">ప్లాన్ బాగుంది.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

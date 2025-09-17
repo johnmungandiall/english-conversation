@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scholarship discussion Conversation — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Scholarship discussion Conversation</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Hey Giri, did you hear about the new scholarship program for our college?</div>
+              <div class="tel">హేయ్ గిరి, మన కాలేజీకి కొత్త స్కాలర్‌షిప్ ప్రోగ్రామ్ గురించి విన్నావా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Oh really? No, I haven't. What are the details?</div>
+              <div class="tel">ఓహ్ నిజమా? లేదు, నేను వినలేదు. వివరాలు ఏంటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">It's for students with good academic records and financial need. The application deadline is next month.</div>
+              <div class="tel">ఇది మంచి అకడమిక్ రికార్డులు మరియు ఆర్థిక అవసరం ఉన్న విద్యార్థుల కోసం. దరఖాస్తు చివరి తేదీ వచ్చే నెల.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That sounds interesting. I should definitely check it out. Do you know where I can find the application form?</div>
+              <div class="tel">అది ఆసక్తికరంగా ఉంది. నేను ఖచ్చితంగా చూడాలి. దరఖాస్తు ఫారం ఎక్కడ దొరుకుతుందో తెలుసా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I think it's available on the college website, or you can ask at the administrative office.</div>
+              <div class="tel">అది కాలేజీ వెబ్‌సైట్‌లో అందుబాటులో ఉందని అనుకుంటున్నాను, లేదా మీరు అడ్మినిస్ట్రేటివ్ ఆఫీస్‌లో అడగవచ్చు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Okay, I'll check the website first. Are there any specific eligibility criteria?</div>
+              <div class="tel">సరే, నేను ముందు వెబ్‌సైట్ చూస్తాను. ఏదైనా నిర్దిష్ట అర్హత ప్రమాణాలు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">Yes, you need to maintain a certain GPA, and there's an income limit for your family.</div>
+              <div class="tel">అవును, మీరు ఒక నిర్దిష్ట GPA ని నిర్వహించాలి, మరియు మీ కుటుంబానికి ఆదాయ పరిమితి ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I see. I hope I qualify. This scholarship would really help with my tuition fees.</div>
+              <div class="tel">అర్థమైంది. నేను అర్హత సాధిస్తానని ఆశిస్తున్నాను. ఈ స్కాలర్‌షిప్ నా ట్యూషన్ ఫీజులకు చాలా సహాయపడుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">I'm sure you will, Giri. Your grades are always excellent. Just make sure to gather all the required documents.</div>
+              <div class="tel">నువ్వు ఖచ్చితంగా అర్హత సాధిస్తావు, గిరి. నీ గ్రేడ్‌లు ఎప్పుడూ అద్భుతంగా ఉంటాయి. అవసరమైన అన్ని పత్రాలను సేకరించాలని నిర్ధారించుకో.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Thanks for the encouragement, John. I'll start working on it right away.</div>
+              <div class="tel">ప్రోత్సాహానికి ధన్యవాదాలు, జాన్. నేను వెంటనే దానిపై పని చేయడం ప్రారంభిస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">John</span></td>
+            <td>
+              <div class="eng">No problem. Let me know if you need any help with the application.</div>
+              <div class="tel">సమస్య లేదు. దరఖాస్తుతో ఏదైనా సహాయం కావాలంటే నాకు తెలియజేయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I will. Thanks again!</div>
+              <div class="tel">అలాగే. మళ్ళీ ధన్యవాదాలు!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
