@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Musician performance — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Musician performance</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Wow, John! That was an incredible guitar solo. Your performance was amazing!</div>
+              <div class="tel">వావ్, జాన్! అది అద్భుతమైన గిటార్ సోలో. మీ ప్రదర్శన అద్భుతంగా ఉంది!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Musician</span></td>
+            <td>
+              <div class="eng">Thanks, Giri! I'm glad you enjoyed it. I put a lot of practice into that piece.</div>
+              <div class="tel">ధన్యవాదాలు, గిరి! మీరు ఆస్వాదించినందుకు సంతోషంగా ఉంది. నేను ఆ భాగానికి చాలా ప్రాక్టీస్ చేశాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It really showed. The way you blended the classical and rock elements was brilliant.</div>
+              <div class="tel">అది నిజంగా కనిపించింది. మీరు క్లాసికల్ మరియు రాక్ ఎలిమెంట్స్‌ను మిళితం చేసిన విధానం అద్భుతంగా ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Musician</span></td>
+            <td>
+              <div class="eng">That's what I was aiming for. I wanted to create something unique for the audience tonight.</div>
+              <div class="tel">అదే నేను లక్ష్యంగా పెట్టుకున్నాను. ఈ రాత్రి ప్రేక్షకులకు ప్రత్యేకమైనదాన్ని సృష్టించాలనుకున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">You definitely succeeded. The crowd was absolutely captivated. What's next on your setlist?</div>
+              <div class="tel">మీరు ఖచ్చితంగా విజయం సాధించారు. ప్రేక్షకులు పూర్తిగా మంత్రముగ్ధులయ్యారు. మీ సెట్‌లిస్ట్‌లో తదుపరి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Musician</span></td>
+            <td>
+              <div class="eng">Next, I'll be playing a new composition I've been working on. It's a bit more experimental.</div>
+              <div class="tel">తరువాత, నేను పని చేస్తున్న కొత్త కూర్పును ప్లే చేస్తాను. ఇది కొంచెం ఎక్కువ ప్రయోగాత్మకమైనది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I can't wait to hear it! Your originality is what makes your performances so special.</div>
+              <div class="tel">నేను దానిని వినడానికి వేచి ఉండలేను! మీ మౌలికత మీ ప్రదర్శనలను చాలా ప్రత్యేకంగా చేస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Musician</span></td>
+            <td>
+              <div class="eng">Thank you for the kind words, Giri. It means a lot to me.</div>
+              <div class="tel">మీ దయగల మాటలకు ధన్యవాదాలు, గిరి. అది నాకు చాలా అర్ధం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Keep up the great work, John! You're truly talented.</div>
+              <div class="tel">గొప్ప పనిని కొనసాగించండి, జాన్! మీరు నిజంగా ప్రతిభావంతులు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Musician</span></td>
+            <td>
+              <div class="eng">I will! Enjoy the rest of the show!</div>
+              <div class="tel">నేను చేస్తాను! మిగిలిన ప్రదర్శనను ఆస్వాదించండి!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I certainly will!</div>
+              <div class="tel">నేను ఖచ్చితంగా చేస్తాను!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Musician</span></td>
+            <td>
+              <div class="eng">Alright, everyone, here's the next one!</div>
+              <div class="tel">సరే, అందరూ, ఇది తదుపరిది!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

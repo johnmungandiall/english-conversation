@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carpenter building — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Carpenter building</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Good morning, John. I need a custom bookshelf built for my study room.</div>
+              <div class="tel">శుభోదయం, జాన్. నా స్టడీ రూమ్ కోసం కస్టమ్ బుక్‌షెల్ఫ్ నిర్మించాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Carpenter</span></td>
+            <td>
+              <div class="eng">Good morning, Giri. I can certainly help with that. Do you have any specific designs or dimensions in mind?</div>
+              <div class="tel">శుభోదయం, గిరి. నేను ఖచ్చితంగా సహాయం చేయగలను. మీకు ఏదైనా నిర్దిష్ట డిజైన్‌లు లేదా కొలతలు ఉన్నాయా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Yes, I have a sketch here. I want it to fit perfectly into this alcove, from floor to ceiling.</div>
+              <div class="tel">అవును, నా వద్ద ఒక స్కెచ్ ఉంది. నేను దానిని ఈ అల్కోవ్‌లో, నేల నుండి పైకప్పు వరకు సరిగ్గా సరిపోయేలా చేయాలనుకుంటున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Carpenter</span></td>
+            <td>
+              <div class="eng">Alright, I see. We'll need to take precise measurements. What kind of wood are you looking for?</div>
+              <div class="tel">సరే, నేను చూశాను. మేము ఖచ్చితమైన కొలతలు తీసుకోవాలి. మీరు ఎలాంటి కలప కోసం చూస్తున్నారు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I prefer something durable and with a natural finish, perhaps teak or mahogany.</div>
+              <div class="tel">నేను మన్నికైన మరియు సహజమైన ముగింపుతో ఏదైనా ఇష్టపడతాను, బహుశా టేకు లేదా మహోగని.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Carpenter</span></td>
+            <td>
+              <div class="eng">Excellent choices. Both are strong and beautiful. I'll get you a quote with both options.</div>
+              <div class="tel">అద్భుతమైన ఎంపికలు. రెండూ బలంగా మరియు అందంగా ఉంటాయి. నేను మీకు రెండు ఎంపికలతో కోట్‌ను అందిస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Perfect. How long do you think the construction will take once we finalize the design?</div>
+              <div class="tel">చాలా బాగుంది. డిజైన్‌ను ఖరారు చేసిన తర్వాత నిర్మాణానికి ఎంత సమయం పడుతుందని మీరు అనుకుంటున్నారు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Carpenter</span></td>
+            <td>
+              <div class="eng">For a custom piece like this, it usually takes about two weeks, including finishing.</div>
+              <div class="tel">ఇలాంటి కస్టమ్ పీస్ కోసం, ఫినిషింగ్‌తో సహా సాధారణంగా రెండు వారాలు పడుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's reasonable. I'm excited to see the finished product.</div>
+              <div class="tel">అది సహేతుకంగా ఉంది. పూర్తయిన ఉత్పత్తిని చూడటానికి నేను ఉత్సాహంగా ఉన్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Carpenter</span></td>
+            <td>
+              <div class="eng">I'll make sure it's exactly what you envisioned. I'll send you the detailed quote by evening.</div>
+              <div class="tel">మీరు ఊహించిన విధంగానే ఉండేలా చూస్తాను. నేను మీకు సాయంత్రం నాటికి వివరణాత్మక కోట్‌ను పంపుతాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Thank you, John.</div>
+              <div class="tel">ధన్యవాదాలు, జాన్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Carpenter</span></td>
+            <td>
+              <div class="eng">You're welcome.</div>
+              <div class="tel">మీకు స్వాగతం.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

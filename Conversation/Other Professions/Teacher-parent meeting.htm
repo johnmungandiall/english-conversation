@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teacher-parent meeting — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Teacher-parent meeting</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Parent</span></td>
+            <td>
+              <div class="eng">Good morning, Teacher. I'm John's mother. How is he doing in class?</div>
+              <div class="tel">గుడ్ మార్నింగ్, టీచర్. నేను జాన్ తల్లిని. అతను క్లాసులో ఎలా ఉన్నాడు?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Teacher</span></td>
+            <td>
+              <div class="eng">Good morning, Mrs. Reddy. John is a bright student. He's doing well in most subjects.</div>
+              <div class="tel">గుడ్ మార్నింగ్, మిసెస్ రెడ్డి. జాన్ తెలివైన విద్యార్థి. అతను చాలా సబ్జెక్టులలో బాగా చేస్తున్నాడు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Parent</span></td>
+            <td>
+              <div class="eng">That's good to hear. Is there any area where he needs to improve?</div>
+              <div class="tel">అది వినడానికి సంతోషంగా ఉంది. అతను మెరుగుపరచాల్సిన ఏదైనా ప్రాంతం ఉందా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Teacher</span></td>
+            <td>
+              <div class="eng">He sometimes struggles with participation in group activities. He's a bit shy.</div>
+              <div class="tel">అతను కొన్నిసార్లు గ్రూప్ యాక్టివిటీస్‌లో పాల్గొనడానికి ఇబ్బంది పడతాడు. అతను కొంచెం సిగ్గుపడతాడు.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Parent</span></td>
+            <td>
+              <div class="eng">Yes, he is. We're trying to encourage him to be more outgoing at home.</div>
+              <div class="tel">అవును, అతను సిగ్గుపడతాడు. ఇంట్లో మరింత బయటికి వెళ్ళడానికి మేము అతన్ని ప్రోత్సహించడానికి ప్రయత్నిస్తున్నాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Teacher</span></td>
+            <td>
+              <div class="eng">That's great. Also, his handwriting could use a little improvement.</div>
+              <div class="tel">అది చాలా బాగుంది. అలాగే, అతని చేతివ్రాత కొంచెం మెరుగుపడాలి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Parent</span></td>
+            <td>
+              <div class="eng">I've noticed that too. I'll make sure he practices more at home.</div>
+              <div class="tel">నేను కూడా అది గమనించాను. అతను ఇంట్లో మరింత ప్రాక్టీస్ చేసేలా చూస్తాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Teacher</span></td>
+            <td>
+              <div class="eng">Excellent. Overall, he's a pleasure to have in class. Just these minor points.</div>
+              <div class="tel">చాలా బాగుంది. మొత్తంగా, అతను క్లాసులో ఉండటం ఆనందంగా ఉంది. ఈ చిన్న విషయాలు మాత్రమే.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Parent</span></td>
+            <td>
+              <div class="eng">Thank you for your feedback, Teacher. We'll work on these areas.</div>
+              <div class="tel">మీ అభిప్రాయానికి ధన్యవాదాలు, టీచర్. మేము ఈ ప్రాంతాలపై పని చేస్తాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Teacher</span></td>
+            <td>
+              <div class="eng">You're welcome. Please feel free to contact me if you have any concerns.</div>
+              <div class="tel">మీకు స్వాగతం. మీకు ఏవైనా ఆందోళనలు ఉంటే నన్ను సంప్రదించడానికి సంకోచించకండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Parent</span></td>
+            <td>
+              <div class="eng">I will. Have a good day!</div>
+              <div class="tel">చేస్తాను. మీకు శుభదినం!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Teacher</span></td>
+            <td>
+              <div class="eng">You too, Mrs. Reddy.</div>
+              <div class="tel">మీకు కూడా, మిసెస్ రెడ్డి.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

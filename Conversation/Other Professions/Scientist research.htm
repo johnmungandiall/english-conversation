@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scientist research — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Scientist research</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Dr. John, how is your research on renewable energy sources progressing?</div>
+              <div class="tel">డాక్టర్ జాన్, పునరుత్పాదక ఇంధన వనరులపై మీ పరిశోధన ఎలా సాగుతోంది?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Scientist</span></td>
+            <td>
+              <div class="eng">It's going well, Giri. We've made significant breakthroughs in solar panel efficiency.</div>
+              <div class="tel">బాగానే సాగుతోంది, గిరి. సౌర ఫలకాల సామర్థ్యంలో మేము గణనీయమైన పురోగతి సాధించాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's fantastic! What kind of breakthroughs are we talking about?</div>
+              <div class="tel">అది అద్భుతం! ఎలాంటి పురోగతి గురించి మనం మాట్లాడుతున్నాము?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Scientist</span></td>
+            <td>
+              <div class="eng">We've developed a new material that can absorb a broader spectrum of sunlight, even in low-light conditions.</div>
+              <div class="tel">మేము తక్కువ కాంతి పరిస్థితులలో కూడా సూర్యరశ్మి యొక్క విస్తృత స్పెక్ట్రమ్‌ను గ్రహించగల కొత్త పదార్థాన్ని అభివృద్ధి చేశాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's revolutionary! How will this impact the cost and accessibility of solar energy?</div>
+              <div class="tel">అది విప్లవాత్మకం! ఇది సౌరశక్తి ఖర్చు మరియు ప్రాప్యతపై ఎలా ప్రభావం చూపుతుంది?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Scientist</span></td>
+            <td>
+              <div class="eng">It should drastically reduce manufacturing costs and make solar power viable in more regions globally.</div>
+              <div class="tel">ఇది తయారీ ఖర్చులను గణనీయంగా తగ్గిస్తుంది మరియు ప్రపంచవ్యాప్తంగా ఎక్కువ ప్రాంతాలలో సౌరశక్తిని ఆచరణీయంగా చేస్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's incredible news for the environment. What are the next steps for this project?</div>
+              <div class="tel">పర్యావరణానికి ఇది అద్భుతమైన వార్త. ఈ ప్రాజెక్ట్‌కు తదుపరి దశలు ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Scientist</span></td>
+            <td>
+              <div class="eng">We're moving into large-scale prototyping and field testing. We hope to have a commercial product within two years.</div>
+              <div class="tel">మేము పెద్ద ఎత్తున ప్రోటోటైపింగ్ మరియు క్షేత్ర పరీక్షలోకి వెళ్తున్నాము. రెండు సంవత్సరాలలో వాణిజ్య ఉత్పత్తిని కలిగి ఉండాలని మేము ఆశిస్తున్నాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's an ambitious timeline, but I have no doubt you'll achieve it. Your team is brilliant.</div>
+              <div class="tel">అది ఆశావహ కాలపరిమితి, కానీ మీరు దానిని సాధిస్తారని నాకు ఎటువంటి సందేహం లేదు. మీ బృందం అద్భుతంగా ఉంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Scientist</span></td>
+            <td>
+              <div class="eng">Thank you, Giri. We're all very passionate about this work.</div>
+              <div class="tel">ధన్యవాదాలు, గిరి. మేము అందరం ఈ పని పట్ల చాలా మక్కువతో ఉన్నాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It shows. Keep up the amazing work, Dr. John!</div>
+              <div class="tel">అది కనిపిస్తుంది. అద్భుతమైన పనిని కొనసాగించండి, డాక్టర్ జాన్!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Scientist</span></td>
+            <td>
+              <div class="eng">Will do!</div>
+              <div class="tel">చేస్తాను!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

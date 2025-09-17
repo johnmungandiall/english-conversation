@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Artist exhibition — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Artist exhibition</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">John, this art exhibition is incredible! Your paintings are truly captivating.</div>
+              <div class="tel">జాన్, ఈ ఆర్ట్ ఎగ్జిబిషన్ అద్భుతంగా ఉంది! మీ పెయింటింగ్‌లు నిజంగా ఆకర్షణీయంగా ఉన్నాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Artist</span></td>
+            <td>
+              <div class="eng">Thank you, Giri! I'm so glad you could make it. Which one is your favorite?</div>
+              <div class="tel">ధన్యవాదాలు, గిరి! మీరు రాగలిగినందుకు చాలా సంతోషంగా ఉంది. మీకు ఏది ఇష్టం?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It's hard to choose, but the abstract piece with the vibrant blues and greens really speaks to me. What inspired that one?</div>
+              <div class="tel">ఎంచుకోవడం కష్టం, కానీ శక్తివంతమైన నీలం మరియు ఆకుపచ్చ రంగులతో కూడిన అబ్‌స్ట్రాక్ట్ పీస్ నాకు నిజంగా నచ్చింది. దానికి ఏమి ప్రేరణనిచ్చింది?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Artist</span></td>
+            <td>
+              <div class="eng">That piece was inspired by a dream I had about the ocean. I wanted to capture the feeling of depth and movement.</div>
+              <div class="tel">ఆ పీస్ నాకు సముద్రం గురించి వచ్చిన కల నుండి ప్రేరణ పొందింది. నేను లోతు మరియు కదలిక యొక్క అనుభూతిని సంగ్రహించాలనుకున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">You've certainly achieved that. It feels so alive. How long did it take you to complete this collection?</div>
+              <div class="tel">మీరు ఖచ్చితంగా దానిని సాధించారు. అది చాలా సజీవంగా అనిపిస్తుంది. ఈ సేకరణను పూర్తి చేయడానికి మీకు ఎంత సమయం పట్టింది?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Artist</span></td>
+            <td>
+              <div class="eng">This collection took about six months, from conception to the final brushstroke. It was a labor of love.</div>
+              <div class="tel">ఈ సేకరణ భావన నుండి చివరి బ్రష్‌స్ట్రోక్ వరకు సుమారు ఆరు నెలలు పట్టింది. ఇది ప్రేమతో చేసిన పని.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Your dedication is evident in every piece. Are you planning any workshops soon? I'd love to learn some of your techniques.</div>
+              <div class="tel">మీ అంకితభావం ప్రతి పీస్‌లో స్పష్టంగా కనిపిస్తుంది. మీరు త్వరలో ఏమైనా వర్క్‌షాప్‌లు ప్లాన్ చేస్తున్నారా? మీ టెక్నిక్‌లలో కొన్నింటిని నేర్చుకోవాలని నేను కోరుకుంటున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Artist</span></td>
+            <td>
+              <div class="eng">Yes, I'm thinking of hosting one next month. I'll send you the details. It would be great to have you there.</div>
+              <div class="tel">అవును, నేను వచ్చే నెలలో ఒకదాన్ని నిర్వహించాలని ఆలోచిస్తున్నాను. నేను మీకు వివరాలను పంపుతాను. మీరు అక్కడ ఉంటే చాలా బాగుంటుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Fantastic! I'm definitely interested. This exhibition has truly inspired me.</div>
+              <div class="tel">అద్భుతం! నేను ఖచ్చితంగా ఆసక్తిగా ఉన్నాను. ఈ ఎగ్జిబిషన్ నన్ను నిజంగా ప్రేరేపించింది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Artist</span></td>
+            <td>
+              <div class="eng">That's wonderful to hear, Giri. That's exactly what I hope my art achieves.</div>
+              <div class="tel">అది వినడానికి అద్భుతంగా ఉంది, గిరి. నా కళ సాధించాలని నేను ఆశిస్తున్నది అదే.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">It certainly does. Congratulations on a successful exhibition, John!</div>
+              <div class="tel">ఖచ్చితంగా చేస్తుంది. విజయవంతమైన ఎగ్జిబిషన్‌కు అభినందనలు, జాన్!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Artist</span></td>
+            <td>
+              <div class="eng">Thank you!</div>
+              <div class="tel">ధన్యవాదాలు!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

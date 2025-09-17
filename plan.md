@@ -134,9 +134,9 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 
 #### 4.8 Practical and Lab
 - [x] Practicals preparation
-- [ ] Discussion about lab
-- [ ] Lab equipment missing
-- [ ] Viva questions
+- [x] Discussion about lab
+- [x] Lab equipment missing
+- [x] Viva questions
 
 #### 4.9 Projects and Presentations
 - [x] Project submission
@@ -342,24 +342,24 @@ This plan outlines the steps to generate HTML conversation files for all 245 top
 - [x] Doctor-patient conversation
 - [x] Lawyer consultation
 - [x] DevOps practices
-- [ ] Teacher-parent meeting
-- [ ] Engineer project discussion
-- [ ] Chef cooking tips
-- [ ] Photographer session
-- [ ] Journalist interview
-- [ ] Police officer talk
-- [ ] Firefighter rescue
-- [ ] Pilot announcement
-- [ ] Actor audition
-- [ ] Musician performance
-- [ ] Artist exhibition
-- [ ] Scientist research
-- [ ] Farmer harvest
-- [ ] Mechanic repair
-- [ ] Electrician installation
-- [ ] Plumber fixing
-- [ ] Carpenter building
-- [ ] Tailor fitting
+- [x] Teacher-parent meeting
+- [x] Engineer project discussion
+- [x] Chef cooking tips
+- [x] Photographer session
+- [x] Journalist interview
+- [x] Police officer talk
+- [x] Firefighter rescue
+- [x] Pilot announcement
+- [x] Actor audition
+- [x] Musician performance
+- [x] Artist exhibition
+- [x] Scientist research
+- [x] Farmer harvest
+- [x] Mechanic repair
+- [x] Electrician installation
+- [x] Plumber fixing
+- [x] Carpenter building
+- [x] Tailor fitting
 
 ## Next Steps
 - Completed sections: Social Interactions (3/3), Travel and Transportation (57/57), Shopping and Finance (53/53), Software Development (25/25)

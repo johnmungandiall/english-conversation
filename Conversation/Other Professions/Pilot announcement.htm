@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pilot announcement — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Pilot announcement</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Pilot</span></td>
+            <td>
+              <div class="eng">Good morning, ladies and gentlemen. This is your Captain, John, speaking.</div>
+              <div class="tel">శుభోదయం, లేడీస్ అండ్ జెంటిల్‌మెన్. నేను మీ కెప్టెన్, జాన్, మాట్లాడుతున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Passenger</span></td>
+            <td>
+              <div class="eng">Oh, the pilot is making an announcement. I hope everything is fine.</div>
+              <div class="tel">ఓహ్, పైలట్ ప్రకటన చేస్తున్నాడు. అంతా బాగానే ఉందని ఆశిస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Pilot</span></td>
+            <td>
+              <div class="eng">We are currently cruising at an altitude of 35,000 feet. The weather en route to Hyderabad is clear, and we anticipate a smooth flight.</div>
+              <div class="tel">మేము ప్రస్తుతం 35,000 అడుగుల ఎత్తులో ప్రయాణిస్తున్నాము. హైదరాబాద్‌కు వెళ్లే మార్గంలో వాతావరణం స్పష్టంగా ఉంది, మరియు మేము సున్నితమైన విమాన ప్రయాణాన్ని ఆశిస్తున్నాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Passenger</span></td>
+            <td>
+              <div class="eng">That's good to hear. I was a bit worried about turbulence.</div>
+              <div class="tel">అది వినడానికి సంతోషంగా ఉంది. నేను కొంచెం టర్బులెన్స్ గురించి ఆందోళన చెందాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Pilot</span></td>
+            <td>
+              <div class="eng">Our estimated time of arrival in Hyderabad is 10:30 AM local time. We expect to land a few minutes ahead of schedule.</div>
+              <div class="tel">హైదరాబాద్‌లో మా అంచనా వేసిన రాక సమయం స్థానిక సమయం ఉదయం 10:30 గంటలు. మేము షెడ్యూల్ కంటే కొన్ని నిమిషాలు ముందుగానే ల్యాండ్ అవుతామని ఆశిస్తున్నాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Passenger</span></td>
+            <td>
+              <div class="eng">Excellent! I have a connecting flight, so that helps.</div>
+              <div class="tel">చాలా బాగుంది! నాకు కనెక్టింగ్ ఫ్లైట్ ఉంది, కాబట్టి అది సహాయపడుతుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Pilot</span></td>
+            <td>
+              <div class="eng">The cabin crew will be coming around shortly with refreshments. Please sit back, relax, and enjoy the rest of your flight.</div>
+              <div class="tel">క్యాబిన్ సిబ్బంది త్వరలో రిఫ్రెష్‌మెంట్లతో వస్తారు. దయచేసి కూర్చోండి, విశ్రాంతి తీసుకోండి మరియు మీ విమాన ప్రయాణాన్ని ఆస్వాదించండి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Passenger</span></td>
+            <td>
+              <div class="eng">Thank you, Captain.</div>
+              <div class="tel">ధన్యవాదాలు, కెప్టెన్.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Pilot</span></td>
+            <td>
+              <div class="eng">It's my pleasure. We hope you have a pleasant journey.</div>
+              <div class="tel">ఇది నా ఆనందం. మీకు ఆహ్లాదకరమైన ప్రయాణం ఉంటుందని ఆశిస్తున్నాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Passenger</span></td>
+            <td>
+              <div class="eng">I appreciate the update.</div>
+              <div class="tel">అప్‌డేట్‌కు నేను అభినందిస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Pilot</span></td>
+            <td>
+              <div class="eng">You're welcome.</div>
+              <div class="tel">మీకు స్వాగతం.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Passenger</span></td>
+            <td>
+              <div class="eng">This is going to be a good flight.</div>
+              <div class="tel">ఇది మంచి విమాన ప్రయాణం కానుంది.</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

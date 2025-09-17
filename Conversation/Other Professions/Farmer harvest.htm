@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Farmer harvest — English & Telugu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --accent:#6ee7b7;
+      --muted:#94a3b8;
+      --highlight: rgba(255,255,255,0.03);
+      --header-start:#7c3aed;
+      --header-end:#06b6d4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: linear-gradient(180deg, #031025 0%, #071226 60%);
+      color:#e6eef8;
+      padding:20px 5px; /* only 5px left-right */
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{
+      width:100%;
+      max-width:980px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(135deg,var(--header-start),var(--header-end));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 20px rgba(12,18,31,0.6);
+      font-size:22px;
+    }
+    h1{font-size:26px;margin:0}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:18px}
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;padding:18px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);
+    }
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    thead th{
+      text-align:left;padding:14px 18px;font-weight:600;font-size:20px;
+      background: linear-gradient(90deg,var(--header-start),var(--header-end));
+      color:white;border-top-left-radius:8px;border-top-right-radius:8px;position:sticky;top:0;z-index:2
+    }
+    tbody td{padding:18px 20px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:top;font-size:20px}
+    tbody tr:nth-child(odd){background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0));}
+    tbody tr:hover{background:var(--highlight)}
+
+    .role{font-weight:700;color:var(--accent);display:block;margin-bottom:6px;font-size:20px}
+    .eng{font-size:20px}
+    .tel{font-size:19px;color:var(--muted);margin-top:6px}
+
+    @media (max-width:720px){
+      thead{display:none}
+      table,tbody,td,tr{display:block;width:100%}
+      tbody td{padding:16px;border-bottom:1px solid rgba(255,255,255,0.03)}
+      td .role{display:inline-block}
+      td .eng{display:block}
+      td .tel{display:block}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CJ</div>
+      <div>
+        <h1>Farmer harvest</h1>
+        <p class="lead">English + Telugu Mix</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Speaker</th>
+            <th>Conversation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">Good morning, Farmer John. How's the paddy harvest looking this year?</div>
+              <div class="tel">శుభోదయం, రైతు జాన్. ఈ సంవత్సరం వరి పంట ఎలా ఉంది?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Farmer</span></td>
+            <td>
+              <div class="eng">Good morning, Giri. It's looking promising! The rains were timely, and the yield seems to be quite good.</div>
+              <div class="tel">శుభోదయం, గిరి. ఇది ఆశాజనకంగా ఉంది! వర్షాలు సకాలంలో పడ్డాయి, మరియు దిగుబడి చాలా బాగున్నట్లుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's wonderful to hear! I remember last year's harvest was a bit challenging due to the drought.</div>
+              <div class="tel">అది వినడానికి అద్భుతంగా ఉంది! గత సంవత్సరం పంట కరువు కారణంగా కొంచెం సవాలుగా ఉందని నాకు గుర్తుంది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Farmer</span></td>
+            <td>
+              <div class="eng">Indeed. This year, we're expecting a much better output. We started harvesting yesterday.</div>
+              <div class="tel">నిజమే. ఈ సంవత్సరం, మేము చాలా మంచి ఉత్పత్తిని ఆశిస్తున్నాము. మేము నిన్న పంట కోయడం ప్రారంభించాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's great. Are you using modern machinery for harvesting, or is it still manual labor?</div>
+              <div class="tel">అది చాలా బాగుంది. మీరు పంట కోయడానికి ఆధునిక యంత్రాలను ఉపయోగిస్తున్నారా, లేదా ఇంకా మానవ శ్రమేనా?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Farmer</span></td>
+            <td>
+              <div class="eng">We're using a combination. Some areas are still manual, but for the larger fields, we've rented a combine harvester.</div>
+              <div class="tel">మేము కలయికను ఉపయోగిస్తున్నాము. కొన్ని ప్రాంతాలు ఇంకా మానవ శ్రమతోనే ఉన్నాయి, కానీ పెద్ద పొలాల కోసం, మేము కంబైన్ హార్వెస్టర్‌ను అద్దెకు తీసుకున్నాము.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That must save a lot of time and effort. What about storage?</div>
+              <div class="tel">అది చాలా సమయం మరియు కృషిని ఆదా చేస్తుంది. నిల్వ గురించి ఏమిటి?</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Farmer</span></td>
+            <td>
+              <div class="eng">We have enough storage space this year. The government also provided some subsidies for new storage facilities.</div>
+              <div class="tel">ఈ సంవత్సరం మాకు తగినంత నిల్వ స్థలం ఉంది. ప్రభుత్వం కొత్త నిల్వ సౌకర్యాల కోసం కొన్ని సబ్సిడీలను కూడా అందించింది.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">That's very helpful. I hope you get a good price for your produce this season.</div>
+              <div class="tel">అది చాలా సహాయకారిగా ఉంటుంది. ఈ సీజన్‌లో మీ ఉత్పత్తులకు మంచి ధర లభిస్తుందని ఆశిస్తున్నాను.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Farmer</span></td>
+            <td>
+              <div class="eng">We're hoping for the best, Giri. The market prices are always a concern.</div>
+              <div class="tel">మేము ఉత్తమమైన దాని కోసం ఆశిస్తున్నాము, గిరి. మార్కెట్ ధరలు ఎల్లప్పుడూ ఆందోళన కలిగిస్తాయి.</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Giri</span></td>
+            <td>
+              <div class="eng">I understand. Well, I wish you a successful and profitable harvest, John!</div>
+              <div class="tel">నేను అర్థం చేసుకున్నాను. సరే, మీకు విజయవంతమైన మరియు లాభదాయకమైన పంటను కోరుకుంటున్నాను, జాన్!</div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="role">Farmer</span></td>
+            <td>
+              <div class="eng">Thank you, Giri!</div>
+              <div class="tel">ధన్యవాదాలు, గిరి!</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
