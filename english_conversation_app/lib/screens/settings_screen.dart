@@ -27,14 +27,28 @@ class _SettingsScreenState extends State<SettingsScreen> {
   }
 
   Future<void> _loadCurrentNames() async {
-    final speaker1Name = await PreferencesService.getSpeaker1Name();
-    final speaker2Name = await PreferencesService.getSpeaker2Name();
+    try {
+      final speaker1Name = await PreferencesService.getSpeaker1Name();
+      final speaker2Name = await PreferencesService.getSpeaker2Name();
 
-    setState(() {
-      _speaker1Controller.text = speaker1Name;
-      _speaker2Controller.text = speaker2Name;
-      _isLoading = false;
-    });
+      if (mounted) {
+        setState(() {
+          _speaker1Controller.text = speaker1Name;
+          _speaker2Controller.text = speaker2Name;
+          _isLoading = false;
+        });
+      }
+    } catch (e) {
+      if (mounted) {
+        setState(() => _isLoading = false);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Error loading settings: $e'),
+            duration: const Duration(seconds: 3),
+          ),
+        );
+      }
+    }
   }
 
   Future<void> _saveNames() async {

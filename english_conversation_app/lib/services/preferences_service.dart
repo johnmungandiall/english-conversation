@@ -8,29 +8,61 @@ class PreferencesService {
   static const String _defaultSpeaker2Name = 'Giri';
 
   static Future<String> getSpeaker1Name() async {
-    final prefs = await SharedPreferences.getInstance();
-    return prefs.getString(_speaker1NameKey) ?? _defaultSpeaker1Name;
+    try {
+      final prefs = await SharedPreferences.getInstance().timeout(
+        const Duration(seconds: 5),
+        onTimeout: () => throw Exception('SharedPreferences timeout'),
+      );
+      return prefs.getString(_speaker1NameKey) ?? _defaultSpeaker1Name;
+    } catch (e) {
+      print('Error getting speaker1 name: $e');
+      return _defaultSpeaker1Name;
+    }
   }
 
   static Future<String> getSpeaker2Name() async {
-    final prefs = await SharedPreferences.getInstance();
-    return prefs.getString(_speaker2NameKey) ?? _defaultSpeaker2Name;
+    try {
+      final prefs = await SharedPreferences.getInstance().timeout(
+        const Duration(seconds: 5),
+        onTimeout: () => throw Exception('SharedPreferences timeout'),
+      );
+      return prefs.getString(_speaker2NameKey) ?? _defaultSpeaker2Name;
+    } catch (e) {
+      print('Error getting speaker2 name: $e');
+      return _defaultSpeaker2Name;
+    }
   }
 
   static Future<void> setSpeaker1Name(String name) async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setString(
-      _speaker1NameKey,
-      name.trim().isEmpty ? _defaultSpeaker1Name : name.trim(),
-    );
+    try {
+      final prefs = await SharedPreferences.getInstance().timeout(
+        const Duration(seconds: 5),
+        onTimeout: () => throw Exception('SharedPreferences timeout'),
+      );
+      await prefs.setString(
+        _speaker1NameKey,
+        name.trim().isEmpty ? _defaultSpeaker1Name : name.trim(),
+      );
+    } catch (e) {
+      print('Error setting speaker1 name: $e');
+      // Continue without throwing to avoid breaking the UI
+    }
   }
 
   static Future<void> setSpeaker2Name(String name) async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setString(
-      _speaker2NameKey,
-      name.trim().isEmpty ? _defaultSpeaker2Name : name.trim(),
-    );
+    try {
+      final prefs = await SharedPreferences.getInstance().timeout(
+        const Duration(seconds: 5),
+        onTimeout: () => throw Exception('SharedPreferences timeout'),
+      );
+      await prefs.setString(
+        _speaker2NameKey,
+        name.trim().isEmpty ? _defaultSpeaker2Name : name.trim(),
+      );
+    } catch (e) {
+      print('Error setting speaker2 name: $e');
+      // Continue without throwing to avoid breaking the UI
+    }
   }
 
   static Future<Map<String, String>> getSpeakerNames() async {
@@ -40,7 +72,12 @@ class PreferencesService {
   }
 
   static Future<void> resetToDefaults() async {
-    await setSpeaker1Name(_defaultSpeaker1Name);
-    await setSpeaker2Name(_defaultSpeaker2Name);
+    try {
+      await setSpeaker1Name(_defaultSpeaker1Name);
+      await setSpeaker2Name(_defaultSpeaker2Name);
+    } catch (e) {
+      print('Error resetting to defaults: $e');
+      // Continue without throwing to avoid breaking the UI
+    }
   }
 }
